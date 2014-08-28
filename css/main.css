@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'clavo', Georgia, serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+body p {
+  max-width: 500px;
+  margin: 30px auto 0;
+  padding: 20px;
+  line-height: 28px;
+  font-style: italic;
+}
+body p strong,
+body p span {
+  font-weight: 400;
+}
+.airport {
+  padding: 100px 25px;
+  text-align: center;
+}
+.airport img {
+  margin: 0 auto;
+  display: block;
+}
+.airport .airport-code {
+  margin-top: 40px;
+  font-size: 60px;
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+.airport .airport-name {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.airport .airport-name .city:before {
+  content: '•';
+  margin: 0 10px;
+}
+.airport.dark {
+  color: white;
+}
+.airport.dark p {
+  border: 1px solid rgba(255,255,255,0.3);
+}
+.airport.dark p span {
+  border-bottom: 1px dotted rgba(255,255,255,0.5);
+}
+.airport.light {
+  color: #333;
+}
+.airport.light p {
+  border: 1px solid rgba(0,0,0,0.1);
+  font-weight: 200;
+}
+.airport.light p span {
+  border-bottom: 1px dotted rgba(0,0,0,0.5);
+}
+.airport.airport-MSY {
+  background: #aa1d46;
+}
+.airport.airport-MSY img {
+  max-width: 370px;
+}
+.airport.airport-PHX {
+  background: #bbd8e8;
+}
+.airport.airport-PHX img {
+  max-width: 540px;
+}
+.airport.airport-ORD {
+  background: black;
+}
+.airport.airport-ORD img {
+  max-width: 590px;
+}
+.airport.airport-SFO {
+  background: #1b7eac;
+}
+.airport.airport-SFO img {
+  max-width: 570px;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}

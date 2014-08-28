@@ -1,0 +1,98 @@
+/*-----------------------------
+
+Base styles
+
+-----------------------------*/
+
+html
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
+body
+  font-family: 'clavo', Georgia, serif
+  font-size: 16px
+  font-weight: 100
+
+  p
+    max-width: 500px
+    margin: 30px auto 0
+    padding: 20px
+    line-height: 28px
+    font-style: italic
+
+    strong, span
+      font-weight: 400
+
+.airport
+  padding: 100px 25px
+  text-align: center
+
+  img
+    margin: 0 auto
+    display: block
+
+  .airport-code
+    margin-top: 40px
+    font-size: 60px
+    font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif
+    font-weight: 300
+
+  .airport-name
+    margin-top: 20px
+    font-size: 15px
+    font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif
+    font-weight: 300
+    text-transform: uppercase
+    letter-spacing: 1px
+
+    .city:before
+      content: '•'
+      margin: 0 10px
+
+  &.dark
+    color: white
+
+    p
+      border: 1px solid white(.3)
+
+      span
+        border-bottom: 1px dotted white(.5)
+
+  &.light
+    color: #333
+
+    p
+      border: 1px solid black(.1)
+      font-weight: 200
+
+      span
+        border-bottom: 1px dotted black(.5)
+
+  &.airport-MSY
+    background: #AA1D46
+    img
+      max-width: 370px
+  &.airport-PHX
+    background: #BBD8E8
+    img
+      max-width: 540px
+  &.airport-ORD
+    background: black
+    img
+      max-width: 590px
+  &.airport-SFO
+    background: #1b7eac
+    img
+      max-width: 570px
+
+
+.cf
+  &:before,
+  &:after
+    content: " "
+    display: table
+
+  &:after
+    clear: both
