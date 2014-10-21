@@ -43,6 +43,7 @@ body p span {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
+  line-height: 20px;
 }
 .airport .airport-name .city:before {
   content: '•';
@@ -66,6 +67,12 @@ body p span {
 }
 .airport.light p span {
   border-bottom: 1px dotted rgba(0,0,0,0.5);
+}
+.airport.airport-JFK {
+  background: #444;
+}
+.airport.airport-JFK img {
+  max-width: 540px;
 }
 .airport.airport-MSY {
   background: #aa1d46;
