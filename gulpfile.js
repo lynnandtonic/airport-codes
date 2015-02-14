@@ -8,7 +8,7 @@ var browserify = require('browserify');
 var webserver = require('gulp-webserver');
 var jade = require('gulp-jade');
 var data = require('gulp-data');
-var styl = require('gulp-styl');
+var stylus = require('gulp-stylus');
 var inline = require('rework-inline');
 
 var bundler = watchify(browserify('./src/App.js', watchify.args));
@@ -32,7 +32,7 @@ function bundle() {
 
 function buildStylus() {
   return gulp.src('assets/app.styl')
-    .pipe(styl(inline()))
+    .pipe(stylus())
     .pipe(gulp.dest('build'));
 }
 
