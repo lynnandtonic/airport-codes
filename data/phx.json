@@ -1,6 +1,7 @@
 {
     "id": "phx",
     "code": "phx",
+    "classname": "airport-phx",
     "name": "Sky Harbor Int'l Airport",
     "city": "Phoenix",
     "state": "Arizona",

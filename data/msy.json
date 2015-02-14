@@ -1,5 +1,6 @@
 {
     "id": "msy",
+    "classname": "airport-msy",
     "code": "msy",
     "name": "Louis Armstrong International Airport",
     "city": "New Orleans",

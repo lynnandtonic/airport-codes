@@ -1,0 +1,35 @@
+//- Base styling
+
+*, *:after, *:before
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+html
+  font-size: 100%
+  -webkit-text-size-adjust: none
+
+body
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  font-family: $font-family-brandon
+
+::-moz-selection
+  background-color: #444
+  color: white
+
+::selection
+  background-color: #444
+  color: white
+
+.cf
+  &:before,
+  &:after
+    content: " "
+    display: table
+
+  &:after
+    clear: both
+
+a
+  text-decoration: none

@@ -1,5 +1,6 @@
 {
     "id": "jfk",
+    "classname": "airport-jfk",
     "code": "jfk",
     "name": "John F. Kennedy International Airport",
     "city": "New York City",

@@ -1,6 +1,7 @@
 {
     "id": "ord",
     "code": "ord",
+    "classname": "airport-ord",
     "name": "O’Hare International Airport",
     "city": "Chicago",
     "state": "Illinois",
