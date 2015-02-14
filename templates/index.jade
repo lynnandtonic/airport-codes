@@ -4,7 +4,10 @@ html
     title Airport Codes
     script(src="app.js")
     link(rel='stylesheet', href='app.css')
+    script(src='//use.typekit.net/sei6hkn.js')
+    script try{Typekit.load();}catch(e){}
   body
-    ul
+    ul.cf
       each airport in airports
-        li= airport.name
+        li.card
+          a(href='#', class='#{airport.classname}')= airport.code

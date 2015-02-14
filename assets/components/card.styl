@@ -1,0 +1,33 @@
+//- Card styling
+
+.card
+  float: left
+  background: #ddd
+
+  &:nth-child(even)
+    background: #eee
+
+  a
+    padding: 80px 20px
+    display: block
+    background: transparent no-repeat 0 0
+    background-size: cover
+    text-align: center
+    text-transform: uppercase
+    font-family: $font-family-brandon
+    font-size: 60px
+    font-weight: $font-weight-bold
+
+    &:hover
+      opacity: .6
+
+  width: 50%
+
+  @media (min-width: 600px)
+    width: 33.33%
+
+  @media (min-width: 800px)
+    width: 25%
+
+  @media (min-width: 1100px)
+    width: 20%
