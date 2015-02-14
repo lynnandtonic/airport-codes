@@ -1,5 +1,10 @@
-h1 Gimmie!
-
-  h3 Rah rah! jdasfkl
-
-script(src="app.js")
+doctype
+html
+  head
+    title Airport Codes
+    script(src="app.js")
+    link(rel='stylesheet', href='app.css')
+  body
+    ul
+      each airport in airports
+        li= airport.name
