@@ -7,8 +7,23 @@ var AirportView = Backbone.View.extend({
     this.model.on('change', this.render, this);
   },
 
+  viewModel: function() {
+    return {
+      id: this.model.get('id'),
+      code: this.model.get('code'),
+      name: this.model.get('name'),
+      city: this.model.get('city'),
+      state: this.model.get('state'),
+      country: this.model.get('country'),
+      description: this.model.get('description'),
+      thumbnail: this.model.get('thumbnail'),
+      fullImage: this.model.get('fullImage'),
+      imageCredit: this.model.get('imageCredit')
+    };
+  },
+
   render: function() {
-    this.$el.html(template({name: this.model.get('name')}));
+    this.$el.html(template(this.viewModel()));
     return this;
   }
 
