@@ -1,0 +1,12 @@
+{
+    "id": "phx",
+    "code": "phx",
+    "name": "Sky Harbor Int'l Airport",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "country": "United States of America",
+    "description": "This is a harbor in the sky.",
+    "thumbnail": "http://some-url.com/airport-image-sm.jpg",
+    "fullImage": "http://some-url.com/airport-image-lg.jpg",
+    "imageCredit": "Joe Shmoe"
+}

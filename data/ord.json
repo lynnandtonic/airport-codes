@@ -1,0 +1,12 @@
+{
+    "id": "ord",
+    "code": "ord",
+    "name": "O’Hare International Airport",
+    "city": "Chicago",
+    "state": "Illinois",
+    "country": "United States of America",
+    "description": "Cool tunnel bro.",
+    "thumbnail": "http://some-url.com/airport-image-sm.jpg",
+    "fullImage": "http://some-url.com/airport-image-lg.jpg",
+    "imageCredit": "Joe Shmoe"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "msy",
+    "code": "msy",
+    "name": "Louis Armstrong International Airport",
+    "city": "New Orleans",
+    "state": "Louisiana",
+    "country": "United States of America",
+    "description": "Airports are jazzy.",
+    "thumbnail": "http://some-url.com/airport-image-sm.jpg",
+    "fullImage": "http://some-url.com/airport-image-lg.jpg",
+    "imageCredit": "Joe Shmoe"
+}

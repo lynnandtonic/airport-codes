@@ -1,0 +1,12 @@
+{
+    "id": "jfk",
+    "code": "jfk",
+    "name": "John F. Kennedy International Airport",
+    "city": "New York City",
+    "state": "New York",
+    "country": "United States of America",
+    "description": "JFK was a dude.",
+    "thumbnail": "http://some-url.com/airport-image-sm.jpg",
+    "fullImage": "http://some-url.com/airport-image-lg.jpg",
+    "imageCredit": "Joe Shmoe"
+}

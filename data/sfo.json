@@ -1,0 +1,12 @@
+{
+    "id": "sfo",
+    "code": "sfo",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States of America",
+    "description": "SFO man, whoa.",
+    "thumbnail": "http://some-url.com/airport-image-sm.jpg",
+    "fullImage": "http://some-url.com/airport-image-lg.jpg",
+    "imageCredit": "Joe Shmoe"
+}
