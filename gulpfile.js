@@ -9,11 +9,11 @@ var webserver = require('gulp-webserver');
 var jade = require('gulp-jade');
 var data = require('gulp-data');
 var stylus = require('gulp-stylus');
-var inline = require('rework-inline');
 
 var bundler = watchify(browserify('./src/App.js', watchify.args));
 // add any other browserify options or transforms here
 bundler.transform('brfs');
+bundler.transform(require("jadeify"), { compileDebug: true, pretty: true });
 
 gulp.task('build-js', bundle); // so you can run `gulp js` to build the file
 bundler.on('update', bundle); // on any dep update, runs the bundler
