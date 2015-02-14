@@ -1,6 +1,5 @@
 .DS_Store
 .git
 
-65688792
-
-Attn: Returns
+node_modules
+build
