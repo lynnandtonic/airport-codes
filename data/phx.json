@@ -1,13 +1,12 @@
 {
     "id": "phx",
     "code": "phx",
-    "classname": "airport-phx",
-    "name": "Sky Harbor Int'l Airport",
+    "classname": "phx",
+    "name": "Sky Harbor International Airport",
     "city": "Phoenix",
-    "state": "Arizona",
-    "country": "United States of America",
+    "state": "AZ",
+    "country": "USA",
     "description": "This is a harbor in the sky.",
-    "thumbnail": "http://some-url.com/airport-image-sm.jpg",
-    "fullImage": "http://some-url.com/airport-image-lg.jpg",
-    "imageCredit": "Joe Shmoe"
+    "imageCredit": "Liebe5",
+    "imageCreditLink": "https://www.flickr.com/photos/68956811@N00/"
 }

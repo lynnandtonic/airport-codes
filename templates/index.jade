@@ -9,5 +9,5 @@ html
   body
     ul.cf
       each airport in airports
-        li.card
-          a(href='#', class='#{airport.classname}')= airport.code
+        li(class='card #{airport.classname}')
+          a(href='#')= airport.code

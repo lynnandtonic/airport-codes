@@ -1,13 +1,12 @@
 {
     "id": "sfo",
     "code": "sfo",
-    "classname": "airport-sfo",
+    "classname": "sfo",
     "name": "San Francisco International Airport",
     "city": "San Francisco",
-    "state": "California",
-    "country": "United States of America",
+    "state": "CA",
+    "country": "USA",
     "description": "SFO man, whoa.",
-    "thumbnail": "http://some-url.com/airport-image-sm.jpg",
-    "fullImage": "http://some-url.com/airport-image-lg.jpg",
-    "imageCredit": "Joe Shmoe"
+    "imageCredit": "Richard Winchell",
+    "imageCredit": "https://www.flickr.com/photos/richardwinchell/"
 }
