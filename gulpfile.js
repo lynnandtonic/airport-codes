@@ -30,6 +30,11 @@ function bundle() {
     .pipe(gulp.dest('./build'));
 }
 
+function buildImages() {
+  return gulp.src('assets/images/**/*')
+    .pipe(gulp.dest('build/images'));
+}
+
 function buildStylus() {
   return gulp.src('assets/app.styl')
     .pipe(stylus())
@@ -48,6 +53,7 @@ function buildJade() {
 gulp.task('webserver', function() {
 
   var stylWatcher = gulp.watch('assets/**/*.styl', ['build-stylus']);
+  var imageWatcher = gulp.watch('assets/images/**/*.*', ['build-images']);
   var jadeWatcher = gulp.watch('templates/**/*.jade', ['build-templates']);
 
   gulp.src('build')
@@ -59,6 +65,10 @@ gulp.task('webserver', function() {
     }));
 });
 
+gulp.task('build-images', function() {
+  return buildImages();
+});
+
 gulp.task('build-templates', function() {
   return buildJade();
 });
@@ -67,8 +77,8 @@ gulp.task('build-stylus', function () {
   return buildStylus();
 });
 
-gulp.task('default', ['build-templates', 'build-stylus', 'build-js', 'webserver']);
+gulp.task('default', ['build-templates', 'build-stylus', 'build-images', 'build-js', 'webserver']);
 
-gulp.task('build', ['build-templates', 'build-stylus'], function() {
+gulp.task('build', ['build-templates', 'build-stylus', 'build-images'], function() {
   bundle();
 });
