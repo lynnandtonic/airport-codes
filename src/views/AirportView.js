@@ -1,10 +1,15 @@
 var Backbone = require('backbone');
+var AirportDetailView = require('./AirportDetailView');
 var template = require('./templates/AirportView.jade');
 
 var AirportView = Backbone.View.extend({
 
   tagName: 'li',
   className: 'card',
+
+  events: {
+    'click a': '_handleClick'
+  },
 
   initialize: function() {
     this.model.on('change', this.render, this);
@@ -23,6 +28,23 @@ var AirportView = Backbone.View.extend({
       fullImage: this.model.get('fullImage'),
       imageCredit: this.model.get('imageCredit')
     };
+  },
+
+  hideDetail: function() {
+    if(this._detailView) {
+      this._detailView.hide();
+    }
+  },
+
+  _handleClick: function(event) {
+    event.preventDefault();
+
+    if(!this._detailView) {
+      this._detailView = new AirportDetailView({model: this.model});
+      this._detailView.render();
+    }
+
+    this._detailView.show();
   },
 
   _setClassName: function() {
