@@ -3,6 +3,9 @@ var template = require('./templates/AirportView.jade');
 
 var AirportView = Backbone.View.extend({
 
+  tagName: 'li',
+  className: 'card',
+
   initialize: function() {
     this.model.on('change', this.render, this);
   },
@@ -22,7 +25,12 @@ var AirportView = Backbone.View.extend({
     };
   },
 
+  _setClassName: function() {
+    this.$el.addClass(this.model.get('code'));
+  },
+
   render: function() {
+    this._setClassName();
     this.$el.html(template(this.viewModel()));
     return this;
   }
