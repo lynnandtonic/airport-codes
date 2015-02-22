@@ -7,6 +7,8 @@ var SEARCH_FIELD = [
 
 var SearchView = Backbone.View.extend({
 
+  className: 'search',
+
   events: {
     'keyup input': '_handleKey'
   },
