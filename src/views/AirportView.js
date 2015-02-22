@@ -49,6 +49,7 @@ var AirportView = Backbone.View.extend({
 
   _setClassName: function() {
     this.$el.addClass(this.model.get('code'));
+    this.$el.toggleClass('hidden', !this.model.get('visible'));
   },
 
   render: function() {
