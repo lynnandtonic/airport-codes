@@ -13,13 +13,14 @@ body
   text-rendering: optimizeLegibility
   -webkit-font-smoothing: antialiased
   font-family: $font-family-brandon
+  line-height: 1
 
 ::-moz-selection
-  background-color: #444
+  background-color: cyan
   color: white
 
 ::selection
-  background-color: #444
+  background-color: cyan
   color: white
 
 .cf
@@ -30,6 +31,10 @@ body
 
   &:after
     clear: both
+
+h1, h2, h3
+  text-transform: uppercase
+  font-weight: $font-weight-bold
 
 a
   text-decoration: none

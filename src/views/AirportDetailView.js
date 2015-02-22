@@ -4,6 +4,7 @@ var template = require('./templates/AirportDetailView.jade');
 var AirportDetailView = Backbone.View.extend({
 
   tagName: 'div',
+  className: 'detail',
 
   initialize: function() {
     this.model.on('change', this.render, this);
