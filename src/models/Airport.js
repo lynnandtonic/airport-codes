@@ -12,7 +12,8 @@ var Airport = Backbone.Model.extend({
     description: '',
     thumbnail: '',
     fullImage: '',
-    imageCredit: 'Jack Black'
+    imageCredit: 'Jack Black',
+    visible: true
   },
 
   initialize: function(options) {

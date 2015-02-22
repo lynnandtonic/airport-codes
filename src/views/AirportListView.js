@@ -24,6 +24,7 @@ var AirportListView = Backbone.View.extend({
 
   render: function() {
     var views = this.renderAirports();
+    this.$el.html('');
     this.$el.append(views);
     return this;
   },
