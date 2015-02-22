@@ -4,6 +4,10 @@ div
     h2= name
     h3
       span= city
-      span= state
-      span= country
-    p!= description
+      //- span= state
+      //- span= country
+    div.description!= description
+  div.photo-credit
+    | photo by 
+    a(href="#")= imageCredit
+  a.back(href="#") Airport Codes

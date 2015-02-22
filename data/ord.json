@@ -2,11 +2,12 @@
     "id": "ord",
     "code": "ord",
     "classname": "ord",
-    "name": "O’Hare International Airport",
+    "name": "O’Hare International",
     "city": "Chicago",
-    "state": "IL",
+    "state": "Illinois",
+    "stateShort": "IL",
     "country": "USA",
-    "description": "Cool tunnel bro.",
-    "imageCredit": "Travis Wise",
-    "imageCreditLink": "https://www.flickr.com/photos/photographingtravis/"
+    "description": "Before the airport was renamed after Medal of Honor recipient Edward O’Hare in 1949, it was known as *O*rcha*rd* Field Airport.",
+    "imageCredit": "Nick Harris",
+    "imageCreditLink": "https://www.flickr.com/photos/nickharris1/"
 }

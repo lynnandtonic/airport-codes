@@ -2,12 +2,10 @@ var Backbone = require('backbone');
 var template = require('./templates/SearchView.jade');
 
 var SEARCH_FIELD = [
-  'code', 'name', 'city', 'state', 'country'
+  'code', 'name', 'city', 'state', 'stateShort', 'country'
 ];
 
 var SearchView = Backbone.View.extend({
-
-  className: 'search',
 
   events: {
     'keyup input': '_handleKey'

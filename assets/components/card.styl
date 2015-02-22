@@ -4,6 +4,16 @@
   float: left
   background: $grey-drk no-repeat 50% 50%
   background-size: cover
+  -webkit-animation: fadein .5s
+  animation: fadein .5s
+
+@keyframes fadein
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+.card
 
   a
     padding: 80px 20px
@@ -16,8 +26,6 @@
     text-shadow: 0 0 10px black
     color: white
     z-index: 3
-    transition: all .3s ease-in 
-    -webkit-transition: all .3s ease-in
 
     &:hover
       background: transparent

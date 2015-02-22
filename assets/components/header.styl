@@ -1,0 +1,41 @@
+//- Search styling
+
+header
+  width: 100%
+  height: 50px
+  padding: 10px 15px
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 1
+  background: #40bae2
+  box-shadow: 0 2px 3px black(.2)
+
+  h1
+    margin-top: 8px
+    float: left
+    color: white
+
+    a
+      margin-left: 10px
+      color: $grey-drk
+
+      &:hover
+        opacity: .5
+
+  input
+    width: 50%
+    padding: 5px 10px 5px 30px
+    float: right
+    background: white url(images/icon-search.svg) no-repeat 8px 6px
+    background-size: 14px auto
+    border-radius: 4px
+    border: 1px solid white
+    font-size: 14px
+    font-family: Georgia, serif
+    font-style: italic
+    line-height: 1
+
+    &:focus
+      border-color: #ccc
+      outline: none

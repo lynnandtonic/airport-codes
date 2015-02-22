@@ -2,11 +2,12 @@
     "id": "msy",
     "classname": "msy",
     "code": "msy",
-    "name": "Louis Armstrong International Airport",
+    "name": "Louis Armstrong International",
     "city": "New Orleans",
-    "state": "LA",
+    "state": "Louisiana",
+    "stateShort": "LA",
     "country": "USA",
-    "description": "Airports are jazzy.",
+    "description": "In 2001, the airport was named after jazz legend Louis Armstrong, but was previously called *M*oisant *S*tock *Y*ards, after aviator John Moisant.",
     "imageCredit": "3dom",
     "imageCreditLink": "https://www.flickr.com/photos/visualities/"
 }
