@@ -26,7 +26,8 @@ var AirportView = Backbone.View.extend({
       description: this.model.get('description'),
       thumbnail: this.model.get('thumbnail'),
       fullImage: this.model.get('fullImage'),
-      imageCredit: this.model.get('imageCredit')
+      imageCredit: this.model.get('imageCredit'),
+      imageCreditLink: this.model.get('imageCreditLink')
     };
   },
 
