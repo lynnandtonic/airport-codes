@@ -6,13 +6,11 @@ var Airport = Backbone.Model.extend({
   defaults: {
     code: 'aaa',
     name: 'Default Airport',
-    city: 'Your City',
-    state: 'Your State',
-    country: 'USA',
-    description: '',
-    thumbnail: '',
-    fullImage: '',
-    imageCredit: 'Jack Black',
+    city: 'City',
+    state: 'State',
+    country: 'Country',
+    description: 'Description',
+    imageCredit: 'Photographer',
     visible: true
   },
 

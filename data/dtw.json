@@ -1,0 +1,13 @@
+{
+    "id": "dtw",
+    "classname": "dtw",
+    "code": "dtw",
+    "name": "Detroit Metropolitan Wayne County Airport",
+    "city": "Detroit",
+    "state": "Michigan",
+    "stateShort": "MI",
+    "country": "USA",
+    "description": "During World War II Detroit’s airport was known as Romulus Field, but in 1947 it was renamed to *D*etroi*t*-*W*ayne Major Airport.",
+    "imageCredit": "Scott Beale",
+    "imageCreditLink": "https://www.flickr.com/photos/laughingsquid/"
+}

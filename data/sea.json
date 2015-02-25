@@ -1,0 +1,14 @@
+{
+    "id": "sea",
+    "classname": "sea",
+    "code": "sea",
+    "name": "Seattle–Tacoma International Airport",
+    "city": "Seattle",
+    "city2": "Tacoma",
+    "state": "Washington",
+    "stateShort": "WA",
+    "country": "USA",
+    "description": "Renamed in 1976, Orlando’s airport was originally a military airfield known as *M*c*Co*y Airforce Base, honoring Colonel Michael Norman Wright McCoy.",
+    "imageCredit": "drburtoni",
+    "imageCreditLink": "https://www.flickr.com/photos/84346589@N00/"
+}

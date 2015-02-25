@@ -1,0 +1,13 @@
+{
+    "id": "iad",
+    "classname": "iad",
+    "code": "iad",
+    "name": "Dulles International Airport",
+    "city": "Washington D.C.",
+    "state": "Virginia",
+    "stateShort": "VA",
+    "country": "USA",
+    "description": "*D*ulles *I*nternational *A*irport’s three-letter code was once DIA. When hand-written, it was often misread as DCA, another Washington airport. It was reversed to IAD to avoid confusion.",
+    "imageCredit": "The Q Speaks",
+    "imageCreditLink": "https://www.flickr.com/photos/theqspeaks/"
+}

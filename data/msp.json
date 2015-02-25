@@ -1,0 +1,15 @@
+{
+    "id": "msp",
+    "classname": "msp",
+    "code": "msp",
+    "name": "Minneapolis–Saint Paul International Airport",
+    "city": "Twin Cities",
+    "city2": "Minneapolis",
+    "city3": "St. Paul",
+    "state": "Minnesota",
+    "stateShort": "MN",
+    "country": "USA",
+    "description": "Formerly known as Speedway Field and Wold–Chamberlain Field, MSP is now named after Minnesota's twin cities, *M*inneapolis and *S*aint *P*aul.",
+    "imageCredit": "Tom Kelly",
+    "imageCreditLink": "https://www.flickr.com/photos/tkellyphoto/"
+}
