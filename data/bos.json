@@ -1,0 +1,14 @@
+{
+    "id": "bos",
+    "classname": "bos",
+    "code": "bos",
+    "name": "Logan International Airport",
+    "city": "Boston",
+    "city2": "Paradise",
+    "state": "Massachusetts",
+    "stateShort": "MA",
+    "country": "USA",
+    "description": "Formerly Jeffery Field, Logan Airport was renamed in 1943 to honor Edward Lawrence Logan, U.S. Army Lt. General and MA state representative. Its airport code honors its home in *Bos*ton.",
+    "imageCredit": "Andrew Malone",
+    "imageCreditLink": "https://www.flickr.com/photos/andrewmalone/"
+}

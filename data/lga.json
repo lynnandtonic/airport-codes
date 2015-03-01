@@ -1,0 +1,13 @@
+{
+    "id": "lga",
+    "classname": "lga",
+    "code": "lga",
+    "name": "LaGuardia Airport",
+    "city": "New York City",
+    "state": "New York",
+    "stateShort": "NY",
+    "country": "USA",
+    "description": "LaGuardia has had many names and the land it sits on was once an amusement park. Its current name comes from Fiorello *L*a *G*uardi*a*, former mayor of New York who championed its construction.",
+    "imageCredit": "stantontcady",
+    "imageCreditLink": "https://www.flickr.com/photos/terrycady/"
+}
