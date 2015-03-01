@@ -1,0 +1,14 @@
+{
+    "id": "yvr",
+    "classname": "yvr",
+    "code": "yvr",
+    "name": "Vancouver International Airport",
+    "city": "Vancouver",
+    "city2": "Richmond",
+    "state": "British Columbia",
+    "stateShort": "ON",
+    "country": "Canada",
+    "description": "Airport codes starting with ‘Y’ designate Canadian airports. The next two letters come from its home in *V*ancouve*r*.",
+    "imageCredit": "Rick Schwartz",
+    "imageCreditLink": "https://www.flickr.com/photos/justenoughfocus/"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "smf",
+    "code": "smf",
+    "classname": "smf",
+    "name": "Sacramento International Airport",
+    "city": "Sacramento",
+    "state": "California",
+    "stateShort": "CA",
+    "country": "USA",
+    "description": "When Sacramento International was built, the airport code SAC was already taken by (then named) Sacramento Municipal Airport. So it took its code from its original name, *S*acramento *M*etropolitan *F*ield.",
+    "imageCredit": "Rich",
+    "imageCreditLink": "https://www.flickr.com/photos/richmanwisco/"
+}

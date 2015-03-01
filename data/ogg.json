@@ -1,0 +1,14 @@
+{
+    "id": "ogg",
+    "classname": "ogg",
+    "code": "ogg",
+    "name": "Kahului Airport",
+    "city": "Kahului",
+    "city2": "Maui",
+    "state": "Hawaii",
+    "stateShort": "HI",
+    "country": "USA",
+    "description": "Kahului Airport is named after its home city, but its airport code honors Hawaiian-born pilot Bertram J. H*ogg*.",
+    "imageCredit": "Jonathan Caves",
+    "imageCreditLink": "https://www.flickr.com/photos/j-and-p/"
+}
