@@ -1,0 +1,13 @@
+{
+    "id": "bog",
+    "classname": "bog",
+    "code": "bog",
+    "name": "El Dorado International Airport",
+    "city": "Bogotá",
+    "state": "",
+    "stateShort": "",
+    "country": "Colombia",
+    "description": "El Dorado International may be named after the mythical city of gold, but its airport code comes from its home in *Bog*otá.",
+    "imageCredit": "Stephen Downes",
+    "imageCreditLink": "https://www.flickr.com/photos/stephen_downes/"
+}
