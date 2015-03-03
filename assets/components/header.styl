@@ -11,6 +11,9 @@ header
   background: #40bae2
   box-shadow: 0 2px 3px black(.2)
 
+  nav
+    position: relative
+
   h1
     margin-top: 8px
     float: left
@@ -28,6 +31,7 @@ header
 
   input
     width: 50%
+    margin-top: 1px
     padding: 5px 10px 5px 30px
     float: right
     background: white url(images/icon-search.svg) no-repeat 8px 6px
@@ -41,3 +45,49 @@ header
 
     &:focus
       outline: none
+
+  .search-close
+    display: none
+
+@media (max-width: 500px)
+
+  header
+
+    input
+      width: 30px
+      margin-left: 15px
+      padding-left: 20px
+      position: absolute
+      right: 0
+      transition: width ease-out .2s
+
+      &:hover
+        cursor: pointer
+
+      &:focus
+        width: 100%
+        padding-left: 30px
+
+        &:hover
+          cursor: default
+
+        & + .search-close
+          width: 30px
+          height: 30px
+          position: absolute
+          right: 0
+          top: 0
+          display: block
+          background: url(images/icon-close.svg) no-repeat 6px 7px
+          background-size: 15px auto
+          -webkit-animation: fadein .5s
+          animation: fadein .5s
+
+          @keyframes fadein
+            from
+              opacity: 0
+            to
+              opacity: 1
+
+          &:hover
+            cursor: pointer
