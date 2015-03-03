@@ -1,13 +1,14 @@
-div
-  div.detail-info
-    h1= code
-    h2= name
-    h3
-      span= city
-      //- span= state
-      //- span= country
-    div.description!= description
-  div.photo-credit
-    | photo by 
-    a(href=imageCreditLink)= imageCredit
-  a.back(href="") Airport Codes
+div.overlay
+  div.container
+    div.detail-info
+      h1= code
+      h2= name
+      h3
+        span= city
+        //- span= state
+        //- span= country
+      div.description!= description
+    div.photo-credit
+      | photo by 
+      a(href=imageCreditLink)= imageCredit
+    a.back(href="") Airport Codes
