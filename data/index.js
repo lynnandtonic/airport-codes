@@ -18,6 +18,7 @@ module.exports = {
     require('./dxb.json'),
     require('./ewr.json'),
     require('./eze.json'),
+    require('./fca.json'),
     require('./gig.json'),
     require('./grr.json'),
     require('./gru.json'),
