@@ -1,4 +1,5 @@
 var Backbone = require('backbone');
+var AboutView = require('./views/AboutView');
 var AirportDetailView = require('./views/AirportDetailView');
 
 var Router = Backbone.Router.extend({
@@ -21,19 +22,34 @@ var Router = Backbone.Router.extend({
     });
   },
 
+  _hideAbout: function() {
+    if (this._aboutView) {
+      this._aboutView.hide();
+    }
+  },
+
   default: function() {
+    this._hideAbout();
     this._hideAirports();
     Backbone.$('body').removeClass('detail-open');
   },
 
   about: function() {
-    console.log('about');
+    if (!this._aboutView) {
+      this._aboutView = new AboutView();
+      Backbone.$('body').append(this._aboutView.render().el);
+    }
+
+    this._aboutView.show();
+
+    this._hideAirports();
     Backbone.$('body').removeClass('detail-open');
   },
 
   airport: function(code) {
     var airport = this.airports.get(code);
 
+    this._hideAbout();
     this._hideAirports();
 
     if (airport) {
