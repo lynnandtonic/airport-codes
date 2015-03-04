@@ -39,7 +39,7 @@ function buildStylus() {
 }
 
 function buildJade() {
-  return gulp.src('./templates/index.jade')
+  return gulp.src('./templates/**/*.jade')
     .pipe(data(function() {
       return require('./data');
     }))
