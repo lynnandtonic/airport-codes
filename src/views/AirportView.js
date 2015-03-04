@@ -7,6 +7,10 @@ var AirportView = Backbone.View.extend({
   tagName: 'li',
   className: 'card',
 
+  initialize: function() {
+    this.model.on('change:visible', this._setClassName, this);
+  },
+
   viewModel: function() {
     return {
       id: this.model.get('id'),

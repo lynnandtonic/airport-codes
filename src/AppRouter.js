@@ -23,10 +23,12 @@ var Router = Backbone.Router.extend({
 
   default: function() {
     this._hideAirports();
+    Backbone.$('body').removeClass('detail-open');
   },
 
   about: function() {
     console.log('about');
+    Backbone.$('body').removeClass('detail-open');
   },
 
   airport: function(code) {
@@ -42,6 +44,7 @@ var Router = Backbone.Router.extend({
       }
 
       airport.set('showDetail', true);
+      Backbone.$('body').addClass('detail-open');
     }
   }
 
