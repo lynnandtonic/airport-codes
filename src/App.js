@@ -1,5 +1,8 @@
 var Backbone = require('backbone');
 var jquery = require('jquery');
+
+var Router = require('./AppRouter');
+
 var data = require('../data');
 
 Backbone.$ = jquery;
@@ -16,6 +19,8 @@ var Application = function() {
   });
 
   this.appView.render();
+  new Router({airports: this.airports});
+  Backbone.history.start();
 };
 
 jquery(function() {

@@ -7,7 +7,7 @@ var AirportDetailView = Backbone.View.extend({
   className: 'detail',
 
   initialize: function() {
-    this.model.on('change', this.render, this);
+    this.model.on('change:showDetail', this.toggle, this);
   },
 
   viewModel: function() {
@@ -29,13 +29,16 @@ var AirportDetailView = Backbone.View.extend({
   show: function() {
     var self = this;
     process.nextTick(function() {
-      self.$el.removeClass('hidden');
+      self.model.set('showDetail', true);
     });
-
   },
 
   hide: function() {
-    this.$el.addClass('hidden');
+    this.model.set('showDetail', false);
+  },
+
+  toggle: function() {
+    this.$el.toggleClass('hidden', !this.model.get('showDetail'));
   },
 
   _setClassName: function() {

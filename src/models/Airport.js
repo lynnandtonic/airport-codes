@@ -11,7 +11,8 @@ var Airport = Backbone.Model.extend({
     country: 'Country',
     description: 'Description',
     imageCredit: 'Photographer',
-    visible: true
+    visible: true,
+    showDetail: false
   },
 
   initialize: function(options) {

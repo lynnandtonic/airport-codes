@@ -6,20 +6,9 @@ var AirportListView = Backbone.View.extend({
   tagName: 'ul',
   className: 'cf',
 
-  events: {
-    'click a': '_handleClick'
-  },
-
   initialize: function(options) {
     this.airports = options.airports;
-
-    this.airports.on('change', this.render, this);
-  },
-
-  _handleClick: function(event) {
-    for(var i=0;i<this._views.length;i++) {
-      this._views[i].hideDetail();
-    }
+    this.render();
   },
 
   render: function() {

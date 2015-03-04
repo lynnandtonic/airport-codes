@@ -7,14 +7,6 @@ var AirportView = Backbone.View.extend({
   tagName: 'li',
   className: 'card',
 
-  events: {
-    'click a': '_handleClick'
-  },
-
-  initialize: function() {
-    this.model.on('change', this.render, this);
-  },
-
   viewModel: function() {
     return {
       id: this.model.get('id'),
@@ -29,23 +21,6 @@ var AirportView = Backbone.View.extend({
       imageCredit: this.model.get('imageCredit'),
       imageCreditLink: this.model.get('imageCreditLink')
     };
-  },
-
-  hideDetail: function() {
-    if(this._detailView) {
-      this._detailView.hide();
-    }
-  },
-
-  _handleClick: function(event) {
-    event.preventDefault();
-
-    if(!this._detailView) {
-      this._detailView = new AirportDetailView({model: this.model});
-      this._detailView.render();
-    }
-
-    this._detailView.show();
   },
 
   _setClassName: function() {
