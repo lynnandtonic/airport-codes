@@ -9,6 +9,7 @@ var webserver = require('gulp-webserver');
 var jade = require('gulp-jade');
 var data = require('gulp-data');
 var stylus = require('gulp-stylus');
+var deploy = require('gulp-gh-pages');
 
 var bundler = watchify(browserify('./src/App.js', watchify.args));
 
@@ -78,4 +79,9 @@ gulp.task('default', ['build-templates', 'build-stylus', 'build-images', 'build-
 
 gulp.task('build', ['build-templates', 'build-stylus', 'build-images'], function() {
   bundle();
+});
+
+gulp.task('deploy', ['build'], function () {
+  return gulp.src("./build/**/*")
+    .pipe(deploy());
 });
