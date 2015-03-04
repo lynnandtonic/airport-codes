@@ -20,3 +20,16 @@ black(alpha)
 $grey-drk = #444
 
 $blue = #40bae2
+
+//- Animations
+
+fadeIn =
+  -webkit-animation: fadein .5s
+  animation: fadein .5s
+
+fadeInKeyframes =
+  @keyframes fadein
+    from
+      opacity: 0
+    to
+      opacity: 1
