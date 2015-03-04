@@ -1,4 +1,7 @@
-//- Detail styling
+//- Detail view
+
+body.detail-open
+  overflow: hidden
 
 .detail
   width: 100vw
@@ -11,14 +14,15 @@
   background-size: cover
   text-align: center
   color: white
-  -webkit-animation: fadein .5s
-  animation: fadein .5s
+// TODO: figure out a better way to ease in/out
+//   -webkit-animation: fadein .5s
+//   animation: fadein .5s
 
-@keyframes fadein
-  from
-    opacity: 0
-  to
-    opacity: 1
+// @keyframes fadein
+//   from
+//     opacity: 0
+//   to
+//     opacity: 1
 
 .detail
 
