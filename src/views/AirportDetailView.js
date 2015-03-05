@@ -62,7 +62,7 @@ var AirportDetailView = Backbone.View.extend({
       this._twitter = new SocialView({
         url: 'https://twitter.com/intent/tweet?url=$SHARE_URL&text=$TEXT',
         type: 'twitter',
-        text: 'Airport codes explained. ' + this.model.get('code').toUpperCase() + ':',
+        text: 'Making sense of those three-letter airport codes. ' + this.model.get('code').toUpperCase() + ':',
         share_url: 'http://airportcod.es/%23airport/' + this.model.get('code')
       });
       this._twitter.render();
