@@ -51,6 +51,8 @@ Add the airport to `/data/index.js`.
   - Large, 2000px width, naming: `code-photographer-large.jpg`
 - Please optimize images
 
+Add image files to `/assets/images`.
+
 Add image paths to `/assets/components/backgrounds.styl`.
 
 ## Editing Templates
