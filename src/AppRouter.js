@@ -62,6 +62,7 @@ var Router = Backbone.Router.extend({
       airport.set('showDetail', true);
       Backbone.$('body').addClass('detail-open');
     } else {
+      console.log('error');
       document.location.href = "/404.html";
     }
   }
