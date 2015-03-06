@@ -53,8 +53,7 @@
 
   .about-info
     max-width: 550px
-    margin: 0 auto
-    margin-top: 80px
+    margin: 80px auto
 
     @media (max-width: 500px)
       margin-top: 50px
@@ -80,11 +79,12 @@
     text-align: left
 
     a
+      border-bottom: 1px dotted transparent
       color: $blue
       font-weight: $font-weight-medium
 
       &:hover
-        border-bottom: 1px dotted
+        border-color: $blue
 
   .sources
     margin-top: 40px
