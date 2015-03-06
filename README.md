@@ -46,10 +46,10 @@ Add the airport to `/data/index.js`.
 
 - Please use photos from Flickr that are licensed under Creative Commons.
 - Please save out 4 sizes of each image with the filename convention `code-photographer.jpg`
-  - Card, 250px height, put in `assets/images/_card`
-  - Small, 500px width, put in `assets/images/_small`
-  - Medium, 900px width, put in `assets/images/_medium`
-  - Large, 1500px width, put in `assets/images/_large`
+  - Card, 250px height, put in `assets/images/card`
+  - Small, 500px width, put in `assets/images/small`
+  - Medium, 900px width, put in `assets/images/medium`
+  - Large, 1500px width, put in `assets/images/large`
 - Please optimize images
 
 - Add variable and image name to `/assets/globals/image-names.styl`. That will look something like this: `$aus = 'aus-jon-collier.jpg'`
