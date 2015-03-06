@@ -12,8 +12,6 @@ header
   box-shadow: 0 2px 3px black(.2)
   {fadeIn}
 
-{fadeInKeyframes}
-
 header
 
   nav
@@ -85,11 +83,10 @@ header
           right: 0
           top: 0
           display: block
-          background: url(images/icon-close.svg) no-repeat 6px 7px
+          z-index: 1000
+          background: red url(images/icon-close.svg) no-repeat 6px 7px
           background-size: 15px auto
           {fadeIn}
 
           &:hover
             cursor: pointer
-
-{fadeInKeyframes}
