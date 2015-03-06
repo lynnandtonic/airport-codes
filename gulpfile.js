@@ -83,5 +83,7 @@ gulp.task('build', ['build-templates', 'build-stylus', 'build-static'], function
 
 gulp.task('deploy', ['build'], function () {
   return gulp.src("./build/**/*")
-    .pipe(deploy());
+    .pipe(deploy({
+      cacheDir: './tmp'
+    }));
 });
