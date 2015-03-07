@@ -1,5 +1,6 @@
 module.exports = {
   airports: [
+    require('./anc.json'),
     require('./atl.json'),
     require('./aus.json'),
     require('./bhm.json'),
@@ -33,6 +34,7 @@ module.exports = {
     require('./lga.json'),
     require('./lhr.json'),
     require('./lim.json'),
+    require('./lit.json'),
     require('./mci.json'),
     require('./mco.json'),
     require('./mia.json'),
