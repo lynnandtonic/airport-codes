@@ -1,5 +1,6 @@
 var Backbone = require('backbone');
 var AboutView = require('./views/AboutView');
+var ContributeView = require('./views/ContributeView');
 var AirportDetailView = require('./views/AirportDetailView');
 
 var Router = Backbone.Router.extend({
@@ -12,6 +13,7 @@ var Router = Backbone.Router.extend({
 
   routes: {
     "about":           "about",
+    "contribute":      "contribute",
     "airport/:code":   "airport",
     "*path":           "default"
   },
@@ -28,8 +30,15 @@ var Router = Backbone.Router.extend({
     }
   },
 
+  _hideContribute: function() {
+    if (this._contributeView) {
+      this._contributeView.hide();
+    }
+  },
+
   default: function() {
     this._hideAbout();
+    this._hideContribute();
     this._hideAirports();
     Backbone.$('body').removeClass('detail-open');
   },
@@ -46,10 +55,24 @@ var Router = Backbone.Router.extend({
     Backbone.$('body').addClass('detail-open');
   },
 
+  contribute: function() {
+    if (!this._contributeView) {
+      this._contributeView = new ContributeView();
+      Backbone.$('body').append(this._contributeView.render().el);
+    }
+
+    this._contributeView.show();
+
+    this._hideAirports();
+    this._hideAbout();
+    Backbone.$('body').addClass('detail-open');
+  },
+
   airport: function(code) {
     var airport = this.airports.get(code);
 
     this._hideAbout();
+    this._hideContribute();
     this._hideAirports();
 
     if (airport) {
