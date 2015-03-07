@@ -24,7 +24,6 @@ Airport content can be found in `/data` in individual files. Use the three-lette
 Content in each `json` file:
 
 - `id` = three-letter code (e.g. phx)
-- `classname` = three-letter code (phx)
 - `code` = three-letter code (phx)
 - `name` = airport name (Sky Harbor International Airport)
 - `city` = primary city name (Phoenix)
