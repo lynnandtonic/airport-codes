@@ -1,0 +1,13 @@
+{
+    "id": "pwm",
+    "code": "pwm",
+    "name": "Portland International Jetport",
+    "city": "Portland",
+    "city2": "Westbrook",
+    "state": "Maine",
+    "stateShort": "ME",
+    "country": "USA",
+    "description": "The airport serving the original Portland (in Maine) started as small Stroudwater Field, later renamed to *P*ortland-*W*estbrook *M*unicipal Airport.",
+    "imageCredit": "Jimmy Emerson",
+    "imageCreditLink": "https://www.flickr.com/photos/auvet/"
+}
