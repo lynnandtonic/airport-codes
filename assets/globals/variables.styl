@@ -1,15 +1,16 @@
-//- Variables
+// Variables
 
-//- Font Families
+// Font Families
 $font-family-brandon = "brandon-grotesque", Helvetica, Arial, sans-serif
 $font-family-clavo = "clavo", Georgia, serif
+$font-family-georgia = Georgia, serif
 
-//- Font Weights
+// Font Weights
 $font-weight-normal = 400
 $font-weight-medium = 700
 $font-weight-bold = 900
 
-//- Colors
+// Colors
 
 white(alpha)
   rgba(255,255,255,alpha)
@@ -21,7 +22,22 @@ $grey-drk = #444
 
 $blue = #40bae2
 
-//- Animations
+// Transforms
+
+transform(args)
+  -webkit-transform: args
+  -moz-transform: args
+  transform: args
+
+centerContent =
+  position: absolute
+  top: 50%
+  left: 50%
+  -webkit-transform: translate(-50%,-50%)
+  -moz-transform: translate(-50%,-50%)
+  transform: translate(-50%,-50%)
+
+// Animations
 
 fadeIn =
   -webkit-animation: fadein .5s

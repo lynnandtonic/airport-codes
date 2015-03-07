@@ -1,4 +1,4 @@
-//- Search styling
+// Header and Search
 
 header
   width: 100%
@@ -12,8 +12,6 @@ header
   box-shadow: 0 2px 3px black(.2)
   {fadeIn}
 
-header
-
   nav
     position: relative
 
@@ -21,7 +19,6 @@ header
     margin-top: 8px
     margin-left: -8px
     float: left
-    color: white
 
     a
       color: white
@@ -44,7 +41,7 @@ header
     border-radius: 4px
     border: 1px solid white
     font-size: 16px
-    font-family: Georgia, serif
+    font-family: $font-family-georgia
     font-style: italic
     line-height: 1
 
@@ -58,9 +55,7 @@ header
     &:focus
       outline: none
 
-  .search-close
-    display: none
-
+// Search collapse/expand for small screens
 @media (max-width: 500px)
 
   header
@@ -84,18 +79,3 @@ header
 
         &:hover
           cursor: default
-
-        // & + .search-close
-        //   width: 30px
-        //   height: 30px
-        //   position: absolute
-        //   right: 0
-        //   top: 0
-        //   display: block
-        //   z-index: 1000
-        //   background: url(images/icon-close.svg) no-repeat 6px 7px
-        //   background-size: 15px 15px
-        //   {fadeIn}
-
-        //   &:hover
-        //     cursor: pointer

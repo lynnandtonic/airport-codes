@@ -4,7 +4,7 @@ var template = require('./templates/AboutView.jade');
 var AboutView = Backbone.View.extend({
 
   tagName: 'div',
-  className: 'about',
+  className: 'about site-info',
 
   show: function() {
     this.$el.removeClass('hidden');

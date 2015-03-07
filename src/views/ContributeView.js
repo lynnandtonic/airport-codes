@@ -4,7 +4,7 @@ var template = require('./templates/ContributeView.jade');
 var ContributeView = Backbone.View.extend({
 
   tagName: 'div',
-  className: 'contribute',
+  className: 'contribute site-info',
 
   show: function() {
     this.$el.removeClass('hidden');

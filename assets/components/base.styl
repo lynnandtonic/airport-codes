@@ -1,4 +1,4 @@
-//- Base styling
+// Base styling
 
 *, *:after, *:before
   -moz-box-sizing: border-box
@@ -16,6 +16,7 @@ body
   font-family: $font-family-brandon
   line-height: 1
   background: black
+  color: white
 
   &.detail-open
     overflow: hidden
@@ -31,18 +32,15 @@ body
   background-color: cyan
   color: white
 
-.cf
-  &:before,
-  &:after
-    content: " "
-    display: table
-
-  &:after
-    clear: both
-
-h1, h2, h3
-  text-transform: uppercase
+h1, h2, h3, h4
   font-weight: $font-weight-bold
+  text-transform: uppercase
+
+p
+  font-family: $font-family-clavo
+  font-style: italic
+  font-size: 18px
+  line-height: 1.4
 
 a
   text-decoration: none
@@ -53,4 +51,36 @@ a
 .hidden
   display: none
 
+// Full page overlay
+.overlay
+  width: 100%
+  height: 100%
+  background: black(.7)
+
+// Airport Codes back link
+.back
+  padding: 5px 8px
+  position: absolute
+  top: 13px
+  left: 7px
+  z-index: 2
+  border-radius: 3px
+  text-transform: uppercase
+  font-weight: $font-weight-bold
+  color: white
+
+  &:hover
+    opacity: .5
+
+// Fade-in animation
 {fadeInKeyframes}
+
+// Clearfix
+.cf
+  &:before,
+  &:after
+    content: " "
+    display: table
+
+  &:after
+    clear: both
