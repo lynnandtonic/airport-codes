@@ -1,0 +1,14 @@
+{
+    "id": "buf",
+    "code": "buf",
+    "name": "Buffalo Niagara International Airport",
+    "city": "Buffalo",
+    "city2": "Cheektowaga",
+    "city3": "Niagra Falls",
+    "state": "New York",
+    "stateShort": "NY",
+    "country": "USA",
+    "description": "Opened in 1926 as Buffalo Municipal, *Buf*falo Niagra International was rebuilt and renamed in 1997 to honor the oft-visited Niagra Falls.",
+    "imageCredit": "Julien Bowry",
+    "imageCreditLink": "https://www.flickr.com/photos/jjbowry_blogspot_com/"
+}

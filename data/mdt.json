@@ -1,0 +1,13 @@
+{
+    "id": "mdt",
+    "code": "mdt",
+    "name": "Harrisburg International Airport",
+    "city": "Harrisburg",
+    "city2": "Middletown",
+    "state": "Pennsylvania",
+    "stateShort": "PA",
+    "country": "USA",
+    "description": "Often called HIA incorrectly, Harrisburg International’s airport code comes from *M*i*d*dle*t*own, a nearby Harrisburg suburb.",
+    "imageCredit": "Timothy Rezendes",
+    "imageCreditLink": "https://www.flickr.com/photos/trezendes/"
+}
