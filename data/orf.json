@@ -1,0 +1,12 @@
+{
+    "id": "orf",
+    "code": "orf",
+    "name": "Norfolk International Airport",
+    "city": "Norfolk",
+    "state": "Virginia",
+    "stateShort": "VA",
+    "country": "USA",
+    "description": "When airport codes switched from two letters to three, the Navy reserved all codes starting with ‘N’. N*orf*olk, then, used the next letters in its name to make ORF.",
+    "imageCredit": "Stacey Huggins",
+    "imageCreditLink": "https://www.flickr.com/photos/staceyhuggins/"
+}

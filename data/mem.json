@@ -1,0 +1,12 @@
+{
+    "id": "mem",
+    "code": "mem",
+    "name": "Memphis International Airport",
+    "city": "Memphis",
+    "state": "Tennessee",
+    "stateShort": "TN",
+    "country": "USA",
+    "description": "In 1969, Memphis Municipal Airport changed its name to ‘International’, presenting *Mem*phis as a hub for international travel and cargo.",
+    "imageCredit": "Joseph",
+    "imageCreditLink": "https://www.flickr.com/photos/josepha/"
+}
