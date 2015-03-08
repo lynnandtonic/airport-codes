@@ -18,6 +18,7 @@ var AirportDetailView = Backbone.View.extend({
       name: this.model.get('name'),
       city: this.model.get('city'),
       state: this.model.get('state'),
+      stateShort: this.model.get('stateShort'),
       country: this.model.get('country'),
       description: this.model.get('description'),
       imageCredit: this.model.get('imageCredit'),
