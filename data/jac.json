@@ -1,0 +1,13 @@
+{
+    "id": "jac",
+    "code": "jac",
+    "name": "Jackson Hole Airport",
+    "city": "Jackson",
+    "city2": "Teton County",
+    "state": "Wyoming",
+    "stateShort": "WY",
+    "country": "USA",
+    "description": "Wyoming’s busiest airport, the only commercial airport located inside a U.S. national park, gets its airport code from the nearby town of *Jac*kson.",
+    "imageCredit": "Sarah Nichols",
+    "imageCreditLink": "https://www.flickr.com/photos/pocheco/"
+}

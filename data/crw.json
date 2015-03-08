@@ -1,0 +1,12 @@
+{
+    "id": "crw",
+    "code": "crw",
+    "name": "Yeager Airport",
+    "city": "Charleston",
+    "state": "West Virginia",
+    "stateShort": "WV",
+    "country": "USA",
+    "description": "Yeager Airport is named after U.S. Army Brigadier General Chuck Yeager, but its airport code honors its home in *C*ha*r*leston, *W*est Virginia.",
+    "imageCredit": "Rich",
+    "imageCreditLink": "https://www.flickr.com/photos/richmanwisco/"
+}
