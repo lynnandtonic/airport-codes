@@ -1,7 +1,8 @@
 {
     "id": "vie",
     "code": "vie",
-    "name": "Vienna International Airport",
+    "name": "Flughafen Wien-Schwechat",
+    "nameEnglish": "Vienna International Airport",
     "city": "Vienna",
     "city2": "Schwechat",
     "state": "",

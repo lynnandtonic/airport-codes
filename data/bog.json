@@ -1,7 +1,8 @@
 {
     "id": "bog",
     "code": "bog",
-    "name": "El Dorado International Airport",
+    "name": "Aeropuerto Internacional El Dorado",
+    "nameEnglish": "El Dorado International Airport",
     "city": "Bogotá",
     "state": "",
     "stateShort": "",

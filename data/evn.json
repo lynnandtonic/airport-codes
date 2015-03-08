@@ -1,7 +1,8 @@
 {
     "id": "evn",
     "code": "evn",
-    "name": "Zvartnots International Airport",
+    "name": "Zvart'nots' Mijazgayin Odanavakayan",
+    "nameEnglish": "Zvartnots International Airport",
     "city": "Yerevan",
     "city2": "Zvartnots",
     "state": "",

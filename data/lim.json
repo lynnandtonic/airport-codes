@@ -1,7 +1,8 @@
 {
     "id": "lim",
     "code": "lim",
-    "name": "Jorge Chávez International Airport",
+    "name": "Aeropuerto Internacional Jorge Chávez",
+    "nameEnglish": "Jorge Chávez International Airport",
     "city": "Lima",
     "city2": "Callao",
     "state": "",

@@ -2,7 +2,7 @@ var Backbone = require('backbone');
 var template = require('./templates/SearchView.jade');
 
 var SEARCH_FIELD = [
-  'code', 'name', 'city', 'city2', 'city3', 'state', 'stateShort', 'country'
+  'code', 'name', 'nameEnglish', 'city', 'city2', 'city3', 'state', 'stateShort', 'country'
 ];
 
 var SearchView = Backbone.View.extend({

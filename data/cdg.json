@@ -1,7 +1,8 @@
 {
     "id": "cdg",
     "code": "cdg",
-    "name": "Charles de Gaulle Airport",
+    "name": "Aéroport de Paris-Charles-de-Gaulle",
+    "nameEnglish": "Charles de Gaulle Airport",
     "city": "Paris",
     "state": "",
     "stateShort": "",
