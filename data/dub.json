@@ -2,7 +2,7 @@
     "id": "dub",
     "code": "dub",
     "name": "Aerfort Bhaile Átha Cliath",
-    "name2": "Dublin Airport",
+    "nameEnglish": "Dublin Airport",
     "city": "Dublin",
     "city2": "Collinstown",
     "state": "",

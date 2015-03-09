@@ -2,7 +2,7 @@
     "id": "osl",
     "code": "osl",
     "name": "Oslo lufthavn",
-    "name2": "Oslo Airport",
+    "nameEnglish": "Oslo Airport",
     "city": "Oslo",
     "city2": "Gardermoen",
     "state": "",

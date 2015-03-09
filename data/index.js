@@ -1,7 +1,9 @@
 module.exports = {
   airports: [
     require('./abq.json'),
+    require('./ams.json'),
     require('./anc.json'),
+    require('./arn.json'),
     require('./atl.json'),
     require('./aus.json'),
     require('./bdl.json'),
@@ -58,6 +60,7 @@ module.exports = {
     require('./icn.json'),
     require('./ict.json'),
     require('./ind.json'),
+    require('./ist.json'),
     require('./jac.json'),
     require('./jfk.json'),
     require('./las.json'),
@@ -65,7 +68,9 @@ module.exports = {
     require('./lga.json'),
     require('./lhr.json'),
     require('./lim.json'),
+    require('./lis.json'),
     require('./lit.json'),
+    require('./mad.json'),
     require('./mci.json'),
     require('./mco.json'),
     require('./mdt.json'),
@@ -106,7 +111,9 @@ module.exports = {
     require('./tia.json'),
     require('./tll.json'),
     require('./vie.json'),
+    require('./waw.json'),
     require('./yvr.json'),
-    require('./yyz.json')
+    require('./yyz.json'),
+    require('./zrh.json')
   ]
 };
