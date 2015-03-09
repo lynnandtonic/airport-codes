@@ -5,8 +5,6 @@ var Router = require('./AppRouter');
 
 var data = require('../dist/index');
 
-console.log(data);
-
 Backbone.$ = jquery;
 
 var Airports = require('./collections/Airports');
