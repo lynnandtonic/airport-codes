@@ -10,10 +10,12 @@ var jade = require('gulp-jade');
 var data = require('gulp-data');
 var stylus = require('gulp-stylus');
 var deploy = require('gulp-gh-pages');
+var shell = require('gulp-shell');
+var rimraf = require('gulp-rimraf');
 
 var bundler = watchify(browserify('./src/App.js', watchify.args));
 
-gulp.task('build-js', bundle); // so you can run `gulp js` to build the file
+gulp.task('build-js', ['rm-temp-json', 'make-json'], bundle); // so you can run `gulp js` to build the file
 bundler.on('update', bundle); // on any dep update, runs the bundler
 
 function bundle() {
@@ -42,11 +44,20 @@ function buildStylus() {
 function buildJade() {
   return gulp.src('./templates/**/*.jade')
     .pipe(data(function() {
-      return require('./data');
+      return require('./dist/index');
     }))
     .pipe(jade())
     .pipe(gulp.dest('build'));
 }
+
+gulp.task('rm-temp-json', function() {
+  return gulp.src('./dist/*.js', { read: false })
+    .pipe(rimraf());
+});
+
+gulp.task('make-json', ['rm-temp-json'], shell.task([
+  'node ./makeJson.js'
+]));
 
 gulp.task('webserver', function() {
 
@@ -63,21 +74,21 @@ gulp.task('webserver', function() {
     }));
 });
 
-gulp.task('build-static', function() {
+gulp.task('build-static', ['rm-temp-json', 'make-json'], function() {
   return buildStatic();
 });
 
-gulp.task('build-templates', function() {
+gulp.task('build-templates', ['rm-temp-json', 'make-json'], function() {
   return buildJade();
 });
 
-gulp.task('build-stylus', function () {
+gulp.task('build-stylus', ['rm-temp-json', 'make-json'],function () {
   return buildStylus();
 });
 
-gulp.task('default', ['build-templates', 'build-stylus', 'build-static', 'build-js', 'webserver']);
+gulp.task('default', ['rm-temp-json', 'make-json', 'build-templates', 'build-stylus', 'build-static', 'build-js', 'webserver']);
 
-gulp.task('build', ['build-templates', 'build-stylus', 'build-static'], function() {
+gulp.task('build', ['rm-temp-json', 'make-json', 'build-templates', 'build-stylus', 'build-static'], function() {
   bundle();
 });
 
