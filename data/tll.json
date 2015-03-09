@@ -1,0 +1,13 @@
+{
+    "id": "tll",
+    "code": "tll",
+    "name": "Lennart Meri Tallinna lennujaam",
+    "nameEnglish": "Lennart Meri Tallinn Airport",
+    "city": "Tallinn",
+    "state": "",
+    "stateShort": "",
+    "country": "Estonia",
+    "description": "Lennart Meri Airport is named after the second Estonian President, Lennart Meri. Its airport code honors its home in the city of *T*a*ll*inn.",
+    "imageCredit": "Ton Zijlstra",
+    "imageCreditLink": "https://www.flickr.com/photos/tonz/"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "dus",
+    "code": "dus",
+    "name": "Flughafen Düsseldorf",
+    "nameEnglish": "Düsseldorf Airport",
+    "city": "Düsseldorf",
+    "city2": "Dusseldorf",
+    "state": "",
+    "stateShort": "",
+    "country": "Germany",
+    "description": "In 1998, Rhine Ruhr Airport was renamed to *Düs*seldorf International, but dropped the ‘International’ in 2013.",
+    "imageCredit": "Éole Wind",
+    "imageCreditLink": "https://www.flickr.com/photos/eole/"
+}
