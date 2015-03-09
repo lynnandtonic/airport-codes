@@ -1,0 +1,14 @@
+{
+    "id": "dub",
+    "code": "dub",
+    "name": "Aerfort Bhaile Átha Cliath",
+    "name2": "Dublin Airport",
+    "city": "Dublin",
+    "city2": "Collinstown",
+    "state": "",
+    "stateShort": "",
+    "country": "Ireland",
+    "description": "Opened in 1940, Ireland’s busiest airport is located in its capital city of *Dub*lin.",
+    "imageCredit": "tearbringer",
+    "imageCreditLink": "https://www.flickr.com/photos/tearbringer/"
+}
