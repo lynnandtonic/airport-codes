@@ -15,6 +15,9 @@
   @media (min-width: 701px)
     background-image: url(images/conair.jpg)
 
+$media-sm-max = 700px
+$media-md-max = 1500px
+
 // Cards
 .card
 
@@ -136,7 +139,7 @@
 
 
 // Detail Small
-@media (max-width: 700px)
+@media (max-width: $media-sm-max)
   .detail
 
     &.abq { background-image: url($small/$abq) }
@@ -257,7 +260,7 @@
 
 
 // Detail Medium
-@media (min-width: 701px) and (max-width: 1200px)
+@media (min-width: $media-sm-max + 1px) and (max-width: $media-md-max)
   .detail
 
     &.abq { background-image: url($medium/$abq) }
@@ -377,7 +380,7 @@
     &.zrh { background-image: url($medium/$zrh) }
 
 // Detail Large
-@media (min-width: 1201px)
+@media (min-width: $media-md-max + 1px)
   .detail
 
     &.abq { background-image: url($large/$abq) }
