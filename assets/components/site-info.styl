@@ -12,6 +12,16 @@
   text-align: center
   color: white
   {fadeIn}
+  -webkit-transition: opacity .2s ease-out, visibility .2s ease-out
+  -moz-transition: opacity .2s ease-out, visibility .2s ease-out
+  transition: opacity .2s ease-out, visibility .2s ease-out
+
+  &.hidden
+    visibility: hidden
+    opacity: 0
+    -webkit-transition-delay: 0s
+    -moz-transition-delay: 0s
+    transition-delay: 0s
 
   // Header fakeout
   &:after
