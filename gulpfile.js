@@ -1,3 +1,5 @@
+'use strict';
+
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var sourcemaps = require('gulp-sourcemaps');
@@ -11,7 +13,7 @@ var data = require('gulp-data');
 var stylus = require('gulp-stylus');
 var deploy = require('gulp-gh-pages');
 var shell = require('gulp-shell');
-var rimraf = require('gulp-rimraf');
+var del = require('del');
 
 var bundler = watchify(browserify('./src/App.js', watchify.args));
 
@@ -50,16 +52,17 @@ function buildJade() {
     .pipe(gulp.dest('build'));
 }
 
-gulp.task('rm-temp-json', function() {
-  return gulp.src('./dist/*.js', { read: false })
-    .pipe(rimraf());
+gulp.task('rm-temp-json', function(cb) {
+  del([
+    './dist/*.js'
+  ], cb);
 });
 
-gulp.task('make-json', ['rm-temp-json'], shell.task([
+gulp.task('make-json', shell.task([
   'node ./makeJson.js'
 ]));
 
-gulp.task('webserver', function() {
+gulp.task('webserver', ['rm-temp-json', 'make-json', 'build-templates', 'build-stylus', 'build-static', 'build-js'], function() {
 
   var stylWatcher = gulp.watch('assets/**/*.styl', ['build-stylus']);
   var imageWatcher = gulp.watch('assets/**/*', ['build-static']);
@@ -93,7 +96,7 @@ gulp.task('build', ['rm-temp-json', 'make-json', 'build-templates', 'build-stylu
 });
 
 gulp.task('deploy', ['build'], function () {
-  return gulp.src("./build/**/*")
+  return gulp.src('./build/**/*')
     .pipe(deploy({
       cacheDir: './tmp'
     }));
