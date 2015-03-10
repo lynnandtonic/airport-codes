@@ -13,11 +13,15 @@
   background-size: cover
   text-align: center
   {fadeIn}
-  {easeIn}
+  -webkit-transition: opacity .2s ease-in, visibility .2s ease-in
+  -moz-transition: opacity .2s ease-in, visibility .2s ease-in
+  transition: opacity .2s ease-in, visibility .2s ease-in
 
   &.hidden
     visibility: hidden
     opacity: 0
+    -webkit-transition-delay: 0s
+    -moz-transition-delay: 0s
     transition-delay: 0s
 
 .detail
