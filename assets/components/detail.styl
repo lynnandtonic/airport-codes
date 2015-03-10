@@ -7,10 +7,18 @@
   top: 0
   left: 0
   z-index: 2
+  visbility: visible
+  opacity: 1
   background: $grey-drk no-repeat 50% 50%
   background-size: cover
   text-align: center
   {fadeIn}
+  {easeIn}
+
+  &.hidden
+    visibility: hidden
+    opacity: 0
+    transition-delay: 0s
 
 .detail
 

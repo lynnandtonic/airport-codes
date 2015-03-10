@@ -4,7 +4,7 @@ var AirportView = require('./AirportView');
 var AirportListView = Backbone.View.extend({
 
   tagName: 'ul',
-  className: 'cf',
+  className: 'cf airport-list',
 
   initialize: function(options) {
     this.airports = options.airports;

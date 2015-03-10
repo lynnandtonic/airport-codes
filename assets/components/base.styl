@@ -21,8 +21,16 @@ body
   &.detail-open
     overflow: hidden
 
-    & > ul, header
-      display: none
+    nav,
+    .airport-list
+      opacity: 0
+
+nav,
+.airport-list
+  opacity: 1
+  -webkit-transition: opacity .4s ease-in
+  -moz-transition: opacity .4s ease-in
+  transition: opacity .4s ease-in
 
 ::-moz-selection
   background-color: cyan
@@ -44,12 +52,10 @@ p
 
 a
   text-decoration: none
-  -webkit-transition: all .3s ease-in
-  -moz-transition: all .3s ease-in
-  transition: all .3s ease-in
+  {easeIn}
 
-.hidden
-  display: none
+// .hidden
+//   display: none
 
 // Full page overlay
 .overlay
