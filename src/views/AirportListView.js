@@ -1,5 +1,6 @@
 var Backbone = require('backbone');
 var AirportView = require('./AirportView');
+var ContributeItemView = require('./ContributeItemView');
 
 var AirportListView = Backbone.View.extend({
 
@@ -15,6 +16,9 @@ var AirportListView = Backbone.View.extend({
     var views = this.renderAirports();
     this.$el.html('');
     this.$el.append(views);
+
+    var contributeItemView = new ContributeItemView();
+    this.$el.append(contributeItemView.render().el);
     return this;
   },
 

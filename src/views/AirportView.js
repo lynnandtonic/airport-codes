@@ -1,5 +1,4 @@
 var Backbone = require('backbone');
-var AirportDetailView = require('./AirportDetailView');
 var template = require('./templates/AirportView.jade');
 
 var AirportView = Backbone.View.extend({
