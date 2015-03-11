@@ -4,7 +4,7 @@ var template = require('./templates/ContributeItemView.jade');
 var ContributeItemView = Backbone.View.extend({
 
   tagName: 'li',
-  className: 'card',
+  className: 'card card-contribute',
 
   render: function() {
     this.$el.html(template());

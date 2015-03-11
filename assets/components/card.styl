@@ -43,3 +43,56 @@
 
   @media (min-width: 2000px)
     width: 14.28%
+
+.card-contribute
+  position: relative
+
+  .placeholder
+    visibility: hidden
+
+  .card-contribute-content
+    width: 80%
+    {centerContent}
+
+    &:after
+      {centerHoriz}
+      bottom: 0
+      background: white(.5)
+      border-radius: 50%
+      content: '+'
+      color: white
+      text-align: center
+      text-shadow: none
+      -webkit-transition: all .2s ease-in
+      -moz-transition: all .2s ease-in
+      transition: all .2s ease-in
+
+  &:hover
+    .card-contribute-content:after
+      background: $blue
+
+  @media (max-width: 400px)
+
+    .card-contribute-content
+      padding-bottom: 50px
+      font-size: 18px
+      line-height: 22px
+
+      &:after
+        width: 40px
+        height: @width
+        padding: 10px 0
+        font-size: 40px
+
+  @media (min-width: 401px)
+
+    .card-contribute-content
+      padding-bottom: 60px
+      font-size: 22px
+      line-height: 28px
+
+      &:after
+        width: 50px
+        height: @width
+        padding: 13px 0
+        font-size: 50px
