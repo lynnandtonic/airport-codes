@@ -1,0 +1,24 @@
+{
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "ecmaFeatures": {
+    "blockBindings": true,
+    "forOf": true,
+    "nomen": true
+  },
+  "globals": {
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "no-trailing-spaces": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-vars": 0,
+    "camelcase": 0,
+    "eol-last": 0,
+    "space-infix-ops": 0,
+    "no-trailing-spaces": 0,
+    "new-cap": 0
+  }
+}
