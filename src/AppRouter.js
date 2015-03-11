@@ -51,6 +51,7 @@ var Router = Backbone.Router.extend({
 
     this._aboutView.show();
 
+    this._hideContribute();
     this._hideAirports();
     Backbone.$('body').addClass('detail-open');
   },
