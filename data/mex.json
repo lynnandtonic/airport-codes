@@ -1,0 +1,13 @@
+{
+    "id": "mex",
+    "code": "mex",
+    "name": "Aeropuerto Internacional Benito Juárez",
+    "nameEnglish": "Benito Juárez International Airport",
+    "city": "Mexico City",
+    "state": "",
+    "stateShort": "",
+    "country": "Mexico",
+    "description": "Once called Central Airport and most commonly referred to as *Mex*ico City International, Mexico’s busiest airport is named in honor of 19th century president, Benito Juárez.",
+    "imageCredit": "George Oates",
+    "imageCreditLink": "https://www.flickr.com/photos/george/"
+}

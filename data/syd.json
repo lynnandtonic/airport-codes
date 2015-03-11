@@ -1,0 +1,12 @@
+{
+    "id": "syd",
+    "code": "syd",
+    "name": "Sydney (Kingsford Smith) Airport",
+    "city": "Sydney",
+    "state": "New South Wales",
+    "stateShort": "NSW",
+    "country": "Australia",
+    "description": "Kingsford Smith Airport is named in honor of Sir Charles Kingsford Smith, Australian aviator. Its airport code honors its home in *Syd*ney.",
+    "imageCredit": "Bobby Das",
+    "imageCreditLink": "https://www.flickr.com/photos/bobbydas/"
+}
