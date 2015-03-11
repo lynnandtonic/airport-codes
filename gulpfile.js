@@ -9,6 +9,7 @@ var webserver = require('gulp-webserver');
 var jade = require('gulp-jade');
 var data = require('gulp-data');
 var stylus = require('gulp-stylus');
+var minifyCSS = require('gulp-minify-css');
 var deploy = require('gulp-gh-pages');
 
 var bundler = watchify(browserify('./src/App.js', watchify.args));
@@ -36,6 +37,7 @@ function buildStatic() {
 function buildStylus() {
   return gulp.src('assets/app.styl')
     .pipe(stylus())
+    .pipe(minifyCSS({keepBreaks:true}))
     .pipe(gulp.dest('build'));
 }
 
