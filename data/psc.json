@@ -1,0 +1,14 @@
+{
+    "id": "psc",
+    "code": "psc",
+    "name": "Tri-Cities Airport",
+    "city": "Tri-Cities",
+    "city2": "Pasco",
+    "city3": "Richland",
+    "state": "Washington",
+    "stateShort": "WA",
+    "country": "USA",
+    "description": "The US Navy built Naval Air Station *P*a*sc*o during World War II. After the war, the Navy sold the field to the city of Pasco and it was redeveloped into Tri-Cities Airport.",
+    "imageCredit": "Matt McGee",
+    "imageCreditLink": "https://www.flickr.com/photos/pleeker/"
+}

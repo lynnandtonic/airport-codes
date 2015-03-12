@@ -101,6 +101,7 @@ module.exports = {
     require('./phx.json'),
     require('./pit.json'),
     require('./prg.json'),
+    require('./psc.json'),
     require('./pvd.json'),
     require('./pwm.json'),
     require('./rdu.json'),
