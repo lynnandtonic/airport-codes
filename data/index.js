@@ -107,6 +107,7 @@ module.exports = {
     require('./sdf.json'),
     require('./sea.json'),
     require('./sfo.json'),
+    require('./slc.json'),
     require('./smf.json'),
     require('./stl.json'),
     require('./sux.json'),
