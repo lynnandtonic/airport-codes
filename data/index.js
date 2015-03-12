@@ -103,6 +103,7 @@ module.exports = {
     require('./pvd.json'),
     require('./pwm.json'),
     require('./rdu.json'),
+    require('./rix.json'),
     require('./rsw.json'),
     require('./scl.json'),
     require('./sdf.json'),
