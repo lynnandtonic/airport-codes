@@ -36,6 +36,7 @@ module.exports = {
     require('./dca.json'),
     require('./den.json'),
     require('./dfw.json'),
+    require('./dtm.json'),
     require('./dtw.json'),
     require('./dub.json'),
     require('./dus.json'),
