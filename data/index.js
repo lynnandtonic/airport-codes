@@ -23,6 +23,7 @@ module.exports = {
     require('./ccs.json'),
     require('./cdg.json'),
     require('./cgh.json'),
+    require('./cgn.json'),
     require('./chs.json'),
     require('./cid.json'),
     require('./cle.json'),
