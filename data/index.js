@@ -113,6 +113,7 @@ module.exports = {
     require('./sfo.json'),
     require('./slc.json'),
     require('./smf.json'),
+    require('./sna.json'),
     require('./stl.json'),
     require('./sux.json'),
     require('./syd.json'),
