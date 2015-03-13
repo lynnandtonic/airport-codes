@@ -125,6 +125,7 @@ module.exports = {
     require('./tll.json'),
     require('./vie.json'),
     require('./waw.json'),
+    require('./yqb.json'),
     require('./yvr.json'),
     require('./yyz.json'),
     require('./zrh.json')
