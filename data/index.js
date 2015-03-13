@@ -51,6 +51,7 @@ module.exports = {
     require('./fsd.json'),
     require('./geg.json'),
     require('./gig.json'),
+    require('./gla.json'),
     require('./grb.json'),
     require('./grr.json'),
     require('./gru.json'),
