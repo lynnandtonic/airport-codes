@@ -2,12 +2,12 @@
     "id": "sna",
     "code": "sna",
     "name": "John Wayne International Airport",
-    "city": "Santa Ana",
-    "city2": "Orange County",
+    "city": "Orange County",
+    "city2": "Santa Ana",
     "state": "California",
     "stateShort": "CA",
     "country": "USA",
-    "description": "Originally named Orange County Airport, the county Board of Supervisors renamed it in 1979 to honor actor John Wayne, who lived in neighboring Newport Beach and died that year.",
+    "description": "In 1979, Orange County Airport was renamed to honor John Wayne, legendary actor and resident of nearby Newport Beach. Its airport code honors its home in the city of *S*a*n*ta *A*na.",
     "imageCredit": "Peter Talke",
     "imageCreditLink": "https://www.flickr.com/photos/talkephotography/"
 }
