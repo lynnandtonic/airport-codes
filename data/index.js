@@ -41,6 +41,7 @@ module.exports = {
     require('./dub.json'),
     require('./dus.json'),
     require('./dxb.json'),
+    require('./edi.json'),
     require('./evn.json'),
     require('./ewr.json'),
     require('./eze.json'),
