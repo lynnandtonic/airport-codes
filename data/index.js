@@ -9,6 +9,7 @@ module.exports = {
     require('./aus.json'),
     require('./bdl.json'),
     require('./bhm.json'),
+    require('./bhx.json'),
     require('./bna.json'),
     require('./bog.json'),
     require('./boh.json'),
