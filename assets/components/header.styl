@@ -80,6 +80,9 @@ header
 
   header
 
+    .clear
+      display: none
+
     input
       width: 30px
       margin-left: 15px
@@ -97,3 +100,6 @@ header
 
         &:hover
           cursor: default
+
+        & + .clear
+          display: block
