@@ -24,6 +24,7 @@ module.exports = {
     require('./bwi.json'),
     require('./bzn.json'),
     require('./ccs.json'),
+    require('./ccu.json'),
     require('./cdg.json'),
     require('./cgh.json'),
     require('./cgn.json'),
