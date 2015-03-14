@@ -35,6 +35,7 @@ module.exports = {
     require('./day.json'),
     require('./dca.json'),
     require('./den.json'),
+    require('./del.json'),
     require('./dfw.json'),
     require('./dtm.json'),
     require('./dtw.json'),
