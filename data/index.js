@@ -136,6 +136,7 @@ module.exports = {
     require('./wlg.json'),
     require('./yqb.json'),
     require('./yvr.json'),
+    require('./ywg.json'),
     require('./yyz.json'),
     require('./zrh.json')
   ]
