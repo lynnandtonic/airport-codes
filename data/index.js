@@ -93,6 +93,7 @@ module.exports = {
     require('./msy.json'),
     require('./muc.json'),
     require('./nce.json'),
+    require('./nte.json'),
     require('./ogg.json'),
     require('./okc.json'),
     require('./oma.json'),
