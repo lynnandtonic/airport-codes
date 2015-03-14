@@ -37,7 +37,7 @@ header
   input
     width: 50%
     margin-top: 1px
-    padding: 4px 10px 4px 30px
+    padding: 4px 30px
     float: right
     background: white url(images/icon-search.svg) no-repeat 8px 6px
     background-size: 14px 14px
@@ -58,6 +58,21 @@ header
     &:focus
       outline: none
 
+  .clear
+    width: 13px
+    height: @width
+    display: none
+    {centerVert}
+    right: 22px
+    background: url(images/icon-close.svg) no-repeat 0 0
+    background-size: @width @width
+    border: none
+    cursor: pointer
+
+    &:focus
+      outline: none
+
+
 // Search collapse/expand for small screens
 @media (max-width: 500px)
 
@@ -66,7 +81,7 @@ header
     input
       width: 30px
       margin-left: 15px
-      padding-left: 20px
+      padding-right: 0
       position: absolute
       right: 15px
       -webkit-transition: width ease-out .2s
@@ -78,7 +93,7 @@ header
 
       &:focus
         width: calc(100% - 30px)
-        padding-left: 30px
+        padding-right: 30px
 
         &:hover
           cursor: default
