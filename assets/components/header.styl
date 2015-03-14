@@ -61,13 +61,15 @@ header
   .clear
     width: 13px
     height: @width
-    display: none
     {centerVert}
     right: 22px
-    background: url(images/icon-close.svg) no-repeat 0 0
+    background: url(images/icon-close-grey.svg) no-repeat 0 0
     background-size: @width @width
     border: none
     cursor: pointer
+
+    &:hover
+      background-image: url(images/icon-close-red.svg)
 
     &:focus
       outline: none
@@ -84,9 +86,7 @@ header
       padding-right: 0
       position: absolute
       right: 15px
-      -webkit-transition: width ease-out .2s
-      -moz-transition: width ease-out .2s
-      transition: width ease-out .2s
+      transition(width ease-out .2s)
 
       &:hover
         cursor: pointer

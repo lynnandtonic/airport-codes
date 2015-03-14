@@ -13,9 +13,7 @@
   background-size: cover
   text-align: center
   {fadeIn}
-  -webkit-transition: opacity .2s ease-out, visibility .2s ease-out
-  -moz-transition: opacity .2s ease-out, visibility .2s ease-out
-  transition: opacity .2s ease-out, visibility .2s ease-out
+  transition(opacity .2s ease-out, visibility .2s ease-out)
 
   &.hidden
     visibility: hidden
@@ -28,6 +26,15 @@
 
   .detail-info
     border: 1px solid white
+
+    a.close-detail
+      width: 20px
+      height: @width
+      position: absolute
+      right: 10px
+      top: 10px
+      background: url(images/icon-close-white.svg) no-repeat 0 0
+      background-size: @width @width
 
   h1
     margin-bottom: 20px
@@ -74,9 +81,7 @@
       background: no-repeat 0 0
       background-size: auto @height
       text-indent: -9999em
-      -webkit-transition: none
-      -moz-transition: none
-      transition: none
+      transition(none)
 
       &.twitter
         background-image: url(images/logo-twitter.svg)
@@ -85,6 +90,7 @@
 
       &:hover
         opacity: .6
+
 
   // Photographer credit and link
   .photo-credit
@@ -115,7 +121,7 @@
     .detail-info
       min-height: 320px
       padding: 25px
-      position: static
+      position: relative
       top: 0
       left: 0
 
@@ -158,7 +164,7 @@
     .detail-info
       min-height: 320px
       margin: 0 auto
-      position: static
+      position: relative
       top: 0
       left: 0
       transform(none)
