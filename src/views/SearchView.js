@@ -10,7 +10,8 @@ var SearchView = Backbone.View.extend({
   tagName: 'header',
 
   events: {
-    'keyup input': '_handleKey'
+    'keyup input': '_handleKey',
+    'click button.clear': '_handleReset'
   },
 
   initialize: function(options) {
@@ -20,6 +21,11 @@ var SearchView = Backbone.View.extend({
   _handleKey: function(event) {
     var $el = this.$(event.target);
     this._search($el.val());
+  },
+
+  _handleReset: function(event) {
+    event.preventDefault();
+    this.$('input').val('').keyup();
   },
 
   _search: function(value) {
