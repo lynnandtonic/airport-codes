@@ -9,6 +9,7 @@ var Router = Backbone.Router.extend({
 
   initialize: function(options) {
     this.airports = options.airports;
+    this._lastOffset = 0;
   },
 
   routes: {
@@ -36,10 +37,16 @@ var Router = Backbone.Router.extend({
     }
   },
 
+  _resetOffset: function() {
+    Backbone.$('body').scrollTop(this._lastOffset);
+  },
+
   default: function() {
     this._hideAbout();
     this._hideContribute();
     this._hideAirports();
+    this._resetOffset();
+
     Backbone.$('body').removeClass('detail-open');
   },
 
@@ -50,9 +57,10 @@ var Router = Backbone.Router.extend({
     }
 
     this._aboutView.show();
-
     this._hideContribute();
     this._hideAirports();
+    this._lastOffset = window.scrollY;
+
     Backbone.$('body').addClass('detail-open');
   },
 
@@ -63,9 +71,10 @@ var Router = Backbone.Router.extend({
     }
 
     this._contributeView.show();
-
     this._hideAirports();
     this._hideAbout();
+    this._lastOffset = window.scrollY;
+
     Backbone.$('body').addClass('detail-open');
   },
 
@@ -75,6 +84,7 @@ var Router = Backbone.Router.extend({
     this._hideAbout();
     this._hideContribute();
     this._hideAirports();
+    this._lastOffset = window.scrollY;
 
     if (airport) {
       if (this.views.indexOf(code) < 0) {
