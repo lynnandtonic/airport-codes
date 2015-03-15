@@ -1,12 +1,15 @@
 {
     "id": "cgk",
     "code": "cgk",
-    "name": "Soekarno–Hatta International Airport",
-    "city": "Tangerang",
+    "name": "Bandar Udara Internasional Soekarno–Hatta",
+    "nameEnglish": "Soekarno–Hatta International Airport",
+    "city": "Jakarta",
+    "city2": "Tangerang",
+    "city3": "Jabodetabek",
     "state": "Banten",
     "stateShort": "",
     "country": "Indonesia",
-    "description": "The airport that serves Indonesia's capital city of Jakarta is located in the nearby city of Tangerang, and receives its code from the *C*en*gk*areng  district of the city in which it is located.",
-    "imageCredit": "Ikhlasul Amal",
-    "imageCreditLink": "https://www.flickr.com/photos/ikhlasulamal/6461207331/"
+    "description": "Soekarno–Hatta International serves the capital city of Jakarta and honors Indonesia’s first president and vice-president. It receives its code from the *C*en*gk*areng district in the city of Tangerang, where it’s located.",
+    "imageCredit": "donoshsugi",
+    "imageCreditLink": "https://www.flickr.com/photos/12099048@N00/"
 }
