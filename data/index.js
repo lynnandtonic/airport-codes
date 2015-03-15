@@ -108,6 +108,7 @@ module.exports = {
     require('./orf.json'),
     require('./ory.json'),
     require('./osl.json'),
+    require('./otp.json'),
     require('./pdx.json'),
     require('./pek.json'),
     require('./phl.json'),
