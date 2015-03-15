@@ -78,6 +78,7 @@ module.exports = {
     require('./icn.json'),
     require('./ict.json'),
     require('./ind.json'),
+    require('./isb.json'),
     require('./ist.json'),
     require('./jac.json'),
     require('./jfk.json'),
