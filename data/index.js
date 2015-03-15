@@ -29,6 +29,7 @@ module.exports = {
     require('./ccu.json'),
     require('./cdg.json'),
     require('./cgh.json'),
+    require('./cgk.json'),
     require('./cgn.json'),
     require('./chs.json'),
     require('./cid.json'),
