@@ -126,6 +126,7 @@ module.exports = {
     require('./sdf.json'),
     require('./sea.json'),
     require('./sfo.json'),
+    require('./sjc.json'),
     require('./slc.json'),
     require('./smf.json'),
     require('./sna.json'),
