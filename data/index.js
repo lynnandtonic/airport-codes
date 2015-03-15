@@ -85,6 +85,7 @@ module.exports = {
     require('./lim.json'),
     require('./lis.json'),
     require('./lit.json'),
+    require('./maa.json'),
     require('./mad.json'),
     require('./mci.json'),
     require('./mco.json'),
