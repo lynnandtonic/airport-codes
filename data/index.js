@@ -129,6 +129,7 @@ module.exports = {
     require('./pwm.json'),
     require('./rdu.json'),
     require('./rix.json'),
+    require('./roa.json'),
     require('./rsw.json'),
     require('./scl.json'),
     require('./sdf.json'),
