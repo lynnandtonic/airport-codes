@@ -143,6 +143,7 @@ module.exports = {
     require('./yvr.json'),
     require('./ywg.json'),
     require('./yyz.json'),
+    require('./zag.json'),
     require('./zrh.json')
   ]
 };
