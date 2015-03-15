@@ -140,6 +140,7 @@ module.exports = {
     require('./tbs.json'),
     require('./tia.json'),
     require('./tll.json'),
+    require('./tul.json'),
     require('./txl.json'),
     require('./vie.json'),
     require('./waw.json'),
