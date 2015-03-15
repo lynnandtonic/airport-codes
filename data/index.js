@@ -82,6 +82,7 @@ module.exports = {
     require('./jac.json'),
     require('./jfk.json'),
     require('./kef.json'),
+    require('./khi.json'),
     require('./las.json'),
     require('./lax.json'),
     require('./lga.json'),
