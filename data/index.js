@@ -79,6 +79,7 @@ module.exports = {
     require('./ist.json'),
     require('./jac.json'),
     require('./jfk.json'),
+    require('./kef.json'),
     require('./las.json'),
     require('./lax.json'),
     require('./lga.json'),
