@@ -1,0 +1,13 @@
+{
+	"id": "cok",
+	"code": "cok",
+	"name":	"Cochin International Airport",
+	"city":	"Kochi",
+	"city2": "Cochin",
+	"state": "Kerala",
+	"stateShort": "KL",
+	"country": "India",
+	"description": "Cochin International was named after city's old name. Its airport code honors its home in city's new name *Koc*hi.",
+	"imageCredit": "Prasad Pillai",
+	"imageCreditLink": "https://www.flickr.com/photos/prasad-om/"
+}
