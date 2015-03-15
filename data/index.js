@@ -13,6 +13,7 @@ module.exports = {
     require('./bey.json'),
     require('./bhm.json'),
     require('./bhx.json'),
+    require('./blr.json'),
     require('./bna.json'),
     require('./bog.json'),
     require('./boh.json'),
