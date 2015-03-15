@@ -128,6 +128,7 @@ module.exports = {
     require('./sna.json'),
     require('./stl.json'),
     require('./sux.json'),
+    require('./sxf.json'),
     require('./syd.json'),
     require('./szg.json'),
     require('./tbs.json'),
