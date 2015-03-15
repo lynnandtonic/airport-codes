@@ -53,6 +53,7 @@ module.exports = {
     require('./evn.json'),
     require('./ewr.json'),
     require('./eze.json'),
+    require('./fae.json'),
     require('./fat.json'),
     require('./fca.json'),
     require('./fco.json'),
