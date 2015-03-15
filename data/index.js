@@ -141,6 +141,7 @@ module.exports = {
     require('./slc.json'),
     require('./smf.json'),
     require('./sna.json'),
+    require('./sof.json'),
     require('./stl.json'),
     require('./sux.json'),
     require('./sxf.json'),
