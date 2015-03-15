@@ -10,6 +10,7 @@ module.exports = {
     require('./aza.json'),
     require('./bdl.json'),
     require('./beg.json'),
+    require('./bey.json'),
     require('./bhm.json'),
     require('./bhx.json'),
     require('./bna.json'),
