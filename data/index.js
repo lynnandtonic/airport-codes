@@ -133,6 +133,7 @@ module.exports = {
     require('./tbs.json'),
     require('./tia.json'),
     require('./tll.json'),
+    require('./txl.json'),
     require('./vie.json'),
     require('./waw.json'),
     require('./wlg.json'),
