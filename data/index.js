@@ -104,6 +104,7 @@ module.exports = {
     require('./mco.json'),
     require('./mdt.json'),
     require('./mdw.json'),
+    require('./mel.json'),
     require('./mem.json'),
     require('./mex.json'),
     require('./mht.json'),
