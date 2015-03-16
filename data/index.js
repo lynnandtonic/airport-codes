@@ -90,6 +90,7 @@ module.exports = {
     require('./khi.json'),
     require('./las.json'),
     require('./lax.json'),
+    require('./led.json'),
     require('./lga.json'),
     require('./lhe.json'),
     require('./lhr.json'),
