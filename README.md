@@ -44,6 +44,7 @@ Add the airport to `/data/index.js`.
 ### Images
 
 - Please use photos from Flickr that are licensed under Creative Commons.
+- If photos are not available on Flickr then please use Wikipedia with the same lincense.
 - Please save out 4 sizes of each image with the filename convention `code-photographer.jpg`
   - Card, 250px height, put in `assets/images/card`
   - Small, 500px width, put in `assets/images/small`
