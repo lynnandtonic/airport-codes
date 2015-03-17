@@ -147,6 +147,7 @@ module.exports = {
     require('./rix.json'),
     require('./roa.json'),
     require('./rsw.json'),
+    require('./san.json'),
     require('./scl.json'),
     require('./sdf.json'),
     require('./sea.json'),
