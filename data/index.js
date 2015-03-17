@@ -103,6 +103,7 @@ module.exports = {
     require('./lit.json'),
     require('./lju.json'),
     require('./lpb.json'),
+    require('./lwo.json'),
     require('./lys.json'),
     require('./maa.json'),
     require('./mad.json'),
