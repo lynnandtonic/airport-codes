@@ -88,6 +88,7 @@ module.exports = {
     require('./isb.json'),
     require('./ist.json'),
     require('./jac.json'),
+    require('./jed.json'),
     require('./jfk.json'),
     require('./kef.json'),
     require('./khi.json'),
