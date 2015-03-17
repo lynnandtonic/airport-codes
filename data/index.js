@@ -78,6 +78,7 @@ module.exports = {
     require('./hnd.json'),
     require('./hnl.json'),
     require('./hou.json'),
+    require('./hyd.json'),
     require('./iad.json'),
     require('./iah.json'),
     require('./icn.json'),
