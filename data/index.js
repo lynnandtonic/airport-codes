@@ -105,6 +105,7 @@ module.exports = {
     require('./lys.json'),
     require('./maa.json'),
     require('./mad.json'),
+    require('./man.json'),
     require('./mci.json'),
     require('./mco.json'),
     require('./mdt.json'),
