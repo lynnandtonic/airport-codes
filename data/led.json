@@ -1,0 +1,13 @@
+{
+"id": "led",
+"code": "led",
+"name": "Международный аэропорт “Пулково”",
+"nameEnglish": "Pulkovo International Airport",
+"city": "Saint Petersburg",
+"state": "",
+"stateShort": "",
+"country": "Russia",
+"description": "Code is taken from the “Leningrad“ name, which was assigned to the city in 1924. In 1991 original name “Saint Petersburg“ was returned, but airport code is kept and now associated with led lights for many visitors.",
+"imageCredit": "",
+"imageCreditLink": ""
+}
