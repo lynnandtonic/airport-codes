@@ -42,6 +42,7 @@ module.exports = {
     require('./cnx.json'),
     require('./cok.json'),
     require('./cph.json'),
+    require('./cpt.json'),
     require('./crw.json'),
     require('./cvg.json'),
     require('./dal.json'),
