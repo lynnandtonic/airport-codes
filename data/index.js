@@ -100,6 +100,7 @@ module.exports = {
     require('./lis.json'),
     require('./lit.json'),
     require('./lju.json'),
+    require('./lpb.json'),
     require('./lys.json'),
     require('./maa.json'),
     require('./mad.json'),
