@@ -163,6 +163,7 @@ module.exports = {
     require('./tia.json'),
     require('./tll.json'),
     require('./tlv.json'),
+    require('./tse.json'),
     require('./tul.json'),
     require('./txl.json'),
     require('./vie.json'),
