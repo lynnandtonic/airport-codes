@@ -1,13 +1,14 @@
 {
     "id": "lpb",
     "code": "lpb",
-    "name": "El Alto International Airport",
+    "name": "Aeropuerto Internacional El Alto",
+    "nameEnglish": "El Alto International Airport",
     "city": "La Paz",
-    "city": "El Alto",
+    "city2": "El Alto",
     "state": "",
     "stateShort": "",
     "country": "Bolivia",
-    "description": "The highest international airport in the world, at 13,325 feet (4061m), El Alto's airport code honors its home near *L*a *P*az, *B*olivia.",
+    "description": "The highest international airport in the world, at 13,325 ft (4061 m), El Alto’s airport code honors the nearby city of *L*a *P*az, *B*olivia.",
     "imageCredit": " Carlos Hernández",
-    "imageCreditLink": "https://www.flickr.com/photos/38440152@N06/5009004139/"
+    "imageCreditLink": "https://www.flickr.com/photos/38440152@N06/"
 }
