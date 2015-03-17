@@ -167,6 +167,7 @@ module.exports = {
     require('./ylt.json'),
     require('./ylw.json'),
     require('./yqb.json'),
+    require('./yul.json'),
     require('./yvr.json'),
     require('./ywg.json'),
     require('./yyz.json'),
