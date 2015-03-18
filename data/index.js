@@ -45,6 +45,7 @@ module.exports = {
     require('./cpt.json'),
     require('./crw.json'),
     require('./cvg.json'),
+    require('./cwb.json'),
     require('./dal.json'),
     require('./day.json'),
     require('./dca.json'),
