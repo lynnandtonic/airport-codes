@@ -170,6 +170,7 @@ module.exports = {
     require('./tul.json'),
     require('./txl.json'),
     require('./vie.json'),
+    require('./vlc.json'),
     require('./waw.json'),
     require('./wlg.json'),
     require('./ylt.json'),
