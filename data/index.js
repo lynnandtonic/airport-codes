@@ -125,6 +125,7 @@ module.exports = {
     require('./msy.json'),
     require('./muc.json'),
     require('./nce.json'),
+    require('./nrt.json'),
     require('./nte.json'),
     require('./ogg.json'),
     require('./okc.json'),
