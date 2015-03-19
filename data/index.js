@@ -3,6 +3,7 @@ module.exports = {
     require('./abq.json'),
     require('./akl.json'),
     require('./amd.json'),
+    require('./amm.json'),
     require('./ams.json'),
     require('./anc.json'),
     require('./arn.json'),
