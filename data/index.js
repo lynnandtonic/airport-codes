@@ -125,6 +125,7 @@ module.exports = {
     require('./mia.json'),
     require('./mle.json'),
     require('./mke.json'),
+    require('./mru.json'),
     require('./msp.json'),
     require('./msy.json'),
     require('./muc.json'),
