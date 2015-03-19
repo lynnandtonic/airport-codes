@@ -151,6 +151,7 @@ module.exports = {
     require('./pvd.json'),
     require('./pwm.json'),
     require('./rdu.json'),
+    require('./rgn.json'),
     require('./rix.json'),
     require('./roa.json'),
     require('./rsw.json'),
