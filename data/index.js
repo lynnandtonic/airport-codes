@@ -160,6 +160,7 @@ module.exports = {
     require('./sdf.json'),
     require('./sea.json'),
     require('./sfo.json'),
+    require('./sgn.json'),
     require('./sin.json'),
     require('./sjc.json'),
     require('./slc.json'),
