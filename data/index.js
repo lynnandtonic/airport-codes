@@ -24,6 +24,7 @@ module.exports = {
     require('./bom.json'),
     require('./bos.json'),
     require('./bru.json'),
+    require('./bsb.json'),
     require('./btv.json'),
     require('./bud.json'),
     require('./buf.json'),
