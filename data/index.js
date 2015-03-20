@@ -106,6 +106,7 @@ module.exports = {
     require('./lax.json'),
     require('./led.json'),
     require('./lga.json'),
+    require('./lgw.json'),
     require('./lhe.json'),
     require('./lhr.json'),
     require('./lim.json'),
