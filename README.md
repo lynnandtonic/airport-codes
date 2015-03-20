@@ -45,15 +45,14 @@ Add the airport to `/data/index.js`.
 
 - Please use photos from Flickr that are licensed under Creative Commons.
 - If photos are not available on Flickr, please use Wikipedia with the same license.
-- Please save out 4 sizes of each image with the filename convention `code-photographer.jpg`
+- Please save out 4 sizes of each image as a JPG with the filename convention `code-photographer.jpg`
   - Card, 250px height, put in `assets/images/card`
   - Small, 500px width, put in `assets/images/small`
   - Medium, 900px width, put in `assets/images/medium`
   - Large, 1500px width, put in `assets/images/large`
 - Please optimize images
 
-- Add variable and image name to `/assets/globals/image-names.styl`. That will look something like this: `$aus = 'aus-jon-collier.jpg'`
-- Add image paths for card, small, medium, and large to `assets/components/backgrounds.styl`.
+- Add variable and photographer name to `/assets/globals/image-names.styl`. The photographer name must match how it is spelled in the image file name. So if an image is named `abq-david-basanta.jpg` you would add `'abq': 'david-basanta'` to the `image-names.styl`.
 
 ## Editing Templates
 
