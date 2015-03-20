@@ -1,12 +1,13 @@
 {
     "id": "ath",
     "code": "ath",
-    "name": "Eleftherios Venizelos Airport",
+    "name": "Diethnís Aeroliménas Athinón “Elefthérios Venizélos”",
+    "name": "Athens International Airport “Eleftherios Venizelos”",
     "city": "Athens",
     "state": "",
     "stateShort": "",
     "country": "Greece",
-    "description": "Named after the prominent Cretan political figure and Prime Minister of Greece, who made a significant contribution to the development of Greek aviation and the Hellenic Air Force in the 1930s, Greece's main international airport gets its code from the capital, *ATH*ens.",
+    "description": "Eleftherios Venizelos Airport is named after the Cretan political leader and Prime Minister of Greece who pushed the development of Greek aviation. Its airport code comes from the capital city of *Ath*ens.",
     "imageCredit": "Dinos",
     "imageCreditLink": "https://www.flickr.com/photos/netuser/"
 }
