@@ -1,0 +1,13 @@
+{
+    "id": "anr",
+    "code": "anr",
+    "name": "Antwerp International Airport",
+    "city": "Antwerpen",
+    "city2": "Deurne",
+    "state": "",
+    "stateShort": "",
+    "country": "Belgium",
+    "description": "Small scale international airport serving Belgium's second biggest city. The code refers directly to the city of *AN*twe*R*p.",
+    "imageCredit": "Stijn Hosdez",
+    "imageCreditLink": "https://www.flickr.com/photos/shosdez/"
+}
