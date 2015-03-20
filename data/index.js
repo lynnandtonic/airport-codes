@@ -130,6 +130,7 @@ module.exports = {
     require('./msp.json'),
     require('./msy.json'),
     require('./muc.json'),
+    require('./nag.json'),
     require('./nce.json'),
     require('./nrt.json'),
     require('./nte.json'),
