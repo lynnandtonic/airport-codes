@@ -24,7 +24,6 @@ $media-md-max = 1500px
   for $code, $photographer in $images
     &.{$code} { background-image: url($card/$code\-$photographer.$image-ext) }
 
-
 // Detail Small
 @media (max-width: $media-sm-max)
   .detail
@@ -32,14 +31,12 @@ $media-md-max = 1500px
     for $code, $photographer in $images
       &.{$code} { background-image: url($small/$code\-$photographer.$image-ext) }
 
-
 // Detail Medium
 @media (min-width: $media-sm-max + 1px) and (max-width: $media-md-max)
   .detail
 
     for $code, $photographer in $images
       &.{$code} { background-image: url($medium/$code\-$photographer.$image-ext) }
-
 
 // Detail Large
 @media (min-width: $media-md-max + 1px)
