@@ -174,6 +174,7 @@ module.exports = {
     require('./sof.json'),
     require('./stl.json'),
     require('./sts.json'),
+    require('./sub.json'),
     require('./sux.json'),
     require('./sxf.json'),
     require('./syd.json'),
