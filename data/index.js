@@ -1,6 +1,7 @@
 module.exports = {
   airports: [
     require('./abq.json'),
+    require('./adl.json'),
     require('./akl.json'),
     require('./amd.json'),
     require('./amm.json'),
