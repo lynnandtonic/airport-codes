@@ -147,6 +147,7 @@ module.exports = {
     require('./phl.json'),
     require('./phx.json'),
     require('./pit.json'),
+    require('./pos.json'),
     require('./prg.json'),
     require('./psc.json'),
     require('./pvd.json'),
