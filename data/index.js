@@ -112,6 +112,7 @@ module.exports = {
     require('./rdu.json'),
     require('./rix.json'),
     require('./rsw.json'),
+    require('./sav.json'),
     require('./scl.json'),
     require('./sdf.json'),
     require('./sea.json'),
