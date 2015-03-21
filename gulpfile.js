@@ -8,13 +8,14 @@ var browserify = require('browserify');
 var webserver = require('gulp-webserver');
 var jade = require('gulp-jade');
 var data = require('gulp-data');
+var concatJson = require('gulp-concat-json');
 var stylus = require('gulp-stylus');
 var minifyCSS = require('gulp-minify-css');
 var deploy = require('gulp-gh-pages');
 
 var bundler = watchify(browserify('./src/App.js', watchify.args));
 
-gulp.task('build-js', bundle); // so you can run `gulp js` to build the file
+gulp.task('build-js', ['build-json'], bundle); // so you can run `gulp js` to build the file
 bundler.on('update', bundle); // on any dep update, runs the bundler
 
 function bundle() {
@@ -29,13 +30,23 @@ function bundle() {
     .pipe(gulp.dest('./build'));
 }
 
+function buildJson() {
+  return gulp.src('./data/**/*.json')
+    .pipe(concatJson('index.js'))
+    .pipe(data(function(file){
+      file.contents = new Buffer("module.exports={airports:"+String(file.contents)+"};");
+      return file;
+    }))
+    .pipe(gulp.dest('./data'));
+}
+
 function buildStatic() {
-  return gulp.src('assets/**/*')
+  return gulp.src('./assets/**/*')
     .pipe(gulp.dest('build'));
 }
 
 function buildStylus() {
-  return gulp.src('assets/app.styl')
+  return gulp.src('./assets/app.styl')
     .pipe(stylus())
     .pipe(minifyCSS({keepBreaks:true}))
     .pipe(gulp.dest('build'));
@@ -43,9 +54,6 @@ function buildStylus() {
 
 function buildJade() {
   return gulp.src('./templates/**/*.jade')
-    .pipe(data(function() {
-      return require('./data');
-    }))
     .pipe(jade())
     .pipe(gulp.dest('build'));
 }
@@ -55,6 +63,7 @@ gulp.task('webserver', function() {
   var stylWatcher = gulp.watch('assets/**/*.styl', ['build-stylus']);
   var imageWatcher = gulp.watch('assets/**/*', ['build-static']);
   var jadeWatcher = gulp.watch('templates/**/*.jade', ['build-templates']);
+  var jsonWatcher = gulp.watch('data/**/*.json', ['build-json']);
 
   gulp.src('build')
     .pipe(webserver({
@@ -63,6 +72,10 @@ gulp.task('webserver', function() {
       directoryListing: false,
       open: true
     }));
+});
+
+gulp.task('build-json', function() {
+  return buildJson();
 });
 
 gulp.task('build-static', function() {
