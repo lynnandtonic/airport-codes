@@ -39,7 +39,7 @@ You can also optionally add for aid in searching:
 - `city2` = another city or county the airport may be known for
 - `city3` = another city or county the airport may be known for
 
-Add the airport to `/data/index.js`.
+Adding a `json` file to `/data` will automatically render it. You do not need to manually add the path anywhere.
 
 ### Images
 
