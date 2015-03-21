@@ -76,6 +76,7 @@ module.exports = {
     require('./fat.json'),
     require('./fca.json'),
     require('./fco.json'),
+    require('./flr.json'),
     require('./fra.json'),
     require('./fsd.json'),
     require('./gan.json'),
