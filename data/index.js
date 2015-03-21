@@ -82,6 +82,7 @@ module.exports = {
     require('./fra.json'),
     require('./fsd.json'),
     require('./gan.json'),
+    require('./gau.json'),
     require('./geg.json'),
     require('./gig.json'),
     require('./gla.json'),
