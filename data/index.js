@@ -7,6 +7,7 @@ module.exports = {
     require('./amm.json'),
     require('./ams.json'),
     require('./anc.json'),
+    require('./anr.json'),
     require('./arn.json'),
     require('./ath.json'),
     require('./atl.json'),
