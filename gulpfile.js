@@ -70,7 +70,7 @@ gulp.task('webserver', function() {
       port: 3456,
       livereload: true,
       directoryListing: false,
-      open: true
+      open: false
     }));
 });
 

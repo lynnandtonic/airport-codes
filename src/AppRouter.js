@@ -38,7 +38,7 @@ var Router = Backbone.Router.extend({
   },
 
   _resetOffset: function() {
-    Backbone.$('body').scrollTop(this._lastOffset);
+    Backbone.$(window).scrollTop(this._lastOffset);
   },
 
   default: function() {
