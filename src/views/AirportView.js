@@ -30,6 +30,7 @@ var AirportView = Backbone.View.extend({
 
   lazyLoad: function() {
     this._setClassName();
+    this.loaded = true;
   },
 
   render: function() {
