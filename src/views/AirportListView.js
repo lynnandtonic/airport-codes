@@ -10,6 +10,28 @@ var AirportListView = Backbone.View.extend({
   initialize: function(options) {
     this.airports = options.airports;
     this.render();
+
+    var self = this;
+    Backbone.$(window).scroll(function() {
+      self._updateViews(arguments);
+    });
+
+    Backbone.$(window).resize(function() {
+      self._updateViews(arguments);
+    });
+  },
+
+  _updateViews: function(event) {
+    var scrollY = window.scrollY;
+    var height = window.innerHeight;
+
+    for(var i=0;i<this._views.length;i++) {
+      var view = this._views[i];
+
+      if (scrollY+height+300 >= view.$el.offset().top) {
+        view.lazyLoad();
+      }
+    }
   },
 
   render: function() {
@@ -19,6 +41,12 @@ var AirportListView = Backbone.View.extend({
 
     var contributeItemView = new ContributeItemView();
     this.$el.append(contributeItemView.render().el);
+
+    var self = this;
+    process.nextTick(function(){
+      self._updateViews();
+    });
+
     return this;
   },
 
