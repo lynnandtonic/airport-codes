@@ -16,6 +16,7 @@ module.exports = {
     require('./bdl.json'),
     require('./beg.json'),
     require('./bey.json'),
+    require('./bgr.json'),
     require('./bhm.json'),
     require('./bhx.json'),
     require('./bkk.json'),
