@@ -90,6 +90,7 @@ module.exports = {
     require('./grr.json'),
     require('./gru.json'),
     require('./gyd.json'),
+    require('./haj.json'),
     require('./hel.json'),
     require('./hkg.json'),
     require('./hnd.json'),
