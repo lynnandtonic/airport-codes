@@ -198,6 +198,7 @@ module.exports = {
     require('./vlc.json'),
     require('./waw.json'),
     require('./wlg.json'),
+    require('./xry.json'),
     require('./ygo.json'),
     require('./ylt.json'),
     require('./ylw.json'),
