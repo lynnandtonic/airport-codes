@@ -1,13 +1,15 @@
 {
     "id": "anr",
     "code": "anr",
-    "name": "Antwerp International Airport",
-    "city": "Antwerpen",
-    "city2": "Deurne",
+    "name": "Internationale Luchthaven Antwerpen",
+    "nameEnglish": "Antwerp International Airport",
+    "city": "Antwerp",
+    "city2": "Antwerpen",
+    "city3": "Deurne",
     "state": "",
     "stateShort": "",
     "country": "Belgium",
-    "description": "Small scale international airport serving Belgium's second biggest city. The code refers directly to the city of *AN*twe*R*p.",
+    "description": "Antwerp International is a small scale airport serving Belgium’s second biggest city. Its airport code refers directly to the city of *An*twe*r*p.",
     "imageCredit": "Stijn Hosdez",
     "imageCreditLink": "https://www.flickr.com/photos/shosdez/"
 }
