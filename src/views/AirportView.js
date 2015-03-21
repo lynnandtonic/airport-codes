@@ -25,12 +25,13 @@ var AirportView = Backbone.View.extend({
 
   _setClassName: function() {
     this.$el.addClass(this.model.get('code'));
+    this.$el.toggleClass('loaded', this.loaded);
     this.$el.toggleClass('hidden', !this.model.get('visible'));
   },
 
   lazyLoad: function() {
-    this._setClassName();
     this.loaded = true;
+    this._setClassName();
   },
 
   render: function() {
