@@ -33,6 +33,7 @@ module.exports = {
     require('./btv.json'),
     require('./bud.json'),
     require('./buf.json'),
+    require('./bur.json'),
     require('./bwi.json'),
     require('./bzn.json'),
     require('./ccs.json'),
