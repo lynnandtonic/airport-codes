@@ -11,6 +11,8 @@ var AirportListView = Backbone.View.extend({
     this.airports = options.airports;
     this.render();
 
+    this.airports.on('change', this._updateViews, this);
+
     var self = this;
     Backbone.$(window).scroll(function() {
       self._updateViews(arguments);
