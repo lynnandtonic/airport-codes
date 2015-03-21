@@ -189,6 +189,7 @@ module.exports = {
     require('./tia.json'),
     require('./tll.json'),
     require('./tlv.json'),
+    require('./tpe.json'),
     require('./trv.json'),
     require('./tse.json'),
     require('./tul.json'),
