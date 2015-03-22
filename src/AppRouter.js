@@ -88,7 +88,7 @@ var Router = Backbone.Router.extend({
 
     if (airport) {
       if (this.views.indexOf(code) < 0) {
-        var view = new AirportDetailView({model: airport});
+        var view = new AirportDetailView({airports: this.airports, model: airport});
         view.render();
         this.views.push(code);
       }

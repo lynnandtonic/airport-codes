@@ -8,7 +8,12 @@ var AirportDetailView = Backbone.View.extend({
   tagName: 'div',
   className: 'detail',
 
-  initialize: function() {
+  events: {
+    'click a.random': '_handleRandom'
+  },
+
+  initialize: function(options) {
+    this.airports = options.airports;
     this.model.on('change:showDetail', this.toggle, this);
   },
 
@@ -39,6 +44,12 @@ var AirportDetailView = Backbone.View.extend({
 
   toggle: function() {
     this.$el.toggleClass('hidden', !this.model.get('showDetail'));
+  },
+
+  _handleRandom: function(event) {
+    event.preventDefault();
+    var len = this.airports.length;
+    window.location.href = '#airport/' + this.airports.at(Math.floor(Math.random()*len)).get('id');
   },
 
   _setClassName: function() {
