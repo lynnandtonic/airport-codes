@@ -1,0 +1,13 @@
+{
+    "id": "lcy",
+    "code": "lcy",
+    "name": "London City Airport",
+    "city": "London",
+    "city2": "Silvertown",
+    "state": "England",
+    "stateShort": "",
+    "country": "UK",
+    "description": "Owing to its proximity to London's Docklands and financial district *L*ondon *C*it*y* main users are business travellers, but the number of leisure destinations served has increased in recent years.",
+    "imageCredit": "Jonathan E. Shaw",
+    "imageCreditLink": "https://www.flickr.com/photos/johnnyshaw/"
+}
