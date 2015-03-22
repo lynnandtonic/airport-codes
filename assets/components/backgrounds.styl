@@ -22,7 +22,8 @@ $media-md-max = 1500px
 .card
 
   for $code, $photographer in $images
-    &.{$code} { background-image: url($card/$code\-$photographer.$image-ext) }
+    &.{$code}
+      .background { background-image: url($card/$code\-$photographer.$image-ext) }
 
 // Detail Small
 @media (max-width: $media-sm-max)
