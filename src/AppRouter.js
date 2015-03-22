@@ -52,7 +52,7 @@ var Router = Backbone.Router.extend({
 
   about: function() {
     if (!this._aboutView) {
-      this._aboutView = new AboutView();
+      this._aboutView = new AboutView({airports: this.airports});
       Backbone.$('body').append(this._aboutView.render().el);
     }
 
