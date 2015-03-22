@@ -17,11 +17,18 @@ div.overlay
       p.quote “Hey, you left [my airport] off the list!”
       a.btn(href="#contribute") Contribute
       hr
-      h3 Stats
-      p #{airportCount} airports from #{countryCount} countries.
+      h3 airportcod.es Status
+      div.stats
+        p
+          span.stat #{airportCount}
+          span= ' airports'
+        p
+          span= 'from '
+          span.stat #{countryCount}
+          span= ' countries'
       hr
       div.footnote
-        p All photographs are from Flickr, under Creative Commons licenses.
+        p All photographs are from Flickr & Wikipedia, under Creative Commons licenses.
         p Sources: 
           a(href="http://www.wikipedia.org/") wikipedia.org
           | , 
