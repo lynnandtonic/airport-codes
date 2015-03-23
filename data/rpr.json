@@ -1,12 +1,14 @@
 {
-	"id": "rpr",
-	"code": "rpr",
-	"name":	"Swami Vivekananda International Airport",
-	"city":	"Raipur",
-	"state": "Chhattisgarh",
-	"stateShort": "CT",
-	"country": "India",
-	"description": "Formely known as Mana airport, Swami Vivekananda International was renamed in 2012 to honor well known Indian saint. Its airport code honors its home in the city of *R*ai*p*u*r*.",
-	"imageCredit": "Ambuj Kulshresth",
-	"imageCreditLink": "http://en.wikipedia.org/wiki/File:Swami_Vivekananda_Airport_Raipur.JPG"
+    "id": "rpr",
+    "code": "rpr",
+    "name":	"Swami Vivekananda International Airport",
+    "city":	"Raipur",
+    "city2": "Mana",
+    "city3": "Naya Raipur",
+    "state": "Chhattisgarh",
+    "stateShort": "CT",
+    "country": "India",
+    "description": "Formerly known as Mana Airport, Swami Vivekananda International was renamed in 2012 to honor the well-known Indian saint. Its airport code honors the city it serves: *R*ai*p*u*r*.",
+    "imageCredit": "Ambuj Kulshresth",
+    "imageCreditLink": "http://en.wikipedia.org/wiki/File:Swami_Vivekananda_Airport_Raipur.JPG"
 }
