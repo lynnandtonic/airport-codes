@@ -1,0 +1,13 @@
+{
+	"id": "sha",
+	"code": "sha",
+	"name":	"上海虹桥国际机场",
+	"nameEnglish": "Shanghai Hongqiao International Airport",
+	"city":	"Shanghai",
+	"state": "Shanghai",
+	"stateShort": "",
+	"country": "China",
+	"description": ". Its airport comes from the full name *S*hanghai *H*ongqiao International *A*irport",
+	"imageCredit": "Brücke-Osteuropa",
+	"imageCreditLink": "http://upload.wikimedia.org/wikipedia/commons/5/54/Airport_Shanghai-Hongqiao_4.JPG"
+}
