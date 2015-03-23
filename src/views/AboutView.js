@@ -14,14 +14,15 @@ var AboutView = Backbone.View.extend({
 
   _generateStats: function() {
     this._airportCount = this.airports.length;
-    console.log(_.unique(this.airports.pluck('country')));
     this._countryCount = _.unique(this.airports.pluck('country')).length;
+    this._photographerCount = _.unique(this.airports.pluck('imageCredit')).length;
   },
 
   viewModel: function() {
     return {
       airportCount: this._airportCount,
-      countryCount: this._countryCount
+      countryCount: this._countryCount,
+      photographerCount: this._photographerCount
     };
   },
 
