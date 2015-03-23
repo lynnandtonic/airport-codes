@@ -1,0 +1,14 @@
+{
+    "id": "vce",
+    "code": "vce",
+    "name": "Aeroporto di Venezia Marco Polo",
+    "nameEnglish": "Venice Marco Polo Airport",
+    "city": "Venice",
+    "city2": "Tessera",
+    "state": "",
+    "stateShort": "",
+    "country": "Italy",
+    "description": "Marco Polo Airport shares its name with the famous Venetian merchant traveler. Its airport code comes from its home city of *V*eni*ce*.",
+    "imageCredit": "Jorge Díaz",
+    "imageCreditLink": "https://www.flickr.com/photos/xurde/"
+}
