@@ -3,10 +3,11 @@
     "code": "sxm",
     "name": "Princess Juliana International Airport",
     "city": "Simpson Bay",
-    "state": "",
+    "city2": "Sint Maarten",
+    "state": "Netherlands",
     "stateShort": "",
-    "country": "Sint Maarten",
-    "description": "Originally a miliatry airstrip, it is named after Princess Julianna, at the time (1944), crowned princess of the Netherlands. Its airport code stands for *S*int(*x*) *M*aarten.",
+    "country": "Saint Martin",
+    "description": "Many airports use the letter ‘X’ to fill in when the desired letters are already taken. Princess Juliana International was named after the crowned princess (at the time) of the Netherlands. Its airport code stands for *S*aint *M*artin, plus that helpful ‘*X*’.",
     "imageCredit": "Aero Icarus",
     "imageCreditLink": "https://www.flickr.com/photos/aero_icarus/"
 }
