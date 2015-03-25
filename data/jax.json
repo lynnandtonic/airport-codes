@@ -1,0 +1,12 @@
+{
+	"id": "jax",
+	"code": "jax",
+	"name":	"Jacksonville International Airport",
+	"city":	"Jacksonville",
+	"state": "Florida",
+	"stateShort": "FL",
+	"country": "USA",
+	"description": "Jacksonville International is named after its home in the city of *Ja*cksonville. Its code’s third letter comes from the older IATA-issued code series where the letter ‘*X*’ filled in.",
+	"imageCredit": "Joe Shlabotnik",
+	"imageCreditLink": "https://www.flickr.com/photos/joeshlabotnik/"
+}
