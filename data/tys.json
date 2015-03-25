@@ -1,0 +1,12 @@
+{
+	"id": "tys",
+	"code": "tys",
+	"name":	"McGhee Tyson Airport",
+	"city":	"Knoxville",
+	"state": "Tennessee",
+	"stateShort": "TN",
+	"country": "USA",
+	"description": "McGhee Tyson is named after United States Navy pilot Charles McGhee Tyson, lost on patrol in World War I. Also, its airport code honors his last name *Tys*on.",
+	"imageCredit": "Mary Louise Eklund",
+	"imageCreditLink": "https://www.flickr.com/photos/mleklund"
+}
