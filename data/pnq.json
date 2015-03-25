@@ -1,0 +1,13 @@
+{
+	"id": "pnq",
+	"code": "pnq",
+	"name":	"Pune Airport",
+	"city":	"Pune",
+	"city2": "Poona",
+	"state": "Maharashtra",
+	"stateShort": "MH",
+	"country": "India",
+	"description": "Pune airport is named after its home in the city of *P*u*n*e. Its code’s third letter comes from the older IATA-issued code series where the letter ‘*Q*’ filled in.",
+	"imageCredit": "Randy Breese",
+	"imageCreditLink": "https://www.flickr.com/photos/randybreese/"
+}
