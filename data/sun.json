@@ -4,10 +4,11 @@
 	"name":	"Friedman Memorial Airport",
 	"city":	"Hailey",
 	"city2": "Sun Valley",
+	"city3": "Ketchum",
 	"state": "Idaho",
 	"stateShort": "ID",
 	"country": "USA",
-	"description": "Friedman Memorial is named after the Friedman family, which donated much of the land for the airport to the city of Hailey in 1931. Its airport code comes from a resort community of *Sun* Valley, whihch the airport serves.",
+	"description": "Friedman Memorial is named after the Friedman family who donated the land to the city of Hailey in 1931. Its airport code comes from the nearby resort community it serves: *Sun* Valley.",
 	"imageCredit": "DieselDemon",
 	"imageCreditLink": "https://www.flickr.com/photos/28096801@N05"
 }
