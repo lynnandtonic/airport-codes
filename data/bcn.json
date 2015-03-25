@@ -1,0 +1,13 @@
+{
+    "id": "bcn",
+    "code": "bcn",
+    "name": "Barcelona – El Prat Airport",
+    "nameEnglish": "Barcelona – El Prat Airport",
+    "city": "Barcelona",
+    "state": "",
+    "stateShort": "",
+    "country": "Spain",
+    "description": "Barcelona's first airfield, explaining why it uses the code BCN which stands for Barcelona",
+    "imageCredit": " Camilo Rueda López",
+    "imageCreditLink": "https://www.flickr.com/photos/kozumel/3661162220"
+}
