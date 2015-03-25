@@ -1,12 +1,13 @@
 {
 	"id": "tys",
 	"code": "tys",
-	"name":	"McGhee Tyson Airport",
-	"city":	"Knoxville",
+	"name": "McGhee Tyson Airport",
+	"city": "Knoxville",
+	"city2": "Alcoa",
 	"state": "Tennessee",
 	"stateShort": "TN",
 	"country": "USA",
-	"description": "McGhee Tyson is named after United States Navy pilot Charles McGhee Tyson, lost on patrol in World War I. Also, its airport code honors his last name *Tys*on.",
+	"description": "Located in the city of Alcoa, south of Knoxville, McGhee Tyson Airport is named after U.S. Navy pilot Charles McGhee *Tys*on who was lost in action during World War I.",
 	"imageCredit": "Mary Louise Eklund",
 	"imageCreditLink": "https://www.flickr.com/photos/mleklund"
 }
