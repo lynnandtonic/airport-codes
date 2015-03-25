@@ -3,10 +3,12 @@
 	"code": "ccj",
 	"name":	"Calicut International Airport",
 	"city":	"Karipur",
+	"city2": "Kozhikode",
+	"city3": "Malappuram",
 	"state": "Kerala",
 	"stateShort": "KL",
 	"country": "India",
-	"description": "Calicut International airport is named after Kozhikode's ealier name *C*ali*c*ut, one of the city which the airport serves. Its code’s third letter comes from the older IATA-issued code series where the letter ‘*J*’ filled in.",
-	"imageCredit": "Seaview99",
-	"imageCreditLink": "https://www.flickr.com/photos/85296574@N00/"
+	"description": "Calicut International is named after the city of Kozhikode, *C*ali*c*ut in English. Its code’s third letter comes from an older IATA-issued code series where the letter ‘*J*’ filled in.",
+	"imageCredit": "Sreejithk2000",
+	"imageCreditLink": "http://commons.wikimedia.org/wiki/User:Sreejithk2000"
 }
