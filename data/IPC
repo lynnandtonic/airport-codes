@@ -1,0 +1,14 @@
+{
+    "id": "ipc",
+    "code": "ipc",
+    "name": "Mataveri International Airport",
+    "nameEnglish": " Mataveri International Airport ",
+    "city": "Rapa Nui",
+    "city2": "Easter Island",
+    "state": "",
+    "stateShort": "",
+    "country": "Chile",
+    "description": "The most remote airport in the world. IPC serves as the only link with the outside world for people visiting or living on Easter Island. It’s airport code comes from the Spanish name for Easter Island *Isla*de*Pascua.",
+    "imageCredit": "Adam Auxier",
+    "imageCreditLink": " https://www.flickr.com/photos/24988213@N08/6180132630/ "
+}
