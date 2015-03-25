@@ -1,0 +1,12 @@
+{
+	"id": "msn",
+	"code": "msn",
+	"name":	"Dane County Regional Airport",
+	"city":	"Madison",
+	"state": "Wisconsin",
+	"stateShort": "WI",
+	"country": "USA",
+	"description": "Formerly Truax Field, Dane County Regional Airportm code honors its home in the city of *M*adi*s*o*n*.",
+	"imageCredit": "Diego Iaconelli",
+	"imageCreditLink": "https://www.flickr.com/photos/diegoiaconelli/"
+}
