@@ -1,12 +1,12 @@
 {
 	"id": "fwa",
 	"code": "fwa",
-	"name":	"Fort Wayne International Airport"
+	"name":	"Fort Wayne International Airport",
 	"city":	"Fort Wayne",
 	"state": "Indiana",
 	"stateShort": "IN",
 	"country": "USA",
-	"description": "Earlier known as Baer Field, Fort Wayne International was renamed in 1991. Its airport code honors its home in the city of *F*ort *Wa*yne.",
-	"imageCredit": "Northeast Indiana Regional Partnership",
-	"imageCreditLink": "https://www.flickr.com/photos/northeastindiana/"
+	"description": "Renamed in 1991, Fort Wayne International was previously named Baer Field, after Lieutenant Paul Baer, the first flying ace in U.S. military history. Its airport code honors the city of *F*ort *Wa*yne.",
+	"imageCredit": "Samuraijohnny",
+	"imageCreditLink": "https://www.flickr.com/photos/samuraislice/"
 }
