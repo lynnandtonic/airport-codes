@@ -1,0 +1,12 @@
+{
+	"id": "tri",
+	"code": "tri",
+	"name":	"Tri-Cities Regional Airport"
+	"city":	"Blountville",
+	"state": "Tennessee",
+	"stateShort": "TN",
+	"country": "USA",
+	"description": "Tri-Cities Regional airport code honors the *Tri*-Cities area of Bristol, Kingsport, and Johnson City it serves.",
+	"imageCredit": "Joevare",
+	"imageCreditLink": "https://www.flickr.com/photos/joevare/"
+}
