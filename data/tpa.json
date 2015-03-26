@@ -1,12 +1,12 @@
 {
-	"id": : "tpa",
+	"id": "tpa",
 	"code": "tpa",
-	"name":	"Tampa International Airport",
-	"city":	"Tampa",
+	"name": "Tampa International Airport",
+	"city": "Tampa",
 	"state": "Florida",
 	"stateShort": "FL",
 	"country": "USA",
-	"description": "Formely Drew Field, Tampa International was renamed in 1950. Its airport code honors its home in the city of *T*am*pa*.",
+	"description": "Renamed in 1950, Tampa International was once Drew Field Municipal, named after land developer John H. Drew. Its airport code honors its home in the city of *T*am*pa*.",
 	"imageCredit": "Robert S. Donovan",
 	"imageCreditLink": "https://www.flickr.com/photos/booleansplit/"
 }
