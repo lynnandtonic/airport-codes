@@ -79,3 +79,9 @@ Please use the following loose declaration order:
 * Box Shadows
 * Fonts and Colors
 * Other
+
+## License
+
+[GNU General Public License v3.0](http://choosealicense.com/licenses/gpl-3.0/)
+
+Because of the Creative Commons licensed images used on this site, any derivatives _CAN NOT_ be for commercial or paid use.
