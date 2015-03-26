@@ -6,8 +6,8 @@ A website that tries to make sense of those three-letter airport codes.
 
 If you'd like to add an airport or fix an error, please:
 
-- [Submit an issue](https://github.com/lynnandtonic/airport-codes/issues)
-- Submit a pull request
+- [Submit an issue](https://github.com/lynnandtonic/airport-codes/issues) or
+- Submit a pull request or
 - Contact us on Twitter: [@lynnandtonic](https://twitter.com/lynnandtonic) or [@nickcrohn](https://twitter.com/nickcrohn)
 
 ## Working Locally
