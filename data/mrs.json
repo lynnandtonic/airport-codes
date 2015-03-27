@@ -1,0 +1,12 @@
+{
+	"id": "mrs",
+	"code": "mrs",
+	"name":	"Marseille Provence Airport",
+	"city":	"Marignane",
+	"state": "Provenza-Alpi-Costa Azzurra",
+	"stateShort": "U",
+	"country": "France",
+	"description": "Formerly known as Marseille–Marignane Airport, it is in operation since 1934. Its airport code honors its home in the city of *M*a*rs*eille.",
+	"imageCredit": "Novemberdelta",
+	"imageCreditLink": "https://www.flickr.com/photos/novemberdelta/"
+}
