@@ -1,13 +1,13 @@
 {
-	"id": "phf",
-	"code": "phf",
-	"name": "Newport News/Williamsburg International Airport",
-	"city": "Newport News",
-	"city2": "Williamsburg",
-	"state": "Virginia",
-	"stateShort": "VA",
-	"country": "USA",
-	"description": "Renamed in 1990, Newport News/Williamsburg International was originally named Patrick Henry Airport after Camp Patrick Henry, a former army base. Its code represents *P*atrick *H*enry *F*ield.",
-	"imageCredit": "Mytwocents",
-	"imageCreditLink": "http://en.wikipedia.org/wiki/File:Patrickhenrypano04.jpg/"
+    "id": "phf",
+    "code": "phf",
+    "name": "Newport News/Williamsburg International Airport",
+    "city": "Newport News",
+    "city2": "Williamsburg",
+    "state": "Virginia",
+    "stateShort": "VA",
+    "country": "USA",
+    "description": "Renamed in 1990, Newport News/Williamsburg International was originally named Patrick Henry Airport after Camp Patrick Henry, a former army base. Its code represents *P*atrick *H*enry *F*ield.",
+    "imageCredit": "@flyPHF",
+    "imageCreditLink": "https://twitter.com/flyphf"
 }
