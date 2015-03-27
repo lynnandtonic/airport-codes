@@ -6,8 +6,8 @@ A website that tries to make sense of those three-letter airport codes.
 
 If you'd like to add an airport or fix an error, please:
 
-- [Submit an issue](https://github.com/lynnandtonic/airport-codes/issues)
-- Submit a pull request
+- [Submit an issue](https://github.com/lynnandtonic/airport-codes/issues) or
+- Submit a pull request or
 - Contact us on Twitter: [@lynnandtonic](https://twitter.com/lynnandtonic) or [@nickcrohn](https://twitter.com/nickcrohn)
 
 ## Working Locally
@@ -79,3 +79,9 @@ Please use the following loose declaration order:
 * Box Shadows
 * Fonts and Colors
 * Other
+
+## License
+
+[GNU General Public License v3.0](http://choosealicense.com/licenses/gpl-3.0/)
+
+Because of the Creative Commons licensed images used on this site, any derivatives _CAN NOT_ be for commercial or paid use.
