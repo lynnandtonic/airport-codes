@@ -1,12 +1,12 @@
 {
 	"id": "dtn",
 	"code": "dtn",
-	"name": "Shreveport Downtown Airport",	
-	"city":	"Shreveport",
+	"name": "Shreveport Downtown Airport",
+	"city": "Shreveport",
 	"state": "Louisiana",
 	"stateShort": "LA",
 	"country": "USA",
-	"description": "Shreveport Downtown is an old airport which serves Shreveport along with Shreveport Regional Airport. Its airport code appears to come from its close proximity to the *D*own*t*ow*n* in the city of Shreveport.",
+	"description": "Shreveport Downtown Airport serves the city of Shreveport along with Shreveport Regional (SHV). Its airport code comes from its close proximty to the city’s *d*own*t*ow*n*.",
 	"imageCredit": "RedTail_Panther",
 	"imageCreditLink": "https://www.flickr.com/photos/redtailpanther/"
 }
