@@ -1,0 +1,12 @@
+{
+	"id": "ssf",
+	"code": "ssf",
+	"name":	"Stinson Municipal Airport",
+	"city":	"San Antonio",
+	"state": "Texas",
+	"stateShort": "TX",
+	"country": "USA",
+	"description": "Stinson Municipal was established in 1915, and now serves as a reliever for San Antonio International Airport. Its airpot code honors the *S*tin*s*on *f*amily, which initially leased the land for the establishment of the aiport.",
+	"imageCredit": "United States Geological Survey",
+	"imageCreditLink": "http://upload.wikimedia.org/wikipedia/commons/f/f0/Stinson_Municipal_Airport_-_Texas.jpg"
+}

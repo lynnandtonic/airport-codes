@@ -1,0 +1,12 @@
+{
+	"id": "sat",
+	"code": "sat",
+	"name":	"San Antonio International Airport",
+	"city":	"San Antonio",
+	"state": "Texas",
+	"stateShort": "TX",
+	"country": "USA",
+	"description": "San Antonio International provides commercial airline service for the South Texas region. Its airport code honors its home in the city of *Sa*n An*t*onio.",
+	"imageCredit": "Texusaf",
+	"imageCreditLink": "http://commons.wikimedia.org/wiki/File:San_Antonio_International_Airport_Ticket_Counters_September_2014.JPG"
+}
