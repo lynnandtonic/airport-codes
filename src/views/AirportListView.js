@@ -7,11 +7,13 @@ var AirportListView = Backbone.View.extend({
   tagName: 'ul',
   className: 'cf airport-list',
 
+  _deferTimer: null,
+
   initialize: function(options) {
     this.airports = options.airports;
     this.render();
 
-    this.airports.on('change', this._updateViews, this);
+    this.airports.on('change:visible', this._handleChange, this);
 
     var self = this;
     Backbone.$(window).scroll(function() {
@@ -23,16 +25,38 @@ var AirportListView = Backbone.View.extend({
     });
   },
 
-  _updateViews: function(event) {
+  // Defer our changes so we only update the views once
+  _deferChange: function() {
+    if (this._deferTimer) {
+      clearTimeout(this._deferTimer);
+    }
+
+    var self = this;
+    this._deferTimer = setTimeout(function() {
+      self._updateViews();
+    }, 2);
+  },
+
+  _handleChange: function() {
+    this._deferChange();
+  },
+
+  _checkLazyload: function(view) {
     var scrollY = window.scrollY;
     var height = window.innerHeight;
 
-    for(var i=0;i<this._views.length;i++) {
-      var view = this._views[i];
+    function comingInView() {
+      return (scrollY + height + 500 >= view.$el.offset().top);
+    }
 
-      if (scrollY+height+300 >= view.$el.offset().top && !view.loaded) {
-        view.lazyLoad();
-      }
+    if (!view.loading && !view.loaded && comingInView()) {
+      view.lazyLoad();
+    }
+  },
+
+  _updateViews: function(event) {
+    for(var i=0;i<this._views.length;i++) {
+      this._checkLazyload(this._views[i]);
     }
   },
 

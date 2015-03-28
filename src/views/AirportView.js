@@ -8,6 +8,7 @@ var AirportView = Backbone.View.extend({
 
   initialize: function() {
     this.model.on('change:visible', this._setClassName, this);
+    this.imageUrl = this._getImageUrl().replace(/(url|["()])/ig, '');
   },
 
   viewModel: function() {
@@ -29,9 +30,31 @@ var AirportView = Backbone.View.extend({
     this.$el.toggleClass('hidden', !this.model.get('visible'));
   },
 
+  _getImageUrl: function() {
+    var classes = document.styleSheets[0].rules || document.styleSheets[0].cssRules;
+    for( var i=0;i<classes.length;i++ ) {
+      if (classes[i].selectorText === '.card.'+this.model.get('id')+' .background') {
+        return classes[i].style.backgroundImage;
+      }
+    }
+
+    return '';
+  },
+
   lazyLoad: function() {
-    this.loaded = true;
-    this._setClassName();
+    var img = new Image();
+    img.src = this.imageUrl;
+
+    var self = this;
+    img.onload = function() {
+      self.loading = false;
+      self.loaded = true;
+      self._setClassName();
+    };
+
+    this.loading = true;
+
+    img = null;
   },
 
   render: function() {
