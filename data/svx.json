@@ -3,10 +3,11 @@
     "code": "svx",
     "name": "Koltsovo International Airport",
     "city": "Yekaterinburg",
+    "city2": "Sverdlovsk",
     "state": "",
     "stateShort": "",
     "country": "Russia",
-    "description": "Yekaterinburg is the main industrial and cultural center of the Ural region. Between 1924 and 1991, the city was named *Sv*erdlovsk after the Communist party leader Yakov Sverdlov. Used as a military base from 1930 and as a civil airpot from 1963.",
+    "description": "Many airports use the letter ‘X’ to fill in when the desired letters are already taken. Koltsovo International serves Yekaterinburg, industrial and cultural center of the Ural region. It was previously named *Sv*erdlovsk, plus that helpful ‘*X*’.",
     "imageCredit": "Falschivomonetchick",
     "imageCreditLink": "https://commons.wikimedia.org/wiki/User:Фальшивомонетчик"
 }
