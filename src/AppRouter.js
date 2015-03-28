@@ -106,7 +106,7 @@ var Router = Backbone.Router.extend({
 
       airport.set('showDetail', true);
       Backbone.$('body').addClass('detail-open');
-      this._trackView('#airports/'+code, 'Airport '+code.toUpperCase());
+      this._trackView('#airport/'+code, 'Airport '+code.toUpperCase());
     } else {
       document.location.href = "/404.html";
     }
