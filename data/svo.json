@@ -3,10 +3,11 @@
     "code": "svo",
     "name": "Sheremetyevo International Airport",
     "city": "Moscow",
+    "city2": "Khimki",
     "state": "",
     "stateShort": "",
     "country": "Russia",
-    "description": "*Sh*eremetyev*o* Airport opened in 1959 and received its name for nearby venue: the village of Sheremetyevsky",
+    "description": "Opened in 1959, *S*heremetye*vo* International is located in the city of Khimki, but was named after the nearby village of Sheremetyevsky.",
     "imageCredit": "Jaime-Silva",
     "imageCreditLink": "https://www.flickr.com/photos/20792787@N00/"
 }
