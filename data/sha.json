@@ -1,13 +1,14 @@
 {
 	"id": "sha",
 	"code": "sha",
-	"name":	"上海虹桥国际机场",
-	"nameEnglish": "Shanghai Hongqiao International Airport",
+	"name": "Shanghai Hongqiao International Airport",
 	"city":	"Shanghai",
-	"state": "Shanghai",
+	"city2": "Hongqiao",
+	"city3": "Changning District",
+	"state": "",
 	"stateShort": "",
 	"country": "China",
-	"description": "First build airport of Shanghai. Its airport code can comes from the full name *S*hanghai *H*ongqiao International *A*irport but it's also the city code *SHA*nghai",
-	"imageCredit": "Brücke-Osteuropa",
-	"imageCreditLink": "http://upload.wikimedia.org/wikipedia/commons/5/54/Airport_Shanghai-Hongqiao_4.JPG"
+	"description": "Shanghai Hongqiao International was the first airport built in Shanghai. Its airport code makes sense as *S*hanghai *H*ongqiao *A*irport, but comes from the city of *SHA*nghai.",
+	"imageCredit": "VeoLoo",
+	"imageCreditLink": "https://www.flickr.com/photos/veoloo/"
 }
