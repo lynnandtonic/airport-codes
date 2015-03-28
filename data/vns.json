@@ -1,15 +1,15 @@
 {
 	"id": "vns",
 	"code": "vns",
-	"name":	"Lal Bahadur Shastri International Airport",
-	"city":	"Varanasi",
+	"name": "Lal Bahadur Shastri International Airport",
+	"city": "Varanasi",
 	"city2": "Benares",
 	"city3": "Banaras",
 	"city4": "Kashi",
 	"state": "Utter Pradesh",
 	"stateShort": "UP",
 	"country": "India",
-	"description": "Formely known as Varanasi International Airport, it was renamed in 2005 to honor India's second Prime Minister. Its airport code honors its home in one of the holiest of the seven sacred cities, *V*ara*n*a*s*i.",
+	"description": "Formerly Varanasi International, Lal Bahadur Shastri International was renamed in 2005 to honor India’s second Prime Minister. Its airport code honors one of the holiest of the seven sacred cities, *V*ara*n*a*s*i.",
 	"imageCredit": "Kevin Tsai",
 	"imageCreditLink": "https://www.flickr.com/photos/kevinetsai/"
 }
