@@ -8,6 +8,7 @@ var AirportView = Backbone.View.extend({
 
   initialize: function() {
     this.model.on('change:visible', this._setClassName, this);
+    this.imageUrl = this._getImageUrl().replace(/(url|["()])/ig, '');
   },
 
   viewModel: function() {
@@ -41,15 +42,17 @@ var AirportView = Backbone.View.extend({
   },
 
   lazyLoad: function() {
-    var imgUrl = this._getImageUrl();
-    var img = Backbone.$('<img>');
-    img.attr('src', imgUrl.replace(/(url|["()])/ig, ''));
+    var img = new Image();
+    img.src = this.imageUrl;
 
     var self = this;
-    img.load(function() {
+    img.onload = function() {
+      self.loading = false;
       self.loaded = true;
       self._setClassName();
-    });
+    };
+
+    this.loading = true;
 
     img = null;
   },

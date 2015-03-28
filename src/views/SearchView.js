@@ -1,6 +1,8 @@
 var Backbone = require('backbone');
 var template = require('./templates/SearchView.jade');
 
+var _ = require('underscore');
+
 var SEARCH_FIELD = [
   'code', 'name', 'nameEnglish', 'city', 'city2', 'city3', 'state', 'stateShort', 'country'
 ];
@@ -30,8 +32,10 @@ var SearchView = Backbone.View.extend({
 
   _search: function(value) {
     var searchTerm = new RegExp('^'+value, 'gi');
+    var results = [];
+    var airports = this.airports;
 
-    this.airports.each(function(model) {
+    airports.each(function(airport) {
       var hasMatch = false;
 
       // Search each field
@@ -39,15 +43,23 @@ var SearchView = Backbone.View.extend({
         var key = SEARCH_FIELD[i];
 
         // Validate we match
-        if(searchTerm.test(model.get(key))) {
+        if(searchTerm.test(airport.get(key))) {
           hasMatch = true;
           break;
         }
       }
 
-      model.set('visible', hasMatch);
+      results.push({
+        model: airport,
+        visible: hasMatch
+      });
 
     });
+
+    _.each(results, function(result) {
+      result.model.set('visible', result.visible);
+    });
+
   },
 
   render: function() {
