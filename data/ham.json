@@ -4,11 +4,10 @@
     "name": "Flughafen Hamburg",
     "nameEnglish": "Hamburg Airport",
     "city": "Hamburg",
-    "city2": "",
     "state": "",
     "stateShort": "",
     "country": "Germany",
-    "description": "The airport was opened in January 1911, making it the oldest airport in the world which is still in operation.",
+    "description": "Hamburg Airport was opened in January of 1911 and serves Germany’s second-largest city, *Ham*burg.",
     "imageCredit": "Medvedev",
-    "imageCreditLink": "http://upload.wikimedia.org/wikipedia/commons/1/1e/HH-Airport_Terminal2_03.jpg"
+    "imageCreditLink": "http://en.wikipedia.org/wiki/Hamburg_Airport#/media/File:HH-Airport_Terminal2_03.jpg"
 }
