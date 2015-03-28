@@ -3,10 +3,11 @@
     "code": "ufa",
     "name": "Ufa International Airport",
     "city": "Ufa",
+    "city2": "Bashkortostan",
     "state": "",
     "stateShort": "",
     "country": "Russia",
-    "description": "Ufa International Airport is the primary airport serving *Ufa*, the capital of Republic of Bashkortostan, Russia.",
-    "imageCredit": "David Nolan",
-    "imageCreditLink": "http://www.dimoc.mil"
+    "description": "Ufa International is the primary airport serving *Ufa*, the capital of the Republic of Bashkortostan in Russia. It is one of the few airport codes that matches the full name of the city it serves.",
+    "imageCredit": "Vhorvat",
+    "imageCreditLink": "http://en.wikipedia.org/wiki/Ufa_International_Airport#/media/File:Ufa_International_Airport.jpg"
 }
