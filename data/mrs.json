@@ -1,12 +1,14 @@
 {
 	"id": "mrs",
 	"code": "mrs",
-	"name":	"Marseille Provence Airport",
-	"city":	"Marignane",
-	"state": "Provenza-Alpi-Costa Azzurra",
-	"stateShort": "U",
+	"name": "Aéroport de Marseille Provence",
+	"nameEnglish": "Marseille Provence Airport",
+	"city": "Marseille",
+	"city2": "Marignane",
+	"state": "",
+	"stateShort": "",
 	"country": "France",
-	"description": "Formerly known as Marseille–Marignane Airport, it is in operation since 1934. Its airport code honors its home in the city of *M*a*rs*eille.",
-	"imageCredit": "Novemberdelta",
-	"imageCreditLink": "https://www.flickr.com/photos/novemberdelta/"
+	"description": "Marseille Provence Airport is located in the commune of Marignane and was previously known as Marseille–Marignane Airport. Its airport code comes from the city it serves,  *M*a*rs*eille.",
+	"imageCredit": "Rupert Ganzer",
+	"imageCreditLink": "https://www.flickr.com/photos/loop_oh/"
 }
