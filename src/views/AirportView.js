@@ -29,9 +29,29 @@ var AirportView = Backbone.View.extend({
     this.$el.toggleClass('hidden', !this.model.get('visible'));
   },
 
+  _getImageUrl: function() {
+    var classes = document.styleSheets[0].rules || document.styleSheets[0].cssRules;
+    for( var i=0;i<classes.length;i++ ) {
+      if (classes[i].selectorText === '.card.'+this.model.get('id')+' .background') {
+        return classes[i].style.backgroundImage;
+      }
+    }
+
+    return '';
+  },
+
   lazyLoad: function() {
-    this.loaded = true;
-    this._setClassName();
+    var imgUrl = this._getImageUrl();
+    var img = Backbone.$('<img>');
+    img.attr('src', imgUrl.replace(/(url|["()])/ig, ''));
+
+    var self = this;
+    img.load(function() {
+      self.loaded = true;
+      self._setClassName();
+    });
+
+    img = null;
   },
 
   render: function() {
