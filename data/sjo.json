@@ -1,0 +1,13 @@
+{
+    "id": "sjo",
+    "code": "sjo",
+    "name": "Aeropuerto Internacional Juan Santamaría",
+    "nameEnglish": "Juan Santamaría International Airport",
+    "city": "San José",
+    "state": "San José",
+    "stateShort": "",
+    "country": "Costa Rica",
+    "description": "Main airport of San Jose. The airport code is the same as the city code *S*an *JO*se",
+    "imageCredit": "ArquiWHAT",
+    "imageCreditLink": "http://upload.wikimedia.org/wikipedia/commons/c/cb/AeropuertoJuanSantamar%C3%ADa.jpg"
+}
