@@ -1,12 +1,12 @@
 {
     "id": "aer",
     "code": "aer",
-    "name": "Sochi (Adler) International Airport",
+    "name": "Sochi International Airport",
     "city": "Sochi",
     "state": "",
     "stateShort": "",
     "country": "Russia",
-    "description": "Airport located in *A*dl*er* District of the resort city of Sochi, on the coast of the Black Sea. Airport handled guests of the 22nd Winter Olympics in 2014.",
+    "description": "Sochi International served as the main airport for the 22nd Winter Olympics held in Sochi in 2014. Its airport code comes from its home in the *A*dl*er*sky District.",
     "imageCredit": "Stefan Krasowski",
     "imageCreditLink": "https://www.flickr.com/photos/rapidtravelchai/"
 }
