@@ -1,0 +1,12 @@
+{
+	"id": "dad",
+	"code": "dad",
+	"name":	"Da Nang International Airport",
+	"city":	"Da Nang",
+	"state": "Da Nang",
+	"stateShort": "DN",
+	"country": "Vietnam",
+	"description": "Da Nang International is located in Da Nang, the largest city in central Vietnam. Its airport code comes the from one of the old airport code series issued by IATA, *DA*, where the letter *D* filled in.",
+	"imageCredit": "Terry Straehley",
+	"imageCreditLink": "https://www.flickr.com/photos/terrystraehley/"
+}
