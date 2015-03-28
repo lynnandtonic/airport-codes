@@ -41,6 +41,15 @@ var Router = Backbone.Router.extend({
     Backbone.$(window).scrollTop(this._lastOffset);
   },
 
+  _trackView: function(page, title) {
+    if (window.ga) {
+      ga('send', 'pageview', {
+        'page': page,
+        'title': title
+      });
+    }
+  },
+
   default: function() {
     this._hideAbout();
     this._hideContribute();
@@ -62,6 +71,7 @@ var Router = Backbone.Router.extend({
     this._lastOffset = window.scrollY;
 
     Backbone.$('body').addClass('detail-open');
+    this._trackView('#about', 'About');
   },
 
   contribute: function() {
@@ -76,6 +86,7 @@ var Router = Backbone.Router.extend({
     this._lastOffset = window.scrollY;
 
     Backbone.$('body').addClass('detail-open');
+    this._trackView('#contribute', 'Contribute');
   },
 
   airport: function(code) {
@@ -95,6 +106,7 @@ var Router = Backbone.Router.extend({
 
       airport.set('showDetail', true);
       Backbone.$('body').addClass('detail-open');
+      this._trackView('#airport/'+code, 'Airport '+code.toUpperCase());
     } else {
       document.location.href = "/404.html";
     }
