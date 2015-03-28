@@ -1,0 +1,12 @@
+{
+	"id": "crl",
+	"code": "crl",
+	"name":	"Brussels South Charleroi Airport",
+	"city":	"Charleroi",
+	"state": "Hainaut",
+	"stateShort": "HT",
+	"country": "Belgium",
+	"description": "Brussels South Charleroi International started as a flying school in 1919. Its airpot code honors its home in the city of *C*ha*rl*eroi.",
+	"imageCredit": "Cha già José",
+	"imageCreditLink": "https://www.flickr.com/photos/chagiajose"
+}
