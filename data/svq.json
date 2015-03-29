@@ -1,12 +1,13 @@
 {
 	"id": "svq",
 	"code": "svq",
-	"name": "Seville Airport (San Pablo Airport)",
+	"name": "Aeropuerto de Sevilla",
+	"nameEnglish": "Seville Airport",
 	"city": "Seville",
 	"state": "",
 	"stateShort": "",
-	"country": "SPA",
-	"description": "Seville Airport, also known as San Pablo Airport, is the international airport serving Seville in southern Spain, and other neighbouring provinces.",
-	"imageCredit": "SVQAirport",
-	"imageCreditLink": "http://commons.wikimedia.org/wiki/File:P1040646p.jpg"
+	"country": "Spain",
+	"description": "Seville Airport, also known as San Pablo Airport, began commercial flights in 1919. Its airport code comes from the city of *S*e*v*ille, plus a ‘*Q*’ as a filler letter.",
+	"imageCredit": "Luis Jou García",
+	"imageCreditLink": "https://www.flickr.com/photos/luisjoujr/"
 }
