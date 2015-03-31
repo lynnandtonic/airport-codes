@@ -1,13 +1,15 @@
 {
 	"id": "spu",
 	"code": "spu",
-	"name": "Split Airport",
-	"city": "Kaštela",
-	"city2": "Split",
+	"name": "Zračna luka Split",
+	"nameEnglish": "Split Airport",
+	"city": "Split",
+	"city2": "Kaštela",
+	"city3": "Kastela",
 	"state": "",
 	"stateShort": "",
 	"country": "Croatia",
-	"description": "Serves the city of *Sp*lit, Croatia, and also known as Resnik Airport. It is actually located 24 km from Split, on the west side of Kaštela Bay, in the town of Kaštela - and extends into the adjacent town of Trogir.",
+	"description": "Formerly Resnik Airport, Split Airport gets its first two letters from the city it serves, *Sp*lit. The ‘U’ isn't as clear, but could come from “*S*alonae *P*alati*u*m”, long-believed (erroneously) to be the origin of the city’s name.",
 	"imageCredit": "Ballota",
 	"imageCreditLink": "http://en.wikipedia.org/wiki/Split_Airport#/media/File:Split_Airport_terminal.jpg"
 }
