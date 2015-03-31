@@ -1,0 +1,12 @@
+{
+	"id": "gdl",
+	"code": "gdl",
+	"name":	"Guadalajara International Airport",
+	"city":	"Guadalajara",
+	"state": "Jalisco",
+	"stateShort": "JAL",
+	"country": "Mexico",
+	"description": "Guadalajara International is Mexico's third busiest airport, and second busiest for cargo flights. Its airport code honors its home in the city of *G*ua*d*a*l*ajara.",
+	"imageCredit": "Bill Bumgarner",
+	"imageCreditLink": "https://www.flickr.com/photos/bbum/"
+}
