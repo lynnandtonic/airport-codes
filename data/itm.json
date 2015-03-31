@@ -1,12 +1,13 @@
 {
 	"id": "itm",
 	"code": "itm",
-	"name":	"Osaka International Airport",
-	"city":	"Itami",
-	"state": "Osaka",
-	"stateShort": "27",
+	"name": "Osaka International Airport",
+	"city": "Osaka",
+	"city2": "Itami",
+	"state": "",
+	"stateShort": "",
 	"country": "Japan",
-	"description": "Formely Itami Airport, Osaka International was renamed following its return to Japanese control in 1959. Its airport code honors its home in the city of *It*a*m*i.",
-	"imageCredit": "Wally Gobetz",
-	"imageCreditLink": "https://www.flickr.com/photos/wallyg/"
+	"description": "Formerly Itami Airport, Osaka International was renamed following its return to Japanese control in 1959. While it serves Osaka, it is actually located in the city of *It*a*m*i.",
+	"imageCredit": "Joe Jones",
+	"imageCreditLink": "https://www.flickr.com/photos/redjoe/"
 }
