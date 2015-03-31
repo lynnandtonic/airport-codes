@@ -1,12 +1,13 @@
 {
 	"id": "cmb",
 	"code": "cmb",
-	"name":	"Bandaranaike International Airport",
-	"city":	"Katunayake",
+	"name": "Bandaranaike International Airport",
+	"city": "Colombo",
+	"city2": "Katunayake",
 	"state": "Western Province",
-	"stateShort": "1",
+	"stateShort": "",
 	"country": "Sri Lanka",
-	"description": "Bandaranaike International is named after former Prime Minister SWRD Bandaranaike and is one of the busiest hub airports in South Asia. Its airport code honors the city it servers *C*olo*mb*o.",
-	"imageCredit": "Amila Tennakoon",
-	"imageCreditLink": "https://www.flickr.com/photos/lakpura/"
+	"description": "Bandaranaike International is named after former Prime Minister S. W. R. D. Bandaranaike and is one of the busiest hub airports in South Asia. Its airport code honors the city it serves, *C*olo*mb*o.",
+	"imageCredit": "Anshu",
+	"imageCreditLink": "https://www.flickr.com/photos/anshu_si/"
 }
