@@ -31,10 +31,12 @@ var AirportView = Backbone.View.extend({
   },
 
   _getImageUrl: function() {
-    var classes = document.styleSheets[0].rules || document.styleSheets[0].cssRules;
-    for( var i=0;i<classes.length;i++ ) {
-      if (classes[i].selectorText === '.card.'+this.model.get('id')+' .background') {
-        return classes[i].style.backgroundImage;
+    for( varj=0;j<document.styleSheets.length;j++ ) {
+      var classes = document.styleSheets[j].rules || document.styleSheets[j].cssRules;
+      for( var i=0;i<classes.length;i++ ) {
+        if (classes[i].selectorText === '.card.'+this.model.get('id')+' .background') {
+          return classes[i].style.backgroundImage;
+        }
       }
     }
 
