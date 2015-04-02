@@ -14,7 +14,8 @@ If you'd like to add an airport or fix an error, please:
 
 ```
 npm install
-gulp
+
+npm run dev
 ```
 
 ## Adding/Editing Airport Content
