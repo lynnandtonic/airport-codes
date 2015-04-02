@@ -42,7 +42,7 @@ var AirportListView = Backbone.View.extend({
   },
 
   _checkLazyload: function(view) {
-    var scrollY = window.scrollY;
+    var scrollY = window.scrollY || window.pageOffsetY;
     var height = window.innerHeight;
 
     function comingInView() {
