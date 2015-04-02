@@ -68,7 +68,7 @@ var Router = Backbone.Router.extend({
     this._aboutView.show();
     this._hideContribute();
     this._hideAirports();
-    this._lastOffset = window.scrollY || window.pageOffsetY;
+    this._lastOffset = (window.scrollY === undefined) ? window.pageYOffset : window.scrollY;
 
     Backbone.$('body').addClass('detail-open');
     this._trackView('#about', 'About');
@@ -83,7 +83,7 @@ var Router = Backbone.Router.extend({
     this._contributeView.show();
     this._hideAirports();
     this._hideAbout();
-    this._lastOffset = window.scrollY || window.pageOffsetY;
+    this._lastOffset = (window.scrollY === undefined) ? window.pageYOffset : window.scrollY;
 
     Backbone.$('body').addClass('detail-open');
     this._trackView('#contribute', 'Contribute');
@@ -95,7 +95,7 @@ var Router = Backbone.Router.extend({
     this._hideAbout();
     this._hideContribute();
     this._hideAirports();
-    this._lastOffset = window.scrollY || window.pageOffsetY;
+    this._lastOffset = (window.scrollY === undefined) ? window.pageYOffset : window.scrollY;
 
     if (airport) {
       if (this.views.indexOf(code) < 0) {
