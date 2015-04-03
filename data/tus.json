@@ -1,0 +1,12 @@
+{
+	"id": "tus",
+	"code": "tus",
+	"name":	"Tucson International Airport",
+	"city":	"Tucson",
+	"state": "Arizona",
+	"stateShort": "AZ",
+	"country": "USA",
+	"description": "Tucson International in the second busiest airport in Arizona. Its airport code honors its home in the city of *Tu*c*s*on.",
+	"imageCredit": "Luis Jou García",
+	"imageCreditLink": "https://www.flickr.com/photos/luisjoujr/"
+}
