@@ -1,12 +1,13 @@
 {
 	"id": "fao",
 	"code": "fao",
-	"name":	"Faro Airport",
-	"city":	"Faro",
+	"name": "Aeroporto Internacional de Faro",
+	"nameEnglish": "Faro International Airport",
+	"city": "Faro",
 	"state": "Algarve",
-	"stateShort": "08",
+	"stateShort": "",
 	"country": "Portugal",
-	"description": "Faro airport was opened in 1966, and its airport code honors its home in the city of *Fa*r*o*.",
+	"description": "Also known as Algarve Airport, Faro International opened in 1966. Its airport code honors its home in the city of *Fa*r*o*.",
 	"imageCredit": "Owen Rudge",
 	"imageCreditLink": "https://www.flickr.com/photos/orudge/"
 }
