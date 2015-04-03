@@ -49,15 +49,22 @@ var AirportView = Backbone.View.extend({
     img.src = this.imageUrl;
 
     var self = this;
-    img.onload = function() {
+
+    var handleLoad = function() {
+      clearTimeout(loadTimeout);
+      img.onload = null;
+
       self.loading = false;
       self.loaded = true;
       self._setClassName();
+
+      img = null;
     };
 
-    this.loading = true;
+    img.onload = handleLoad;
+    var loadTimeout = setTimeout(handleLoad, 10000);
 
-    img = null;
+    this.loading = true;
   },
 
   render: function() {
