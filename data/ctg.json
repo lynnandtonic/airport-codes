@@ -1,12 +1,13 @@
 {
 	"id": "ctg",
 	"code": "ctg",
-	"name":	"Rafael Núñez International Airport",
-	"city":	"Cartagena",
+	"name": "Aeropuerto Internacional Rafael Núñez",
+	"nameEnglish": "Rafael Núñez International Airport",
+	"city": "Cartagena",
 	"state": "Bolívar",
-	"stateShort": "BOL",
+	"stateShort": "",
 	"country": "Colombia",
-	"description": "Rafael Núñez International is named after former Colombian president, who also wrote the verses of the national anthem of Colombia. Its airport code honors its home in the city of *C*ar*t*a*g*ena.",
+	"description": "Rafael Núñez International is named after the former Colombian president who wrote the verses for the country’s national anthem. Its airport code honors its home in the city of *C*ar*t*a*g*ena.",
 	"imageCredit": "David Shankbone",
 	"imageCreditLink": "https://www.flickr.com/photos/shankbone/"
 }
