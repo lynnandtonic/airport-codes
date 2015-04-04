@@ -1,0 +1,14 @@
+{
+    "id": "lgg",
+    "code": "lgg",
+    "name": "Aéroport de Liège",
+    "nameEnglish": "Liège Airport",
+    "city": "Liège",
+    "city2": "Bierset",
+    "state": "",
+    "stateShort": "",
+    "country": "Belgium",
+    "description": "Located in the town of Bierset, Liège Airport serves the nearby city of *L*iè*g*e. The extra *G* in the IATA code is thrown in for good measure.",
+    "imageCredit": "Tntcorporate",
+    "imageCreditLink": "https://www.flickr.com/people/tntcorporate/"
+}
