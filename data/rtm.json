@@ -1,0 +1,11 @@
+{
+	"id": "rtm",
+	"code": "rtm",
+	"name": "Rotterdam The Hague Airport",
+	"city": "Rotterdam",
+  "city2": "The Hague",
+	"country": "Netherlands",
+	"description": "Openeing in October of 1956, Rotterdam was the Netherlands second national airport. It was built in part to replace Rotterdam’s old airport which was destroyed by bombings in WWII. It’s code comes from the city it serves, *R*o*t*terda*m*.",
+	"imageCredit": "OlBrug",
+	"imageCreditLink": "https://www.flickr.com/photos/olbr/"
+}
