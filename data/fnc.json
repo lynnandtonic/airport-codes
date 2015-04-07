@@ -1,0 +1,11 @@
+{
+    "id": "fnc",
+    "code": "fnc",
+    "name": "Airport Santa Catarina",
+    "city": "Funchal",
+    "state": "Região Autónoma da Madeira",
+    "country": "Portugal",
+    "description": "This is the only airport of the Portuguese archipelago Madeira in the Atlantic Ocean. It's serves the capital city *F*u*nc*al.",
+    "imageCredit": "Thomas Klein",
+    "imageCreditLink": "https://commons.wikimedia.org/wiki/File:Flughafen_Madeira_1.jpg"
+}
