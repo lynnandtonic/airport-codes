@@ -12,8 +12,22 @@ If you'd like to add an airport or fix an error, please:
 
 ## Working Locally
 
+This repo has a lot of images, so may take some time to clone. If you'd like to speed up that process, you can clone only the latest (and not the entire commit history) by cloning with this command:
+
+With SSH:
+```
+git clone --depth=1 git@github.com:lynnandtonic/airport-codes.git
+```
+
+With HTTPS:
+```
+git clone --depth=1 https://github.com/lynnandtonic/airport-codes.git
+```
+
+To build the site locally:
 ```
 npm install
+npm install -g gulp
 gulp
 ```
 

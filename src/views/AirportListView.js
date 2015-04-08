@@ -49,7 +49,7 @@ var AirportListView = Backbone.View.extend({
       return (scrollY + height + 500 >= view.$el.offset().top);
     }
 
-    if (!view.loading && !view.loaded && comingInView()) {
+    if (view.isVisible() && !view.loading && !view.loaded && comingInView()) {
       view.lazyLoad();
     }
   },
