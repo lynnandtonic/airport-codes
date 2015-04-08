@@ -1,12 +1,13 @@
 {
-	"id": "nrn",
-	"code": "nrn",
-	"name":	"Weeze Airport",
-	"city":	"Weeze",
-	"state": "North Rhine-Westphalia",
-	"stateShort": "NW",
-	"country": "Germany",
-	"description": "Weeze Airport mostly used by low-cost carriers in Germany. Its airport comes from the original name of the airport, Flughafen *N*iede*r*rhei*n*.",
-	"imageCredit": "Sergey Melkonov",
-	"imageCreditLink": "https://www.flickr.com/photos/melkon/"
+    "id": "nrn",
+    "code": "nrn",
+    "name": "Flughafen Weeze",
+    "nameEnglish": "Weeze Airport",
+    "city": "Weeze",
+    "state": "North Rhine-Westphalia",
+    "stateShort": "",
+    "country": "Germany",
+    "description": "Weeze Airport’s three-letter code comes from its official name, Flughafen *N*iede*r*rhei*n*, with Niederrhein translating to the “Lower Rhine” that flows nearby.",
+    "imageCredit": "Sergey Melkonov",
+    "imageCreditLink": "https://www.flickr.com/photos/melkon/"
 }
