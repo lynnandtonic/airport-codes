@@ -1,0 +1,14 @@
+{
+    "id": "ros",
+    "code": "ros",
+    "name": "Aeropuerto Internacional Rosario Islas Malvinas",
+    "nameEnglish": "Rosario – Islas Malvinas International Airport",
+    "city": "Rosario",
+    "city2": "Funes",
+    "state": "Santa Fe",
+    "stateShort": "Santa Fe",
+    "country": "Argentina",
+    "description": "It is called Islas Malvinas because of the Argentine claim over the Falkland Islands. The airport’s code comes from *Ros*ario, the city where is place.",
+    "imageCredit": "Roger Amaral Scheridon de Moraes",
+    "imageCreditLink": "http://en.wikipedia.org/wiki/Rosario_%E2%80%93_Islas_Malvinas_International_Airport#/media/File:AeropuertoRosario.JPG"
+}
