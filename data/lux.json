@@ -1,0 +1,12 @@
+{
+    "id": "lux",
+    "code": "lux",
+    "name": "Luxembourg Findel Airport",
+    "city": "Luxembourg City",
+    "state": "Luxembourg",
+    "stateShort": "LU",
+    "country": "Luxembourg",
+    "description": "Luxembourg Findel is Luxembourg's only international airport. Its airport code honors name its country, *Lux*embourg.",
+    "imageCredit": "Arthur",
+    "imageCreditLink": "https://www.flickr.com/photos/arthur-a/"
+}
