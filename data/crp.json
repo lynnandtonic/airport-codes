@@ -1,12 +1,12 @@
 {
-"id": "crp",
-"code": "crp",
-"name": "Corpus Christi International Airport",
-"city": "Corpus Christi",
-"state": "Texas",
-"stateShort": "TX",
-"country": "USA",
-"description": "Corpus Christi International Airport is a city-owned public-use airport located five nautical miles west of the central business district of Corpus Christi, in Nueces County, Texas, United States.",
-"imageCredit": "David Joseph",
-"imageCreditLink": "http://www.corpuschristiairport.com/userfiles/images/HaydenHeadTerminal.jpg"
+    "id": "crp",
+    "code": "crp",
+    "name": "Corpus Christi International Airport",
+    "city": "Corpus Christi",
+    "state": "Texas",
+    "stateShort": "TX",
+    "country": "USA",
+    "description": "Corpus Christi International opened a new six-gate terminal named Hayden W. Head Terminal in 2002. It is city-owned and available for public-use just west of *C*o*rp*us Christi, in Nueces County, Texas.",
+    "imageCredit": "TravelingOtter",
+    "imageCreditLink": "https://www.flickr.com/photos/travelingotter/"
 }
