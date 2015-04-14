@@ -1,13 +1,13 @@
 {
     "id": "tij",
     "code": "tij",
-    "name": "Tijuana International Airport",
+    "name": "Aeropuerto Internacional de Tijuana",
+    "nameEnglish": "Tijuana International Airport",
     "city": "Tijuana",
-    "city2": "",
     "state": "Baja California",
-    "stateShort": "BCN",
+    "stateShort": "",
     "country": "Mexico",
-    "description": "Sometimes referred to as General Abelardo L. Rodríguez International Airport, its abbreviation comes from the nearby city of *Tij*uana.",
+    "description": "Opened in 1951 and sometimes referred to as General Abelardo L. Rodríguez International, its airport code comes from the city of *Tij*uana.",
     "imageCredit": "Cesar Lozano",
     "imageCreditLink": "https://www.flickr.com/photos/nopryingeyes/"
 }
