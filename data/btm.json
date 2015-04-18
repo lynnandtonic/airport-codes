@@ -1,0 +1,12 @@
+{
+    "id": "btm",
+    "code": "btm",
+    "name": "Bert Mooney Airport",
+    "city": "Butte",
+    "state": "Montana",
+    "stateShort": "MT",
+    "country": "USA",
+    "description": "Bert Mooney Airport in *B*u*t*te, *M*ontana is named for the first pilot to fly mail into Yellowstone National Park.",
+    "imageCredit": "Sergei Scurfield",
+    "imageCreditLink": "https://www.flickr.com/photos/5of7/"
+}
