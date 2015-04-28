@@ -8,7 +8,7 @@ var AirportView = Backbone.View.extend({
 
   initialize: function() {
     this.model.on('change:visible', this._setClassName, this);
-    this.imageUrl = this._getImageUrl().replace(/(url|["()])/ig, '');
+    this.imageUrl = this._getImageUrl().replace(/(^url|["()])/ig, '');
   },
 
   viewModel: function() {
