@@ -1,7 +1,8 @@
 {
     "id": "rai",
     "code": "rai",
-    "name": "Nelson Mandela International Airport",
+    "name": "Aeroporto Internacional Nelson Mandela",
+    "nameEnglish": "Nelson Mandela International Airport",
     "city": "Praia",
     "city2": "Santiago Island",
     "country": "Cape Verde",
