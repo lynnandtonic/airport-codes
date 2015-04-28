@@ -27,8 +27,7 @@ git clone --depth=1 https://github.com/lynnandtonic/airport-codes.git
 To build the site locally:
 ```
 npm install
-npm install -g gulp
-gulp
+npm run dev
 ```
 
 ## Adding/Editing Airport Content

@@ -4,6 +4,9 @@
   "description": "Airport Codez!",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "deploy": "gulp deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
