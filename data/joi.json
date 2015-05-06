@@ -1,0 +1,13 @@
+{
+    "id": "joi",
+    "code": "joi",
+    "name": "Aeroporto de Joinville-Lauro Carneiro de Loyola",
+    "nameEnglish": "Joinville-Lauro Carneiro de Loyola Airport",
+    "city": "Joinville",
+    "state": "Santa Catarina",
+    "stateShort": "SC",
+    "country": "Brazil",
+    "description": "Lauro Carneiro de Loyola Airport is named after Lauro Falcão Carneiro, local entrepreneur and politician. Its three-letter code comes from the city of *Joi*nville.",
+    "imageCredit": "Matheus Wahl",
+    "imageCreditLink": "http://en.wikipedia.org/wiki/Joinville-Lauro_Carneiro_de_Loyola_Airport#/media/File:Aeroporto_de_Joinville_1.JPG"
+}
