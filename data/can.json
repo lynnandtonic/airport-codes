@@ -1,11 +1,11 @@
 {
-	"id": "can",
-	"code": "can",
-	"name": "Guangzhou Baiyun International Airport",
-	"city": "Guangzhou",
-	"state": "Guangdong",
-	"country": "China",
-	"description": "Guangzhou Baiyun International opened in 2004 as a replacement for the 72-year-old airport with the same name. Its airport code comes from Guangzhou’s former English name: *Can*ton.",
-	"imageCredit": "Matt Weibo",
-	"imageCreditLink": "https://www.flickr.com/photos/mattweibo/"
+    "id": "can",
+    "code": "can",
+    "name": "Guangzhou Baiyun International Airport",
+    "city": "Guangzhou",
+    "state": "Guangdong",
+    "country": "China",
+    "description": "Guangzhou Baiyun International opened in 2004 as a replacement for the 72-year-old airport with the same name. Its airport code comes from Guangzhou’s former English name: *Can*ton.",
+    "imageCredit": "Matt Weibo",
+    "imageCreditLink": "https://www.flickr.com/photos/mattweibo/"
 }
