@@ -1,13 +1,13 @@
 {
-	"id": "lih",
-	"code": "lih",
-	"name": "Lihue Airport",
-	"city": "Lihue",
-	"city2": "Kauai",
-	"state": "Hawaii",
-	"stateShort": "HI",
-	"country": "USA",
-	"description": "Opened in 1949, Lihue Airport is the primary airport on the Hawaiian island of Kauai. Its airport code honors its home in the city of *Lih*ue.",
-	"imageCredit": "Brian Snelson",
-	"imageCreditLink": "https://www.flickr.com/photos/exfordy/"
+    "id": "lih",
+    "code": "lih",
+    "name": "Lihue Airport",
+    "city": "Lihue",
+    "city2": "Kauai",
+    "state": "Hawaii",
+    "stateShort": "HI",
+    "country": "USA",
+    "description": "Opened in 1949, Lihue Airport is the primary airport on the Hawaiian island of Kauai. Its airport code honors its home in the city of *Lih*ue.",
+    "imageCredit": "Brian Snelson",
+    "imageCreditLink": "https://www.flickr.com/photos/exfordy/"
 }
