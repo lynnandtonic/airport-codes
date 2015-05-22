@@ -12,6 +12,7 @@ var concatJson = require('gulp-concat-json');
 var stylus = require('gulp-stylus');
 var minifyCSS = require('gulp-minify-css');
 var deploy = require('gulp-gh-pages');
+var uglify = require('gulp-uglify');
 
 var bundler = watchify(browserify('./src/App.js', watchify.args));
 
@@ -27,6 +28,16 @@ function bundle() {
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true})) // loads map from browserify file
     .pipe(sourcemaps.write('./')) // writes .map file
+    .pipe(gulp.dest('./build'));
+}
+
+function bundleProd() {
+  return bundler.bundle()
+  // log errors if they happen
+    .on('error', gutil.log.bind(gutil, 'Browserify Error'))
+    .pipe(source('app.js'))
+    .pipe(buffer())
+    .pipe(uglify())
     .pipe(gulp.dest('./build'));
 }
 
@@ -93,8 +104,12 @@ gulp.task('build-stylus', function () {
 
 gulp.task('default', ['build-templates', 'build-stylus', 'build-static', 'build-js', 'webserver']);
 
-gulp.task('build', ['build-templates', 'build-stylus', 'build-static'], function() {
+gulp.task('build-dev', ['build-templates', 'build-stylus', 'build-static'], function() {
   bundle();
+});
+
+gulp.task('build', ['build-templates', 'build-stylus', 'build-static'], function() {
+  bundleProd();
 });
 
 gulp.task('deploy', ['build'], function () {
