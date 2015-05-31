@@ -1,7 +1,8 @@
 {
     "id": "cxr",
     "code": "cxr",
-    "name": "Cam Ranh International Airport",
+    "name": "Sân bay Quốc tế Cam Ranh",
+    "nameEnglish": "Cam Ranh International Airport",
     "city": "Khanh Hoa",
     "city2": "Cam Ranh",
     "country": "Vietnam",

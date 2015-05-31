@@ -1,10 +1,11 @@
 {
     "id": "vca",
     "code": "vca",
-    "name": "Can Tho International Airport",
-    "city": "Can Tho",
+    "name": "Sân bay Quốc tế Cần Thơ",
+    "nameEnglish": "Can Tho International Airport",
+    "city": "Cần Thơ",
     "country": "Vietnam",
-    "description": "Built by the U.S. Air Force during the Vietnam War and previously called Trà Nóc Airport, Can Tho International opened commercially in 2008. It gets its airport code from its country and city of *V*ietnam, *Ca*n Tho.",
+    "description": "Built by the U.S. Air Force during the Vietnam War and previously called Trà Nóc Airport, Cần Thơ International opened commercially in 2008. It gets its airport code from its country and city of *V*ietnam, *Ca*n Tho.",
     "imageCredit": "Genghiskhan",
     "imageCreditLink": "http://en.wikipedia.org/wiki/Can_Tho_International_Airport#/media/File:Can_Tho_Airport1.JPG"
 }
