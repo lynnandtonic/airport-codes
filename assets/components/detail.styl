@@ -29,13 +29,25 @@
     z-index: 2
 
     a.close-detail
-      width: 20px
+      width: 18px
       height: @width
       position: absolute
       right: 10px
       top: 10px
       background: url(images/icon-close-white.svg) no-repeat 0 0
       background-size: @width @width
+      text-indent: -9999em
+
+    a.random
+      width: 20px
+      height: @width
+      position: absolute
+      top: 10px
+      left: 10px
+      z-index: 10
+      background: url(images/icon-shuffle.svg) no-repeat 0 0
+      background-size: @width auto
+      text-indent: -9999em
 
   h1
     margin-bottom: 20px
@@ -124,6 +136,7 @@
     .detail-info
       min-height: 320px
       padding: 25px
+      padding-top: 40px
       position: relative
       top: 0
       left: 0
