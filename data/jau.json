@@ -1,12 +1,12 @@
 {
     "id": "jau",
     "code": "jau",
-    "name": "Aeropuerto Francisco Carlé",
-    "nameEnglish": "Francisco Carlé Airport",
+    "name": "Aeropuerto Francisco CarlÃ©",
+    "nameEnglish": "Francisco CarlÃ© Airport",
     "city": "Jauja",
-    "state": "Junín",
+    "state": "JunÃ­n",
     "country": "Peru",
-    "description": "Francisco Carlé Airport serves the city of *Jau*ja and its surround cities. Its airport code honors its home city.",
+    "description": "Francisco CarlÃ© Airport serves the city of *Jau*ja and its surrounding cities. Its airport code honors its home city.",
     "imageCredit": "AgainErick",
     "imageCreditLink": "https://commons.wikimedia.org/wiki/File:Airport_Jauja_Peru.jpg"
 }

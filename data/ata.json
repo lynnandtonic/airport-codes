@@ -1,13 +1,13 @@
 {
     "id": "ata",
     "code": "ata",
-    "name": "Aeropuerto Comandante FAP Germ·n Arias Graziani",
-    "nameEnglish": "Comandante FAP Germ·n Arias Graziani Airport",
+    "name": "Aeropuerto Comandante FAP Germ√°n Arias Graziani",
+    "nameEnglish": "Comandante FAP Germ√°n Arias Graziani Airport",
     "city": "Huaraz",
     "city2": "Anta",
     "state": "Ancash",
     "country": "Peru",
-    "description": "Germ·n Arias Graziani Airport serves the city of Huaraz, but gets its three-letter code from the nearby village of *A*n*ta*.",
+    "description": "Germ√°n Arias Graziani Airport serves the city of Huaraz, but gets its three-letter code from the nearby village of *A*n*ta*.",
     "imageCredit": "WhatKnot",
     "imageCreditLink": "https://www.flickr.com/photos/whatknot/"
 }
