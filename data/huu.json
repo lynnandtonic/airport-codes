@@ -4,10 +4,8 @@
     "name": "Aeropuerto Alférez FAP David Figueroa Fernandini",
     "nameEnglish": "Alférez FAP David Figueroa Fernandini Airport",
     "city": "Huánuco",
-    "state": "Huánuco",
-    "stateShort": "",
     "country": "Peru",
-    "description": "",
-    "imageCredit": "",
-    "imageCreditLink": ""
+    "description": "Serving primarily private and charter flights, David Figueroa Fernandini Airport get its three-letter code from the city of *Hu*án*u*co.",
+    "imageCredit": "David Almeida",
+    "imageCreditLink": "https://www.flickr.com/photos/davidalmeida/"
 }
