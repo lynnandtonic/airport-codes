@@ -59,7 +59,7 @@ function buildStatic() {
 function buildStylus() {
   return gulp.src('./assets/app.styl')
     .pipe(stylus())
-    .pipe(minifyCSS({keepBreaks:true}))
+    .pipe(minifyCSS())
     .pipe(gulp.dest('build'));
 }
 
