@@ -1,27 +1,12 @@
 var Backbone = require('backbone');
-var template = require('./templates/AirportView.jade');
 
 var AirportView = Backbone.View.extend({
 
-  tagName: 'li',
-  className: 'card',
-
   initialize: function() {
+    this.$el = Backbone.$('#code-'+this.model.get('code'));
+    this.el = this.$el[0];
     this.model.on('change:visible', this._setClassName, this);
     this.imageUrl = this._getImageUrl().replace(/(^url|["()])/ig, '');
-  },
-
-  viewModel: function() {
-    return {
-      code: this.model.get('code'),
-      name: this.model.get('name'),
-      city: this.model.get('city'),
-      state: this.model.get('state'),
-      country: this.model.get('country'),
-      description: this.model.get('description'),
-      imageCredit: this.model.get('imageCredit'),
-      imageCreditLink: this.model.get('imageCreditLink')
-    };
   },
 
   isVisible: function() {
@@ -72,7 +57,6 @@ var AirportView = Backbone.View.extend({
   },
 
   render: function() {
-    this.$el.html(template(this.viewModel()));
     return this;
   }
 

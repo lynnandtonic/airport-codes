@@ -64,8 +64,11 @@ function buildStylus() {
 }
 
 function buildJade() {
+  var d = require('./data/index.js');
   return gulp.src('./templates/**/*.jade')
-    .pipe(jade())
+    .pipe(jade({
+      locals: d
+    }))
     .pipe(gulp.dest('build'));
 }
 

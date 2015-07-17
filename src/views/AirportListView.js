@@ -4,14 +4,11 @@ var ContributeItemView = require('./ContributeItemView');
 
 var AirportListView = Backbone.View.extend({
 
-  tagName: 'ul',
-  className: 'cf airport-list',
-
   _deferTimer: null,
 
   initialize: function(options) {
+    this.$el = Backbone.$('.airport-list');
     this.airports = options.airports;
-    this.render();
 
     this.airports.on('change:visible', this._handleChange, this);
 
@@ -62,9 +59,7 @@ var AirportListView = Backbone.View.extend({
   },
 
   render: function() {
-    var views = this.renderAirports();
-    this.$el.html('');
-    this.$el.append(views);
+    this.renderAirports();
 
     var contributeItemView = new ContributeItemView();
     this.$el.append(contributeItemView.render().el);

@@ -1,5 +1,4 @@
 var Backbone = require('backbone');
-var template = require('./templates/SearchView.jade');
 
 var _ = require('underscore');
 
@@ -17,6 +16,8 @@ var SearchView = Backbone.View.extend({
   },
 
   initialize: function(options) {
+    this.$el = Backbone.$('header');
+    this.el = this.$el[0];
     this.airports = options.airports;
   },
 
@@ -63,7 +64,6 @@ var SearchView = Backbone.View.extend({
   },
 
   render: function() {
-    this.$el.html(template());
     return this;
   }
 

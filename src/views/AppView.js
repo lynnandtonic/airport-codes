@@ -25,12 +25,12 @@ var AppView = Backbone.View.extend({
     this._searchView = new SearchView({
       airports: this._airports
     });
-    this.$el.append(this._searchView.render().el);
+    this._searchView.render();
 
     this._airportListView = new AirportListView({
       airports: this._airports
     });
-    this.$el.append(this._airportListView.render().el);
+    this._airportListView.render();
 
     return this;
   }
