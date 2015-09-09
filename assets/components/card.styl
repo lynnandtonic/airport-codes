@@ -35,6 +35,10 @@
     text-shadow: 0 0 10px black(.7)
     color: white
 
+    span
+      opacity: 0
+      transition(opacity .3s ease-in)
+
     @media (max-width: 400px)
       padding: 50px 20px
       font-size: 46px
@@ -58,6 +62,13 @@
 
   @media (min-width: 2000px)
     width: 14.28%
+
+.wf-active
+  .card a span
+    opacity: 1
+.wf-inactive
+  .card a span
+    opacity: 1
 
 .card-contribute
   position: relative
