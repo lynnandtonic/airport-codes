@@ -1,10 +1,8 @@
 {
     "id": "lux",
-    "code": "lux",
     "name": "Aéroport de Luxembourg",
     "nameEnglish": "Luxembourg Findel Airport",
     "city": "Luxembourg City",
-    "state": "Luxembourg",
     "country": "Luxembourg",
     "description": "Located in the town of Findel, Luxembourg’s only international airport gets its airport code from its home country of *Lux*embourg.",
     "imageCredit": "Jeff C",

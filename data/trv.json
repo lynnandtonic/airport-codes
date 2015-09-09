@@ -1,9 +1,7 @@
 {
     "id": "trv",
-    "code": "trv",
     "name":	"Trivandrum International Airport",
     "city":	"Thiruvananthapuram",
-    "city2": "Trivandrum",
     "state": "Kerala",
     "stateShort": "KL",
     "country": "India",

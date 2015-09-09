@@ -13,7 +13,7 @@ var AirportView = Backbone.View.extend({
 
   viewModel: function() {
     return {
-      code: this.model.get('code'),
+      id: this.model.get('id'),
       name: this.model.get('name'),
       city: this.model.get('city'),
       state: this.model.get('state'),
@@ -29,7 +29,7 @@ var AirportView = Backbone.View.extend({
   },
 
   _setClassName: function() {
-    this.$el.addClass(this.model.get('code'));
+    this.$el.addClass(this.model.get('id'));
     this.$el.toggleClass('loaded', this.loaded);
     this.$el.toggleClass('hidden', !this.model.get('visible'));
   },

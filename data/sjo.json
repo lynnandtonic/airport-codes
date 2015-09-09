@@ -1,12 +1,10 @@
 {
     "id": "sjo",
-    "code": "sjo",
     "name": "Aeropuerto Internacional Juan Santamaría",
     "nameEnglish": "Juan Santamaría International Airport",
     "city": "San José",
     "city2": "San Jose",
     "city3": "Alajuela",
-    "state": "San José",
     "country": "Costa Rica",
     "description": "Juan Santamaría International honors Juan Santamaría, national hero of Costa Rica who was killed in the Second Battle of Rivas in 1856. Its code comes from the city it serves, *S*an *JO*sé",
     "imageCredit": "Eric T Gunther",
