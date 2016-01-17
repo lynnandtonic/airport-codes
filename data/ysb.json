@@ -1,0 +1,11 @@
+{
+    "id": "ysb",
+    "name": "Sudbury Airport",
+    "city": "Sudbury",
+    "state": "Ontario",
+    "stateShort": "ON",
+    "country": "Canada",
+    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. Sudbury Airport serves Greater *S*ud*b*ury in Ontario.",
+    "imageCredit": "Mysudbury.ca",
+    "imageCreditLink": "https://www.flickr.com/photos/mysudbury-ouisudbury/"
+}
