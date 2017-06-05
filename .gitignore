@@ -5,3 +5,7 @@ node_modules
 build
 tmp
 data/index.js
+
+# IDE artifacts
+/.idea/
+/*.iml
