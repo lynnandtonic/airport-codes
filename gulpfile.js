@@ -5,22 +5,22 @@ var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var watchify = require('watchify');
 var browserify = require('browserify');
-var webserver = require('gulp-webserver');
-var jade = require('gulp-jade');
+var webserver = require('gulp-connect');
+var jade = require('gulp-pug');
 var data = require('gulp-data');
 var concatJson = require('gulp-concat-json');
 var stylus = require('gulp-stylus');
-var minifyCSS = require('gulp-minify-css');
+var minifyCSS = require('gulp-clean-css');
 var deploy = require('gulp-gh-pages');
 var uglify = require('gulp-uglify');
 
-var bundler = watchify(browserify('./src/App.js', watchify.args));
+var bundler = browserify('./src/App.js', watchify.args);
 
 gulp.task('build-js', ['build-json'], bundle); // so you can run `gulp js` to build the file
 bundler.on('update', bundle); // on any dep update, runs the bundler
 
 function bundle() {
-  return bundler.bundle()
+  return watchify(bundler).bundle()
     // log errors if they happen
     .on('error', gutil.log.bind(gutil, 'Browserify Error'))
     .pipe(source('app.js'))
@@ -76,14 +76,11 @@ gulp.task('webserver', function() {
   var jadeWatcher = gulp.watch('templates/**/*.jade', ['build-templates']);
   var jsonWatcher = gulp.watch('data/**/*.json', ['build-json']);
 
-  gulp.src('build')
-    .pipe(webserver({
-      port: 3456,
-      livereload: false,
-      host: '0.0.0.0',
-      directoryListing: false,
-      open: false
-    }));
+  webserver.server({
+    port: 3456,
+    host: '0.0.0.0',
+    root: 'build'
+  });
 });
 
 gulp.task('build-json', function() {
