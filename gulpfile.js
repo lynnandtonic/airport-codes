@@ -13,6 +13,8 @@ var stylus = require('gulp-stylus');
 var minifyCSS = require('gulp-clean-css');
 var deploy = require('gulp-gh-pages');
 var uglify = require('gulp-uglify');
+var responsive = require('gulp-responsive');
+var imagemin = require('gulp-imagemin');
 
 var bundler = browserify('./src/App.js', watchify.args);
 
@@ -99,13 +101,36 @@ gulp.task('build-stylus', function () {
   return buildStylus();
 });
 
-gulp.task('default', ['build-templates', 'build-stylus', 'build-static', 'build-js', 'webserver']);
+gulp.task('build-images', function() {
+  return gulp.src('assets/images/large/*.{png,jpg}')
+    .pipe(responsive({
+      '*': [{
+        height: 220,
+        rename: { dirname: 'card'}
+      }, {
+        width: 500,
+        rename: { dirname: 'small'}
+      }, {
+        width: 900,
+        rename: { dirname: 'medium'}
+      }]
+    }, {
+      errorOnEnlargement: false,
+      format: 'jpeg',
+      min: true,
+      progressive: true,
+      withMetadata: false
+    }))
+    .pipe(gulp.dest('build/images'));
+});
 
-gulp.task('build-dev', ['build-templates', 'build-stylus', 'build-static'], function() {
+gulp.task('default', ['build-templates', 'build-stylus', 'build-static', 'build-images', 'build-js', 'webserver']);
+
+gulp.task('build-dev', ['build-templates', 'build-stylus', 'build-static', 'build-images'], function() {
   bundle();
 });
 
-gulp.task('build', ['build-templates', 'build-stylus', 'build-static'], function() {
+gulp.task('build', ['build-templates', 'build-stylus', 'build-static', 'build-images'], function() {
   bundleProd();
 });
 

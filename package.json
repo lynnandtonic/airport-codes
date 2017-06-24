@@ -29,6 +29,7 @@
     "gulp-data": "1.2.1",
     "gulp-gh-pages": "0.5.4",
     "gulp-pug": "3.3.0",
+    "gulp-responsive": "2.7.1",
     "gulp-sourcemaps": "2.6.0",
     "gulp-stylus": "2.6.0",
     "gulp-uglify": "3.0.0",
