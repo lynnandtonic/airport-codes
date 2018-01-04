@@ -63,6 +63,7 @@ var AirportDetailView = Backbone.View.extend({
     this._renderSocialViews();
 
     Backbone.$('body').append(this.$el);
+    this.$('.random').focus();
     return this;
   },
 
