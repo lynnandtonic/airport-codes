@@ -21,19 +21,8 @@
     -moz-transition-delay: 0s
     transition-delay: 0s
 
-  // Header fakeout
-  &:after
-    width: 100%
-    height: 50px
-    position: absolute
-    top: 0
-    left: 0
-    z-index: 20
-    background: rgba(50,50,50,.8)
-    content: ''
-
   .back
-    z-index: 30
+    z-index: 10
 
   .container
     width: 100%
@@ -64,8 +53,12 @@
       color: $blue
       font-weight: $font-weight-medium
 
-      &:hover
+      &:hover,
+      &:focus
         border-color: $blue
+
+      &:focus
+        outline: none
 
   .quote
     font-size: 22px

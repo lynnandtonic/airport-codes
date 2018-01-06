@@ -10,8 +10,12 @@
   text-transform: uppercase
   color: white
 
-  &:hover
+  &:hover,
+  &:focus
     background-color: darken($blue, 35%)
+
+  &:focus
+    outline: none
 
   &.btn-secondary
     margin: 0
@@ -19,5 +23,6 @@
     background-color: rgba(64,186,226,.4)
     font-size: 14px
 
-    &:hover
+    &:hover,
+    &:focus
       background-color: $blue

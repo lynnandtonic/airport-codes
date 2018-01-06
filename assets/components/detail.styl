@@ -38,6 +38,10 @@
       background-size: 18px 18px
       text-indent: -9999em
 
+      &:focus
+        outline: none
+        background-color: black(.9)
+
     a.random
       width: 40px
       height: @width
@@ -48,6 +52,10 @@
       background: url(images/icon-shuffle.svg) no-repeat center center
       background-size: 20px 20px
       text-indent: -9999em
+
+      &:focus
+        outline: none
+        background-color: black(.9)
 
   h1
     margin-bottom: 20px
@@ -101,8 +109,12 @@
       &.facebook
         background-image: url(images/logo-facebook.svg)
 
-      &:hover
+      &:hover,
+      &:focus
         opacity: .6
+
+      &:focus
+        outline: none
 
 
   // Photographer credit and link
@@ -118,6 +130,10 @@
 
       &:hover
         opacity: .5
+
+      &:focus
+        color: $blue
+        outline: none
 
 // Narrow screens
 @media (max-width: 650px)
