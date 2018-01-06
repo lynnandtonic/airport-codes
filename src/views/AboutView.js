@@ -36,6 +36,9 @@ var AboutView = Backbone.View.extend({
 
   render: function() {
     this.$el.html(template(this.viewModel()));
+
+    Backbone.$('body').append(this.$el);
+    this.$('.back').focus();
     return this;
   }
 
