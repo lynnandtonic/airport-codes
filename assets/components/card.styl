@@ -1,31 +1,42 @@
 //- Card styling
+.airport-list
+  display: grid
+  grid-gap: 0
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+
+  &.cf
+
+    &:before
+      content: none
+      display: none
 
 .card
-  position: relative
-  float: left
   background: black
+  display: grid
+  grid-template-columns: auto auto auto
+  grid-template-rows: auto auto auto
 
   &.hidden
     display: none
 
   .background
-    width: 100%
-    height: 100%
+    grid-column: 1 / span 4
+    grid-row: 1 / span 4
     background: no-repeat center center
     background-size: cover
-    position: absolute
     z-index: 1
     opacity: 0
     transition(opacity .3s ease-in)
+
 
   &.loaded
     .background
       opacity: 1
 
   a
+    grid-column: 1 / span 4
+    grid-row: 1 / span 4
     padding: 80px 20px
-    display: block
-    position: relative
     z-index: 2
     background: black(.35)
     font-size: 60px
@@ -51,22 +62,22 @@
       outline: none
       box-shadow: inset 0 0 0 15px black(.4)
 
-  width: 50%
+  //width: 50%
 
   @media (min-width: 600px)
-    width: 33.33%
+    //width: 33.33%
 
   @media (min-width: 800px)
-    width: 25%
+    //width: 25%
 
   @media (min-width: 1100px)
-    width: 20%
+    //width: 20%
 
   @media (min-width: 1500px)
-    width: 16.66%
+    //width: 16.66%
 
   @media (min-width: 2000px)
-    width: 14.28%
+    //width: 14.28%
 
 .wf-active
   .card a span
