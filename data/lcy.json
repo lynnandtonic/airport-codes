@@ -1,0 +1,11 @@
+{
+    "id": "lcy",
+    "name": "London City Airport",
+    "city": "London",
+    "city2": "Silvertown",
+    "state": "England",
+    "country": "UK",
+    "description": "Located in the Royal Docks and near London’s financial district, *L*ondon *C*it*y* Airport primarily serves business travelers. Recently though, it has started serving more leisure destinations.",
+    "imageCredit": "Jonathan E. Shaw",
+    "imageCreditLink": "https://www.flickr.com/photos/johnnyshaw/"
+}

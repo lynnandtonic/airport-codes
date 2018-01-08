@@ -1,12 +1,10 @@
 {
     "id": "cph",
-    "code": "cph",
     "name": "Københavns Lufthavn, Kastrup",
     "nameEnglish": "Copenhagen Airport, Kastrup",
     "city": "Copenhagen",
     "city2": "Kastrup",
     "state": "Tårnby",
-    "stateShort": "",
     "country": "Denmark",
     "description": "Located in the small town of Kastrup and founded in 1925, *C*o*p*en*h*agen Airport is one of the oldest civil airports in the world.",
     "imageCredit": "Arnþór Snær Sævarsson",

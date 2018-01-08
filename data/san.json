@@ -1,0 +1,11 @@
+{
+    "id": "san",
+    "name": "Lindbergh Field",
+    "city": "San Diego",
+    "state": "California",
+    "stateShort": "CA",
+    "country": "USA",
+    "description": "Following Charles Lindbergh’s historic flight, the city where his plane was built capitalized on public support to build its own airport. Its airport code comes from the city it serves, *San* Diego.",
+    "imageCredit": "Nathan Rupert",
+    "imageCreditLink": "https://www.flickr.com/photos/nathaninsandiego/"
+}

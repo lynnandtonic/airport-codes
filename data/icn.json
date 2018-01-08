@@ -1,11 +1,9 @@
 {
     "id": "icn",
-    "code": "icn",
     "name": "Incheon International Airport",
     "city": "Seoul",
     "city2": "Jung District",
     "state": "Korea",
-    "stateShort": "",
     "country": "South Korea",
     "description": "The airport that serves the Seoul Metro Area is actually located on a man-made piece of land between Yeongjong and Yongyu islands, west of *I*n*c*heo*n*’s city center.",
     "imageCredit": "Marcella Bona",

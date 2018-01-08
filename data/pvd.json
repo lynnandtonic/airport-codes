@@ -1,13 +1,12 @@
 {
     "id": "pvd",
-    "code": "pvd",
     "name": "Theodore Francis Green Memorial State Airport",
     "city": "Providence",
     "city2": "Warwick",
     "state": "Rhode Island",
     "stateShort": "RI",
     "country": "USA",
-    "description": "T.F. Green Airport, as it’s called for short, honors former Rhode Island governor and senator Theodore F. Green. Its airport code honors its home in *P*ro*v*i*d*ence.",
+    "description": "T.F. Green Airport, as it’s called for short, honors former Rhode Island governor Theodore F. Green. Actually located in the nearby city of Warwick, its airport code reflects the major city it serves: *P*ro*v*i*d*ence.",
     "imageCredit": "Marc Choquette",
     "imageCreditLink": "https://www.flickr.com/photos/23185977@N08/"
 }

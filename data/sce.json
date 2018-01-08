@@ -1,0 +1,12 @@
+{
+    "id": "sce",
+    "name": "University Park Airport",
+    "city": "State College",
+    "city2": "Bellefonte",
+    "state": "Pennsylvania",
+    "stateShort": "PA",
+    "country": "USA",
+    "description": "Built in the 1950s, University Park Airport is now owned by Penn State University. Its airport code comes from its home near the town of *S*tate *C*olleg*e*.",
+    "imageCredit": "Penn State",
+    "imageCreditLink": "https://www.flickr.com/photos/pennstatelive/"
+}

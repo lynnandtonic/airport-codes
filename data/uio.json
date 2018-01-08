@@ -1,0 +1,12 @@
+{
+    "id": "uio",
+    "name": "Aeropuerto Internacional Mariscal Sucre",
+    "nameEnglish": "Mariscal Sucre International Airport",
+    "city": "Quito",
+    "city2": "Tababela",
+    "state": "Pichincha",
+    "country": "Ecuador",
+    "description": "Mariscal Sucre International is named after Antonio José de Sucre who fought for the independence of Quito, in what is now Ecuador. Because the FCC reserved codes starting with ‘Q’, it opted for other letters from its home city of Q*ui*t*o*.",
+    "imageCredit": "Aero Icarus",
+    "imageCreditLink": "https://www.flickr.com/photos/aero_icarus/"
+}

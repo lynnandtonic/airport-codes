@@ -1,0 +1,11 @@
+{
+    "id": "mbs",
+    "name": "MBS International Airport",
+    "city": "Freeland",
+    "state": "Michigan",
+    "stateShort": "MI",
+    "country": "USA",
+    "description": "Formerly known as Freeland Tri-City Airport, MBS International is the third busiest airport in Michigan. Its airport code honors the three communities it serves: *M*idland, *B*ay City, and *S*aginaw.",
+    "imageCredit": "Doc Searls",
+    "imageCreditLink": "https://www.flickr.com/photos/docsearls/"
+}

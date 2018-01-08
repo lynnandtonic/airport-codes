@@ -1,12 +1,11 @@
 {
     "id": "pdx",
-    "code": "pdx",
     "name": "Portland International Airport",
     "city": "Portland",
     "state": "Oregon",
     "stateShort": "OR",
     "country": "USA",
     "description": "Before the 1930’s, airports had two-letter codes. When codes switched to three letters, many added the letter ‘X’ to the end. PD (*P*ortlan*d*) became PDX.",
-    "imageCredit": "pfly",
-    "imageCreditLink": "https://www.flickr.com/photos/pfly/"
+    "imageCredit": "Kerry L",
+    "imageCreditLink": "https://www.flickr.com/photos/kerrypolka/"
 }

@@ -1,0 +1,11 @@
+{
+    "id": "sql",
+    "name": "San Carlos Airport",
+    "city": "San Carlos",
+    "state": "California",
+    "stateShort": "CA",
+    "country": "USA",
+    "description": "Opened during World War I and originally named San Carlos Flying Field, SQL is often misattributed as a reference to the nearby database company, Oracle. It actually stands for *S*an Car*l*os plus a helpful filler ‘*Q*’.",
+    "imageCredit": "Nelson Minar",
+    "imageCreditLink": "https://www.flickr.com/photos/nelsonminar/"
+}

@@ -6,16 +6,14 @@
   position: fixed
   top: 0
   left: 0
-  z-index: 2
+  z-index: 10
   visbility: visible
   opacity: 1
-  background: $grey-drk no-repeat 50% 50%
+  background: black no-repeat 50% 50%
   background-size: cover
   text-align: center
   {fadeIn}
-  -webkit-transition: opacity .2s ease-out, visibility .2s ease-out
-  -moz-transition: opacity .2s ease-out, visibility .2s ease-out
-  transition: opacity .2s ease-out, visibility .2s ease-out
+  transition(opacity .2s ease-out, visibility .2s ease-out)
 
   &.hidden
     visibility: hidden
@@ -28,6 +26,36 @@
 
   .detail-info
     border: 1px solid white
+    z-index: 2
+
+    a.close-detail
+      width: 40px
+      height: @width
+      position: absolute
+      right: 0
+      top: 0
+      background: url(images/icon-close-white.svg) no-repeat center center
+      background-size: 18px 18px
+      text-indent: -9999em
+
+      &:focus
+        outline: none
+        background-color: black(.9)
+
+    a.random
+      width: 40px
+      height: @width
+      position: absolute
+      top: 0
+      left: 0
+      z-index: 10
+      background: url(images/icon-shuffle.svg) no-repeat center center
+      background-size: 20px 20px
+      text-indent: -9999em
+
+      &:focus
+        outline: none
+        background-color: black(.9)
 
   h1
     margin-bottom: 20px
@@ -71,24 +99,28 @@
       width: 35px
       height: 25px
       display: block
-      background: no-repeat 0 0
+      background: no-repeat center center
       background-size: auto @height
       text-indent: -9999em
-      -webkit-transition: none
-      -moz-transition: none
-      transition: none
+      transition(none)
 
       &.twitter
         background-image: url(images/logo-twitter.svg)
       &.facebook
         background-image: url(images/logo-facebook.svg)
 
-      &:hover
+      &:hover,
+      &:focus
         opacity: .6
+
+      &:focus
+        outline: none
+
 
   // Photographer credit and link
   .photo-credit
     padding: 7px
+    z-index: 2
     background: black(.3)
     border-radius: 3px
 
@@ -98,6 +130,10 @@
 
       &:hover
         opacity: .5
+
+      &:focus
+        color: $blue
+        outline: none
 
 // Narrow screens
 @media (max-width: 650px)
@@ -111,20 +147,24 @@
       height: 100%
       padding: 60px 15px 30px
       overflow-y: auto
+      // -webkit-overflow-scrolling: touch
 
     .detail-info
       min-height: 320px
       padding: 25px
-      position: static
+      padding-top: 40px
+      position: relative
       top: 0
       left: 0
 
     .photo-credit
       margin: 20px 0
+      position: relative
       display: inline-block
 
     .back
       background: black(.6)
+
 
 // Wide screens
 @media (min-width: 651px)
@@ -142,8 +182,9 @@
       top: 15px
       right: 15px
 
+
 // Wide but short screens
-@media (min-width: 651px) and (max-height: 480px)
+@media (min-width: 651px) and (max-height: 550px)
 
   .detail
     width: 100%
@@ -154,11 +195,12 @@
       height: 100%
       padding: 60px 15px 30px
       overflow-y: auto
+      // -webkit-overflow-scrolling: touch
 
     .detail-info
       min-height: 320px
       margin: 0 auto
-      position: static
+      position: relative
       top: 0
       left: 0
       transform(none)

@@ -8,13 +8,18 @@ var AirportDetailView = Backbone.View.extend({
   tagName: 'div',
   className: 'detail',
 
-  initialize: function() {
+  events: {
+    'click a.random': '_handleRandom'
+  },
+
+  initialize: function(options) {
+    this.airports = options.airports;
     this.model.on('change:showDetail', this.toggle, this);
   },
 
   viewModel: function() {
     return {
-      code: this.model.get('code'),
+      id: this.model.get('id'),
       name: this.model.get('name'),
       city: this.model.get('city'),
       state: this.model.get('state'),
@@ -41,8 +46,14 @@ var AirportDetailView = Backbone.View.extend({
     this.$el.toggleClass('hidden', !this.model.get('showDetail'));
   },
 
+  _handleRandom: function(event) {
+    event.preventDefault();
+    var len = this.airports.length;
+    window.location.href = '#airport/' + this.airports.at(Math.floor(Math.random()*len)).get('id');
+  },
+
   _setClassName: function() {
-    this.$el.addClass(this.model.get('code'));
+    this.$el.addClass(this.model.get('id'));
   },
 
   render: function() {
@@ -52,6 +63,7 @@ var AirportDetailView = Backbone.View.extend({
     this._renderSocialViews();
 
     Backbone.$('body').append(this.$el);
+    this.$('.close-detail').focus();
     return this;
   },
 
@@ -60,8 +72,8 @@ var AirportDetailView = Backbone.View.extend({
       this._twitter = new SocialView({
         url: 'https://twitter.com/intent/tweet?url=$SHARE_URL&text=$TEXT',
         type: 'twitter',
-        text: 'Making sense of those three-letter airport codes. ' + this.model.get('code').toUpperCase() + ':',
-        share_url: 'http://airportcod.es/%23airport/' + this.model.get('code')
+        text: 'Making sense of those three-letter airport codes. ' + this.model.get('id').toUpperCase() + ':',
+        share_url: 'http://airportcod.es/%23airport/' + this.model.get('id')
       });
       this._twitter.render();
     }
@@ -70,7 +82,7 @@ var AirportDetailView = Backbone.View.extend({
       this._facebook = new SocialView({
         url: 'https://www.facebook.com/sharer/sharer.php?u=$SHARE_URL',
         type: 'facebook',
-        share_url: 'http://airportcod.es/#airport/' + this.model.get('code')
+        share_url: 'http://airportcod.es/#airport/' + this.model.get('id')
       });
       this._facebook.render();
     }

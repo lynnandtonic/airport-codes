@@ -28,9 +28,7 @@ body
 nav,
 .airport-list
   opacity: 1
-  -webkit-transition: opacity .3s ease-in
-  -moz-transition: opacity .3s ease-in
-  transition: opacity .3s ease-in
+  transition(opacity .3s ease-in)
 
 ::-moz-selection
   background-color: cyan
@@ -52,19 +50,21 @@ p
 
 a
   text-decoration: none
-  -webkit-transition: all .2s ease-in
-  -moz-transition: all .2s ease-in
-  transition: all .2s ease-in
+  transition(all .2s ease-in)
 
 // Full page overlay
 .overlay
   width: 100%
   height: 100%
+  display: block
+  position: absolute
+  z-index: 1
   background: black(.7)
+  cursor: default
 
 // Airport Codes back link
 .back
-  padding: 5px 8px
+  padding: 8px
   position: absolute
   top: 13px
   left: 7px
@@ -76,6 +76,10 @@ a
 
   &:hover
     opacity: .5
+
+  &:focus
+    background: $blue
+    outline: none
 
 // Fade-in animation
 {fadeInKeyframes}

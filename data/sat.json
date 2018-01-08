@@ -1,0 +1,11 @@
+{
+    "id": "sat",
+    "name": "San Antonio International Airport",
+    "city": "San Antonio",
+    "state": "Texas",
+    "stateShort": "TX",
+    "country": "USA",
+    "description": "The gateway for south central Texas, San Antonio International was originally known as Alamo Field. Its airport code honors its home in the city of *S*an *A*ntonio, *T*exas.",
+    "imageCredit": "San Antonio Airport System",
+    "imageCreditLink": "https://www.sanantonio.gov/aviation/"
+}

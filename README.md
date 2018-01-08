@@ -6,15 +6,28 @@ A website that tries to make sense of those three-letter airport codes.
 
 If you'd like to add an airport or fix an error, please:
 
-- [Submit an issue](https://github.com/lynnandtonic/airport-codes/issues)
-- Submit a pull request
+- [Submit an issue](https://github.com/lynnandtonic/airport-codes/issues) or
+- Submit a pull request or
 - Contact us on Twitter: [@lynnandtonic](https://twitter.com/lynnandtonic) or [@nickcrohn](https://twitter.com/nickcrohn)
 
 ## Working Locally
 
+This repo has a lot of images, so may take some time to clone. If you'd like to speed up that process, you can clone only the latest (and not the entire commit history) by cloning with this command:
+
+With SSH:
+```
+git clone --depth=1 git@github.com:lynnandtonic/airport-codes.git
+```
+
+With HTTPS:
+```
+git clone --depth=1 https://github.com/lynnandtonic/airport-codes.git
+```
+
+To build the site locally:
 ```
 npm install
-gulp
+npm run dev
 ```
 
 ## Adding/Editing Airport Content
@@ -24,7 +37,6 @@ Airport content can be found in `/data` in individual files. Use the three-lette
 Content in each `json` file:
 
 - `id` = three-letter code (e.g. phx)
-- `code` = three-letter code (phx)
 - `name` = airport name (Sky Harbor International Airport)
 - `city` = primary city name (Phoenix)
 - `state` = state name, if applicable (Arizona)
@@ -39,20 +51,20 @@ You can also optionally add for aid in searching:
 - `city2` = another city or county the airport may be known for
 - `city3` = another city or county the airport may be known for
 
-Add the airport to `/data/index.js`.
+Adding a `json` file to `/data` will automatically render it. You do not need to manually add the path anywhere.
 
 ### Images
 
 - Please use photos from Flickr that are licensed under Creative Commons.
-- Please save out 4 sizes of each image with the filename convention `code-photographer.jpg`
+- If photos are not available on Flickr, please use Wikipedia with the same license.
+- Please save out 4 sizes of each image as a JPG with the filename convention `code-photographer.jpg`
   - Card, 250px height, put in `assets/images/card`
   - Small, 500px width, put in `assets/images/small`
   - Medium, 900px width, put in `assets/images/medium`
   - Large, 1500px width, put in `assets/images/large`
 - Please optimize images
 
-- Add variable and image name to `/assets/globals/image-names.styl`. That will look something like this: `$aus = 'aus-jon-collier.jpg'`
-- Add image paths for card, small, medium, and large to `assets/components/backgrounds.styl`.
+- Add variable and photographer name to `/assets/globals/image-names.styl`. The photographer name must match how it is spelled in the image file name. So if an image is named `abq-david-basanta.jpg` you would add `'abq': 'david-basanta'` to the `image-names.styl`.
 
 ## Editing Templates
 
@@ -79,3 +91,9 @@ Please use the following loose declaration order:
 * Box Shadows
 * Fonts and Colors
 * Other
+
+## License
+
+[GNU General Public License v3.0](http://choosealicense.com/licenses/gpl-3.0/)
+
+Because of the Creative Commons licensed images used on this site, any derivatives _CAN NOT_ be for commercial or paid use.

@@ -1,12 +1,9 @@
 {
     "id": "lis",
-    "code": "lis",
     "name": "Aeroporto da Portela",
     "nameEnglish": "Lisbon Portela Airport",
     "city": "Lisbon",
     "city2": "Portela",
-    "state": "",
-    "stateShort": "",
     "country": "Portugal",
     "description": "Portugal’s busiest airport is named for its neighboring parish, Portela, but its airport code comes from the capital city of *Lis*bon.",
     "imageCredit": "hom26",

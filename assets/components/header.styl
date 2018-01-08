@@ -9,7 +9,7 @@ nav
   left: 0
 
 header
-  z-index: 1
+  z-index: 5
   background: black
   box-shadow: 0 2px 3px black(.2)
 
@@ -25,19 +25,24 @@ header
 
     a
       color: white
-      padding: 5px 8px
+      padding: 5px 8px 0
 
       &.nav-about
         margin-left: 1px
         color: $grey-drk
 
-      &:hover
+      &:hover,
+      &:focus
         opacity: .5
+
+      &:focus
+        outline: none
+        border-bottom: 2px solid
 
   input
     width: 50%
     margin-top: 1px
-    padding: 4px 10px 4px 30px
+    padding: 4px 30px
     float: right
     background: white url(images/icon-search.svg) no-repeat 8px 6px
     background-size: 14px 14px
@@ -47,6 +52,7 @@ header
     font-family: $font-family-georgia
     font-style: italic
     line-height: 1
+    transition: .3s box-shadow
 
     &::-webkit-input-placeholder
       padding-top: 2px
@@ -57,28 +63,51 @@ header
 
     &:focus
       outline: none
+      box-shadow: 0 0 0 5px black(.15)
+
+  .clear
+    width: 13px
+    height: @width
+    {centerVert}
+    right: 22px
+    background: url(images/icon-close-grey-red.svg) no-repeat 0 0
+    background-size: 13px 26px
+    border: none
+    cursor: pointer
+
+    &:hover,
+    &:focus
+      background-position: 0 -13px
+
+    &:focus
+      outline: none
+
 
 // Search collapse/expand for small screens
 @media (max-width: 500px)
 
   header
 
+    .clear
+      display: none
+
     input
       width: 30px
       margin-left: 15px
-      padding-left: 20px
+      padding-right: 0
       position: absolute
       right: 15px
-      -webkit-transition: width ease-out .2s
-      -moz-transition: width ease-out .2s
-      transition: width ease-out .2s
+      transition(width ease-out .2s)
 
       &:hover
         cursor: pointer
 
       &:focus
         width: calc(100% - 30px)
-        padding-left: 30px
+        padding-right: 30px
 
         &:hover
           cursor: default
+
+        & + .clear
+          display: block

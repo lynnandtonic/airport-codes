@@ -1,12 +1,11 @@
 {
     "id": "geg",
-    "code": "geg",
     "name": "Spokane International Airport",
     "city": "Spokane",
     "state": "Washington",
     "stateShort": "WA",
     "country": "USA",
     "description": "Before being renamed in 1960, Spokane International was known as *Ge*i*g*er Field, honoring U.S. Army aviator, Major Harold Geiger.",
-    "imageCredit": "Chris Saulit",
-    "imageCreditLink": "https://www.flickr.com/photos/csaulit/"
+    "imageCredit": "Brendan Biele",
+    "imageCreditLink": "https://www.flickr.com/photos/brendanbiele/"
 }

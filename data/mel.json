@@ -1,0 +1,12 @@
+{
+    "id": "mel",
+    "name": "Melbourne Airport",
+    "city": "Melbourne",
+    "city2": "Tullamarine",
+    "state": "Victoria",
+    "stateShort": "Vic",
+    "country": "Australia",
+    "description": "Located in the suburb of Tullamarine, Melbourne Airport is often called “Tullamarine Airport” or just “Tulla.” Its airport code comes from the city of *Mel*bourne.",
+    "imageCredit": "Christopher",
+    "imageCreditLink": "https://www.flickr.com/photos/chriscorneschi/"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "koa",
+    "name": "Kona International Airport",
+    "city": "Kailua-Kona",
+    "city2": "Kalaoa",
+    "city3": "Kona",
+    "state": "Hawaii",
+    "stateShort": "HI",
+    "country": "USA",
+    "description": "Opened in 1970 and originally known as Ke-āhole Airport, Kona International serves Kailua-Kona, usually referred to as just *Ko*n*a*.",
+    "imageCredit": "Thomas Tunsch",
+    "imageCreditLink": "https://www.flickr.com/photos/thtbln/"
+}

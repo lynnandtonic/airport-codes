@@ -1,0 +1,11 @@
+{
+    "id": "lex",
+    "name": "Blue Grass Airport",
+    "city": "Lexington",
+    "state": "Kentucky",
+    "stateShort": "KY",
+    "country": "USA",
+    "description": "Located in the Horse Capital of the World, Blue Grass Airport opened in 1946. Its airport code honors its home in *Lex*ington, Kentucky.",
+    "imageCredit": "Blue Grass Airport",
+    "imageCreditLink": "http://www.bluegrassairport.com/"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "cok",
+    "name":	"Cochin International Airport",
+    "city":	"Kochi",
+    "city2": "Cochin",
+    "state": "Kerala",
+    "stateShort": "KL",
+    "country": "India",
+    "description": "Cochin International is located in the city of Kochi, previously known as Cochin. Its airport code pulls letters from the new name, *Koc*hi, but reverses them.",
+    "imageCredit": "Prasad Pillai",
+    "imageCreditLink": "https://www.flickr.com/photos/prasad-om/"
+}

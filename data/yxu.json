@@ -1,0 +1,11 @@
+{
+    "id": "yxu",
+    "name": "London International Airport",
+    "city": "London",
+    "state": "Ontario",
+    "stateShort": "ON",
+    "country": "Canada",
+    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. London International has one of the mysterious codes in which the other two letters were randomly assigned.",
+    "imageCredit": "Paranomia",
+    "imageCreditLink": "http://commons.wikimedia.org/wiki/File:Canadair_T-33_YXU.jpg"
+}

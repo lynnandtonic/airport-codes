@@ -1,0 +1,11 @@
+{
+    "id": "yyc",
+    "name": "Calgary International Airport",
+    "city": "Calgary",
+    "state": "Alberta",
+    "stateShort": "AB",
+    "country": "Canada",
+    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. The second ‘*Y*’ is a filler letter and the ‘C’ comes from its home in the city of *C*algary.",
+    "imageCredit": "Jordon Cooper",
+    "imageCreditLink": "https://www.flickr.com/photos/jordoncooper/"
+}

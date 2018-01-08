@@ -1,0 +1,10 @@
+{
+    "id": "gps",
+    "name": "Seymour Airport",
+    "city": "Baltra",
+    "state": "Galápagos Islands",
+    "country": "Ecuador",
+    "description": "Also known as Galapagos Ecological Airport, this airport gets its name from its home in the *G*ala*P*ago*S* Islands on the island of Baltra.",
+    "imageCredit": "Pi3.124",
+    "imageCreditLink": "https://en.wikipedia.org/wiki/File:Seymour_Airport,_Isla_Baltra,_Galapagos_Islands.jpg"
+}

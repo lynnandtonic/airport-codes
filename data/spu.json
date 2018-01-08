@@ -1,0 +1,12 @@
+{
+    "id": "spu",
+    "name": "Zračna luka Split",
+    "nameEnglish": "Split Airport",
+    "city": "Split",
+    "city2": "Kaštela",
+    "city3": "Kastela",
+    "country": "Croatia",
+    "description": "Formerly Resnik Airport, Split Airport gets its first two letters from the city it serves, *Sp*lit. The ‘U’ isn't as clear, but could come from “*S*alonae *P*alati*u*m”, long-believed (erroneously) to be the origin of the city’s name.",
+    "imageCredit": "Ballota",
+    "imageCreditLink": "http://commons.wikimedia.org/wiki/File:Split_Airport_terminal.jpg"
+}

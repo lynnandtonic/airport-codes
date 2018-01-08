@@ -1,30 +1,61 @@
 div.overlay
-  div.container
-    div.content
-      h1 About
-      p Every airport has a unique three-letter 
-        a(href="http://en.wikipedia.org/wiki/International_Air_Transport_Association") IATA
-        = ' '
-        | code. Some make sense if you know the city or the name of the airport and others, well, what the heck?
-      p Turns out there’s usually a reasonable explanation. Knowing what each IATA code stands for isn’t super useful, but it sure can be fun.
-      p This site was designed and built by 
-        a(href="https://twitter.com/lynnandtonic") Lynn Fisher
-        = ' '
-        | and 
-        a(href="https://twitter.com/nickcrohn") Nick Crohn
-        | .
-      hr
-      p.quote “Hey, you left [my airport] off the list!”
-      a.btn(href="#contribute") Contribute
-      hr
-      div.footnote
-        p All photographs are from Flickr, under Creative Commons licenses.
-        p Sources: 
-          a(href="http://www.wikipedia.org/") wikipedia.org
-          | , 
-          a(href="http://www.skygod.com/asstd/abc.html") skygod.com
-          | , 
-          a(href="http://www.city-data.com/forum/toronto/2177590-why-airport-code-toronto-yyz.html") citydata.com
-          | , 
-          a(href="http://abcnews.go.com/Travel/history-airport-codes-logic-letter-codes/story?id=11684406&singlePage=true") abcnews.com
-    a.back(href="#") Airport Codes
+div.container
+  div.content
+    h1 About
+    p Every airport has a unique three-letter 
+      a(href="http://en.wikipedia.org/wiki/International_Air_Transport_Association") IATA
+      = ' '
+      | code. Some make sense if you know the city or the name of the airport and others, well, what the heck?
+    p Turns out there’s usually a reasonable explanation. Knowing what each IATA code stands for isn’t super useful, but it sure can be fun.
+    p This site was designed and built by 
+      a(href="https://twitter.com/lynnandtonic") Lynn Fisher
+      = ' '
+      | and 
+      a(href="https://twitter.com/nickcrohn") Nick Crohn
+      | .
+    p Photos generously provided by the Flickr and Wikimedia communities who license their work under Creative Commons.
+    hr
+    p.quote “Hey, you left [my airport] off the list!”
+    a.btn(href="#contribute") Contribute
+    hr
+    h3 airportcod.es Status
+    div.stats
+      p
+        span.stat #{airportCount}
+        span= ' airports'
+      p
+        span= 'from '
+        span.stat #{countryCount}
+        span= ' countries'
+      p
+        span= 'with photos by '
+        span.stat #{photographerCount}
+        span= ' photographers'
+    hr
+    div.footnote
+      p All photographs are from Flickr & Wikipedia, under Creative Commons licenses, or with permission from the photographer.
+      p Sources: 
+        a(href="http://www.wikipedia.org/") wikipedia.org
+        | , 
+        a(href="http://www.skygod.com/asstd/abc.html") skygod.com
+        | , 
+        a(href="http://www.city-data.com/forum/toronto/2177590-why-airport-code-toronto-yyz.html") citydata.com
+        | , 
+        a(href="http://abcnews.go.com/Travel/history-airport-codes-logic-letter-codes/story?id=11684406&singlePage=true") abcnews.com
+        | , 
+        a(href="http://www.quora.com/Why-do-some-airport-codes-in-India-start-with-IX") quora.com
+        | , 
+        a(href="http://www.andalucia.com/travel/airports/malaga/fascinating-facts.htm") andalucia.com
+        | , 
+        a(href="http://hawaii.gov/ito/airport-information/faq") hawaii.gov
+        | , 
+        a(href="http://generalaviationnews.com/") generalaviationnews.com
+        | , 
+        a(href="http://www.aspenairport.com/") aspenairport.com
+        | , 
+        a(href="http://www.houghtoncounty.org/about-history.php") houghtoncounty.org
+        | , 
+        a(href="http://www.blogsouthwest.com/every-code-tells-a-story/") blogsouthwest.com
+        | , 
+        a(href="http://www.sanyaairport.com/autoweb/autoweb/secondpage/sanya_en/about_the_airport.html") sanyaairport.com
+a.back(href="#") Airport Codes

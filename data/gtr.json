@@ -1,0 +1,13 @@
+{
+    "id": "gtr",
+    "name": "Golden Triangle Regional Airport",
+    "city": "Columbus",
+    "city2": "Starkville",
+    "city3": "West Point",
+    "state": "Mississippi",
+    "stateShort": "MS",
+    "country": "USA",
+    "description": "Golden Triangle Regional Airport serves the *G*olden *Tr*iangle region of Mississippi, made by the three cities of Columbus, Starkville, and West Point.",
+    "imageCredit": "Roger Smith",
+    "imageCreditLink": "https://www.flickr.com/photos/rogersmith/"
+}

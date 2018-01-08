@@ -1,0 +1,11 @@
+{
+    "id": "oxf",
+    "name": "London Oxford Airport",
+    "city": "Oxford",
+    "city2": "Kidlington",
+    "state": "England",
+    "country": "UK",
+    "description": "Established in 1935, London Oxford Airport was renamed in 2009 to highlight its “proximity” to London (though located 59 miles away). It is located near Kidlington and serves the city of *Oxf*ord.",
+    "imageCredit": "Tom Loze-Thwaite",
+    "imageCreditLink": "https://commons.wikimedia.org/wiki/File:Oxford_Airport_ATC_Tower.jpg"
+}

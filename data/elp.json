@@ -1,0 +1,11 @@
+{
+    "id": "elp",
+    "name": "El Paso International Airport",
+    "city": "El Paso",
+    "state": "Texas",
+    "stateShort": "TX",
+    "country": "USA",
+    "description": "Built in 1929 as Standard Airport, El Paso International gets its three-letter code from its home city of *El* *P*aso.",
+    "imageCredit": "Visit El Paso",
+    "imageCreditLink": "https://www.flickr.com/photos/visitelpaso/"
+}

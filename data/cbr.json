@@ -1,0 +1,12 @@
+{
+    "id": "cbr",
+    "name": "Canberra International Airport",
+    "city": "Canberra",
+    "city2": "Queanbeyan",
+    "state": "Australian Capital Territory",
+    "stateShort": "ACT",
+    "country": "Australia",
+    "description": "Originally an airstrip built in the 1920s, Canberra International now serves the cities of *C*an*b*e*r*ra and Queanbeyan in New South Wales.",
+    "imageCredit": "Michael Coghlan",
+    "imageCreditLink": "https://www.flickr.com/photos/mikecogh/"
+}

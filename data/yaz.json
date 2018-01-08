@@ -1,0 +1,12 @@
+{
+    "id": "yaz",
+    "name": "Tofino/Long Beach Airport",
+    "city": "Tofino",
+    "city2": "Long Beach",
+    "state": "British Columbia",
+    "stateShort": "BC",
+    "country": "Canada",
+    "description": "With a few exceptions, codes starting with ‘*Y*’ designate Canadian airports. Built to protect the coast during World War II, Tofino Airport can be the start or end of the country. Its code, then, is made of the first and last letters of the alphabet, ‘*AZ*’.",
+    "imageCredit": "adina*raul",
+    "imageCreditLink": "https://www.flickr.com/photos/adina-ana/"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "bur",
+    "name": "Bob Hope Airport",
+    "city": "Burbank",
+    "city2": "Los Angeles",
+    "city3": "Hollywood",
+    "state": "California",
+    "stateShort": "CA",
+    "country": "USA",
+    "description": "Bob Hope Airport has gone by six names since its opening in 1930. It was renamed most recently in 2003 to honor entertainer Bob Hope. Like two of its former names, its code refers to its location in the Los Angeles suburb of *BUR*bank.",
+    "imageCredit": "Karol Franks",
+    "imageCreditLink": "https://www.flickr.com/photos/karolfranks/"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "man",
+    "name": "Manchester Airport",
+    "city": "Manchester",
+    "city2": "Ringway",
+    "state": "England",
+    "country": "UK",
+    "description": "Once called Ringway Airport because of its location in the parish of Ringway, the UK’s third busiest airport serves the city of *Man*chester.",
+    "imageCredit": "Gary McNair",
+    "imageCreditLink": "https://www.flickr.com/photos/grandmookster/"
+}

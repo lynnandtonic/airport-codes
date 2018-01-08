@@ -1,0 +1,11 @@
+{
+    "id": "ylt",
+    "name": "Alert Airport",
+    "city": "Alert",
+    "state": "Nunavut",
+    "stateShort": "NU",
+    "country": "Canada",
+    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. The northernmost airport in the world gets its other two code letters from its home in the city of A*l*er*t*.",
+    "imageCredit": "Jason Belliveau",
+    "imageCreditLink": "https://www.flickr.com/photos/jasonbelliveau/"
+}

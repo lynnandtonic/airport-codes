@@ -5,20 +5,22 @@ var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var watchify = require('watchify');
 var browserify = require('browserify');
-var webserver = require('gulp-webserver');
-var jade = require('gulp-jade');
+var webserver = require('gulp-connect');
+var jade = require('gulp-pug');
 var data = require('gulp-data');
+var concatJson = require('gulp-concat-json');
 var stylus = require('gulp-stylus');
-var minifyCSS = require('gulp-minify-css');
+var minifyCSS = require('gulp-clean-css');
 var deploy = require('gulp-gh-pages');
+var uglify = require('gulp-uglify');
 
-var bundler = watchify(browserify('./src/App.js', watchify.args));
+var bundler = browserify('./src/App.js', watchify.args);
 
-gulp.task('build-js', bundle); // so you can run `gulp js` to build the file
+gulp.task('build-js', ['build-json'], bundle); // so you can run `gulp js` to build the file
 bundler.on('update', bundle); // on any dep update, runs the bundler
 
 function bundle() {
-  return bundler.bundle()
+  return watchify(bundler).bundle()
     // log errors if they happen
     .on('error', gutil.log.bind(gutil, 'Browserify Error'))
     .pipe(source('app.js'))
@@ -29,23 +31,40 @@ function bundle() {
     .pipe(gulp.dest('./build'));
 }
 
+function bundleProd() {
+  return bundler.bundle()
+  // log errors if they happen
+    .on('error', gutil.log.bind(gutil, 'Browserify Error'))
+    .pipe(source('app.js'))
+    .pipe(buffer())
+    .pipe(uglify())
+    .pipe(gulp.dest('./build'));
+}
+
+function buildJson() {
+  return gulp.src('./data/**/*.json')
+    .pipe(concatJson('index.js'))
+    .pipe(data(function(file){
+      file.contents = new Buffer("module.exports={airports:"+String(file.contents)+"};");
+      return file;
+    }))
+    .pipe(gulp.dest('./data'));
+}
+
 function buildStatic() {
-  return gulp.src('assets/**/*')
+  return gulp.src('./assets/**/*')
     .pipe(gulp.dest('build'));
 }
 
 function buildStylus() {
-  return gulp.src('assets/app.styl')
+  return gulp.src('./assets/app.styl')
     .pipe(stylus())
-    .pipe(minifyCSS({keepBreaks:true}))
+    .pipe(minifyCSS())
     .pipe(gulp.dest('build'));
 }
 
 function buildJade() {
   return gulp.src('./templates/**/*.jade')
-    .pipe(data(function() {
-      return require('./data');
-    }))
     .pipe(jade())
     .pipe(gulp.dest('build'));
 }
@@ -55,14 +74,17 @@ gulp.task('webserver', function() {
   var stylWatcher = gulp.watch('assets/**/*.styl', ['build-stylus']);
   var imageWatcher = gulp.watch('assets/**/*', ['build-static']);
   var jadeWatcher = gulp.watch('templates/**/*.jade', ['build-templates']);
+  var jsonWatcher = gulp.watch('data/**/*.json', ['build-json']);
 
-  gulp.src('build')
-    .pipe(webserver({
-      port: 3456,
-      livereload: true,
-      directoryListing: false,
-      open: true
-    }));
+  webserver.server({
+    port: 3456,
+    host: '0.0.0.0',
+    root: 'build'
+  });
+});
+
+gulp.task('build-json', function() {
+  return buildJson();
 });
 
 gulp.task('build-static', function() {
@@ -79,8 +101,12 @@ gulp.task('build-stylus', function () {
 
 gulp.task('default', ['build-templates', 'build-stylus', 'build-static', 'build-js', 'webserver']);
 
-gulp.task('build', ['build-templates', 'build-stylus', 'build-static'], function() {
+gulp.task('build-dev', ['build-templates', 'build-stylus', 'build-static'], function() {
   bundle();
+});
+
+gulp.task('build', ['build-templates', 'build-stylus', 'build-static'], function() {
+  bundleProd();
 });
 
 gulp.task('deploy', ['build'], function () {

@@ -1,10 +1,7 @@
 {
     "id": "tbs",
-    "code": "tbs",
     "name": "Tbilisi International Airport",
     "city": "Tbilisi",
-    "state": "",
-    "stateShort": "",
     "country": "Georgia",
     "description": "Formerly named Novo Alexeyevka International, Georgia’s largest airport is located in the capital city of *Tb*ili*s*i.",
     "imageCredit": "James Emery",

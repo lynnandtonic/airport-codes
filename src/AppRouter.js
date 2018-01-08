@@ -9,6 +9,7 @@ var Router = Backbone.Router.extend({
 
   initialize: function(options) {
     this.airports = options.airports;
+    this._lastOffset = 0;
   },
 
   routes: {
@@ -36,24 +37,41 @@ var Router = Backbone.Router.extend({
     }
   },
 
+  _resetOffset: function() {
+    Backbone.$(window).scrollTop(this._lastOffset);
+  },
+
+  _trackView: function(page, title) {
+    if (window.ga) {
+      ga('send', 'pageview', {
+        'page': page,
+        'title': title
+      });
+    }
+  },
+
   default: function() {
     this._hideAbout();
     this._hideContribute();
     this._hideAirports();
+    this._resetOffset();
+
     Backbone.$('body').removeClass('detail-open');
   },
 
   about: function() {
     if (!this._aboutView) {
-      this._aboutView = new AboutView();
+      this._aboutView = new AboutView({airports: this.airports});
       Backbone.$('body').append(this._aboutView.render().el);
     }
 
     this._aboutView.show();
-
     this._hideContribute();
     this._hideAirports();
+    this._lastOffset = (window.scrollY === undefined) ? window.pageYOffset : window.scrollY;
+
     Backbone.$('body').addClass('detail-open');
+    this._trackView('#about', 'About');
   },
 
   contribute: function() {
@@ -63,10 +81,12 @@ var Router = Backbone.Router.extend({
     }
 
     this._contributeView.show();
-
     this._hideAirports();
     this._hideAbout();
+    this._lastOffset = (window.scrollY === undefined) ? window.pageYOffset : window.scrollY;
+
     Backbone.$('body').addClass('detail-open');
+    this._trackView('#contribute', 'Contribute');
   },
 
   airport: function(code) {
@@ -75,16 +95,18 @@ var Router = Backbone.Router.extend({
     this._hideAbout();
     this._hideContribute();
     this._hideAirports();
+    this._lastOffset = (window.scrollY === undefined) ? window.pageYOffset : window.scrollY;
 
     if (airport) {
       if (this.views.indexOf(code) < 0) {
-        var view = new AirportDetailView({model: airport});
+        var view = new AirportDetailView({airports: this.airports, model: airport});
         view.render();
         this.views.push(code);
       }
 
       airport.set('showDetail', true);
       Backbone.$('body').addClass('detail-open');
+      this._trackView('#airport/'+code, 'Airport '+code.toUpperCase());
     } else {
       document.location.href = "/404.html";
     }

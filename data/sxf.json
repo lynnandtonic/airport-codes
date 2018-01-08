@@ -1,0 +1,12 @@
+{
+    "id": "sxf",
+    "name": "Flughafen Berlin-Schönefeld",
+    "nameEnglish": "Berlin Schönefeld Airport",
+    "city": "Berlin",
+    "city2": "Schönefeld",
+    "city3": "Schonefeld",
+    "country": "Germany",
+    "description": "Many airports use the letter ‘X’ to fill in when the desired letters are already taken. This Berlin airport get its code from its home in the town of *S*chöne*f*eld plus that helpful ‘*X*’.",
+    "imageCredit": "Aero Icarus",
+    "imageCreditLink": "https://www.flickr.com/photos/aero_icarus/"
+}

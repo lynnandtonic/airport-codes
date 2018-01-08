@@ -1,12 +1,9 @@
 {
     "id": "muc",
-    "code": "muc",
     "name": "Flughafen München Franz Josef Strauß",
     "nameEnglish": "Munich Airport",
     "city": "Munich",
     "city2": "Freising",
-    "state": "",
-    "stateShort": "",
     "country": "Germany",
     "description": "Rarely called by its full name, Munich Airport is named after German politician Franz Josef Strauss. Its airport code honors its home near the city of *Mu*ni*c*h.",
     "imageCredit": "Gache Wurzn",

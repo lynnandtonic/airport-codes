@@ -1,0 +1,12 @@
+{
+    "id": "sav",
+    "name": "Savannah/Hilton Head International Airport",
+    "city": "Savannah",
+    "city2": "Hilton Head Island",
+    "state": "Georgia",
+    "stateShort": "GA",
+    "country": "USA",
+    "description": "Despite having “International” in its name, Savannah/Hilton Head airport has no scheduled commercial flights outside the U.S. Its airport code comes from its home in the city of *Sav*annah.",
+    "imageCredit": "Nicolas Nova",
+    "imageCreditLink": "https://www.flickr.com/photos/nnova/"
+}

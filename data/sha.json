@@ -1,0 +1,11 @@
+{
+    "id": "sha",
+    "name": "Shanghai Hongqiao International Airport",
+    "city":	"Shanghai",
+    "city2": "Hongqiao",
+    "city3": "Changning District",
+    "country": "China",
+    "description": "Shanghai Hongqiao International was the first airport built in Shanghai. Its airport code makes sense as *S*hanghai *H*ongqiao *A*irport, but comes from the city of *SHA*nghai.",
+    "imageCredit": "VeoLoo",
+    "imageCreditLink": "https://www.flickr.com/photos/veoloo/"
+}

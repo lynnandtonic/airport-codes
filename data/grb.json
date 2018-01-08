@@ -1,12 +1,11 @@
 {
     "id": "grb",
-    "code": "grb",
     "name": "Austin Straubel International Airport",
     "city": "Green Bay",
     "state": "Wisconsin",
     "stateShort": "WI",
     "country": "USA",
     "description": "Austin Straubel International is named after U.S. Army Air Corps Lt. Col. Austin Straubel, the first Brown County aviator to die while in service. Its code comes from the city of *Gr*een *B*ay.",
-    "imageCredit": "Cimexus",
-    "imageCreditLink": "https://www.flickr.com/photos/cimexus/"
+    "imageCredit": "GRBAirport",
+    "imageCreditLink": "https://twitter.com/grbairport/"
 }

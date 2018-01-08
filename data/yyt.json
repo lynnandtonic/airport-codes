@@ -1,0 +1,11 @@
+{
+    "id": "yyt",
+    "name": "St. John’s International Airport",
+    "city": "St. John’s",
+    "state": "Newfoundland and Labrador",
+    "stateShort": "NL",
+    "country": "Canada",
+    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. The second ‘*Y*’ is a filler letter and the ‘T’ comes from its former name, *T*orbay Airport. This helps differentiate it from the other Saint John Airport (YSJ).",
+    "imageCredit": "Patrick Handrigan",
+    "imageCreditLink": "http://commons.wikimedia.org/wiki/File:St._John%27s_Airport_Terminal.JPG"
+}

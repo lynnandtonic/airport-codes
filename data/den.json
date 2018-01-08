@@ -1,12 +1,11 @@
 {
     "id": "den",
-    "code": "den",
     "name": "Denver International Airport",
     "city": "Denver",
     "state": "Colorado",
     "stateShort": "CO",
     "country": "USA",
-    "description": "Until 1995, Stapleton International Airport served the *Den*ver area with airport code DVX. When Stapleton closed, the new airport got a new name and a new three-letter code.",
+    "description": "Until 1995, Stapleton International Airport served the *Den*ver area with airport code DEN. When Stapleton closed, the new airport switched from DVX to DEN.",
     "imageCredit": "Bart Heird",
     "imageCreditLink": "https://www.flickr.com/photos/chicagobart/"
 }

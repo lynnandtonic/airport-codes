@@ -1,0 +1,11 @@
+{
+    "id": "yxy",
+    "name": "Erik Nielsen Whitehorse International Airport",
+    "city": "Whitehorse",
+    "state": "Yukon",
+    "stateShort": "YT",
+    "country": "Canada",
+    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. The ‘*XY*’ isn’t as clear. The ‘*Y*’ likely stands for Yukon, and it’s said the ‘*X*’ is a filler letter.",
+    "imageCredit": "Canadian2006",
+    "imageCreditLink": "https://commons.wikimedia.org/wiki/File:Whitehorse_Airport_Terminal_2012.JPG"
+}

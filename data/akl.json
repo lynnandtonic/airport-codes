@@ -1,13 +1,10 @@
 {
     "id": "akl",
-    "code": "akl",
     "name": "Auckland Airport",
-    "city": "Aukland",
-    "cidy2": "Mangere",
-    "state": "",
-    "stateShort": "",
+    "city": "Auckland",
+    "city2": "Mangere",
     "country": "New Zealand",
-    "description": "Once the site for the Mangere Aerodrome, New Zealand’s busiest airport is located in Mangere, a suburb of *A*u*kl*and.",
-    "imageCredit": "Kathrin & Stefan Marks",
-    "imageCreditLink": "https://www.flickr.com/photos/ks_marks/"
+    "description": "Once the site for the Mangere Aerodrome, New Zealand’s busiest airport is located in Mangere, a suburb of *A*uc*kl*and.",
+    "imageCredit": "mario_ruckh",
+    "imageCreditLink": "https://www.flickr.com/photos/ruckh/"
 }

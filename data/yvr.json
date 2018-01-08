@@ -1,13 +1,12 @@
 {
     "id": "yvr",
-    "code": "yvr",
     "name": "Vancouver International Airport",
     "city": "Vancouver",
     "city2": "Richmond",
     "state": "British Columbia",
     "stateShort": "BC",
     "country": "Canada",
-    "description": "Airport codes starting with ‘Y’ designate Canadian airports. The next two letters come from its home in *V*ancouve*r*.",
+    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. Vancouver International is actually located in the city of Richmond, but gets its other two letters from the major port city it serves, *V*ancouve*r*.",
     "imageCredit": "Rick Schwartz",
     "imageCreditLink": "https://www.flickr.com/photos/justenoughfocus/"
 }

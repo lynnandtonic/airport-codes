@@ -1,17 +1,32 @@
 //- Card styling
 
 .card
+  position: relative
   float: left
-  background: $grey-drk no-repeat 50% 50%
-  background-size: cover
-  {fadeIn}
+  background: black
 
   &.hidden
     display: none
 
+  .background
+    width: 100%
+    height: 100%
+    background: no-repeat center center
+    background-size: cover
+    position: absolute
+    z-index: 1
+    opacity: 0
+    transition(opacity .3s ease-in)
+
+  &.loaded
+    .background
+      opacity: 1
+
   a
     padding: 80px 20px
     display: block
+    position: relative
+    z-index: 2
     background: black(.35)
     font-size: 60px
     font-weight: $font-weight-bold
@@ -20,12 +35,21 @@
     text-shadow: 0 0 10px black(.7)
     color: white
 
+    span
+      opacity: 0
+      transition(opacity .3s ease-in)
+
     @media (max-width: 400px)
       padding: 50px 20px
       font-size: 46px
 
-    &:hover
+    &:hover,
+    &:focus
       background: transparent
+
+    &:focus
+      outline: none
+      box-shadow: inset 0 0 0 15px black(.4)
 
   width: 50%
 
@@ -44,8 +68,16 @@
   @media (min-width: 2000px)
     width: 14.28%
 
+.wf-active
+  .card a span
+    opacity: 1
+.wf-inactive
+  .card a span
+    opacity: 1
+
 .card-contribute
   position: relative
+  background: $grey-drk
 
   .placeholder
     visibility: hidden
@@ -63,9 +95,7 @@
       color: white
       text-align: center
       text-shadow: none
-      -webkit-transition: all .2s ease-in
-      -moz-transition: all .2s ease-in
-      transition: all .2s ease-in
+      transition(all .2s ease-in)
 
   &:hover
     .card-contribute-content:after

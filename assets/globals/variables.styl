@@ -22,7 +22,12 @@ $grey-drk = #444
 
 $blue = #40bae2
 
-// Transforms
+// Transforms & transitions
+
+transition(args)
+  -webkit-transition: args
+  -moz-transition: args
+  transition: args
 
 transform(args)
   -webkit-transform: args
@@ -43,6 +48,13 @@ centerHoriz =
   -webkit-transform: translateX(-50%)
   -moz-transform: translateX(-50%)
   transform: translateX(-50%)
+
+centerVert =
+  position: absolute
+  top: 50%
+  -webkit-transform: translateY(-50%)
+  -moz-transform: translateY(-50%)
+  transform: translateY(-50%)
 
 // Animations
 

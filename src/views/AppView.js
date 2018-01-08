@@ -6,8 +6,19 @@ var AppView = Backbone.View.extend({
 
   el: 'body',
 
+  events: {
+    'keyup': '_handleKeyup'
+  },
+
   initialize: function(options) {
     this._airports = options.airports;
+  },
+
+  _handleKeyup: function(event) {
+    // Escape Key
+    if (event.keyCode === 27) {
+      document.location.href = '#';
+    }
   },
 
   render: function() {

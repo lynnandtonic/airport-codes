@@ -1,0 +1,12 @@
+{
+    "id": "yqm",
+    "name": "Greater Moncton International Airport",
+    "city": "Moncton",
+    "city2": "Dieppe",
+    "state": "New Brunswick",
+    "stateShort": "NB",
+    "country": "Canada",
+    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. The ‘*Q*’ is a filler letter and the ‘M’ comes from the city it serves: *M*oncton (though it’s actually located in Dieppe).",
+    "imageCredit": "Stephen Downes",
+    "imageCreditLink": "https://www.flickr.com/photos/stephen_downes/"
+}

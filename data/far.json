@@ -1,0 +1,12 @@
+{
+    "id": "far",
+    "name": "Hector International Airport",
+    "city": "Fargo",
+    "city2": "Moorhead",
+    "state": "North Dakota",
+    "stateShort": "ND",
+    "country": "USA",
+    "description": "Hector International is named after Martin Hector, local businessman who donated the land on which the aiport now sits. It serves the nearby cities of *Far*go and Moorhead.",
+    "imageCredit": "North Dakota National Guard",
+    "imageCreditLink": "https://www.flickr.com/photos/ndguard/"
+}
