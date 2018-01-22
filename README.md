@@ -62,7 +62,7 @@ Adding a `json` file to `/data` will automatically render it. You do not need to
   - Small, 500px width, put in `assets/images/small`
   - Medium, 900px width, put in `assets/images/medium`
   - Large, 1500px width, put in `assets/images/large`
-- Please optimize images
+- **Please optimize images** ([tinyjpg.com](https://tinyjpg.com/) is a good tool to do that)
 
 - Add variable and photographer name to `/assets/globals/image-names.styl`. The photographer name must match how it is spelled in the image file name. So if an image is named `abq-david-basanta.jpg` you would add `'abq': 'david-basanta'` to the `image-names.styl`.
 
