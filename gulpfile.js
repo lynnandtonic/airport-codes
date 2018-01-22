@@ -105,7 +105,7 @@ gulp.task('build-dev', ['build-templates', 'build-stylus', 'build-static'], func
   bundle();
 });
 
-gulp.task('build', ['build-templates', 'build-stylus', 'build-static'], function() {
+gulp.task('build', ['build-templates', 'build-stylus', 'build-static', 'build-json'], function() {
   bundleProd();
 });
 
