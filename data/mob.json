@@ -1,0 +1,11 @@
+{
+    "id": "mob",
+    "name": "Mobile Regional Airport",
+    "city": "Mobile",
+    "state": "Alabama",
+    "stateShort": "AL",
+    "country": "USA",
+    "description": "Fully self-funded and home to a U.S. Coast Guard aviation training center, Mobile Regional serves *Mob*ile, Alabama.",
+    "imageCredit": "Mobile Airport Authority",
+    "imageCreditLink": "https://www.flickr.com/photos/mobileairportauthority"
+}
