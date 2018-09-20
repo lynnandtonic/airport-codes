@@ -1,0 +1,12 @@
+{
+    "id": "cnn",
+    "name": "Kannur International Airport",
+    "city": "Kannur",
+    "city2": "Thalassery",
+    "state": "Kerala",
+    "stateShort": "KL",
+    "country": "India",
+    "description": "Kannur International Airport is an international airport serving the city of Kannur in the state of Kerala, India. It is being built at Mattannur, 25 kilometres from the city in a public private partnership model under Kannur International Airport Ltd.",
+    "imageCredit": "Wiki KIA page",
+    "imageCreditLink": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Kannur_international_airport.jpg"
+}
