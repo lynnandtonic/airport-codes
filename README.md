@@ -15,16 +15,19 @@ If you'd like to add an airport or fix an error, please:
 This repo has a lot of images, so may take some time to clone. If you'd like to speed up that process, you can clone only the latest (and not the entire commit history) by cloning with this command:
 
 With SSH:
+
 ```
 git clone --depth=1 git@github.com:lynnandtonic/airport-codes.git
 ```
 
 With HTTPS:
+
 ```
 git clone --depth=1 https://github.com/lynnandtonic/airport-codes.git
 ```
 
 To build the site locally:
+
 ```
 npm install
 npm run dev
@@ -42,7 +45,7 @@ Content in each `json` file:
 - `state` = state name, if applicable (Arizona)
 - `stateShort` = state abbreviation, if applicable (AZ)
 - `country` = country name (USA)
-- `description` = description, accepts markdown, use * for emphasis on letters
+- `description` = description, accepts markdown, use \* for emphasis on letters
 - `imageCredit` = name of photographer
 - `imageCreditLink` = URL of photographer's Flickr page
 
@@ -57,22 +60,19 @@ Adding a `json` file to `/data` will automatically render it. You do not need to
 
 - Please use photos from Flickr that are licensed under Creative Commons.
 - If photos are not available on Flickr, please use Wikipedia with the same license.
-- Please save out 4 sizes of each image as a JPG with the filename convention `code-photographer.jpg`
-  - Card, 250px height, put in `assets/images/card`
-  - Small, 500px width, put in `assets/images/small`
-  - Medium, 900px width, put in `assets/images/medium`
-  - Large, 1500px width, put in `assets/images/large`
+- Please the image as a JPG with the filename `assets/images/large/code-photographer.jpg`
 - **Please optimize images** ([tinyjpg.com](https://tinyjpg.com/) is a good tool to do that)
+- If you add a new image, you can generate the other sizes by running the script `./sharp.js`
 
 - Add variable and photographer name to `/assets/globals/image-names.styl`. The photographer name must match how it is spelled in the image file name. So if an image is named `abq-david-basanta.jpg` you would add `'abq': 'david-basanta'` to the `image-names.styl`.
 
 ## Editing Templates
 
-Most site content is written in Jade templates which produce the site HTML.
+Most site content is written in Pug templates which produce the site HTML.
 
-The Jade files are located in `/templates` and `/src/views/templates`.
+The Pug files are located in `/templates` and `/src/views/templates`.
 
-Note that these aren't markdown files and the syntax and whitespace you use does matter quite a bit. See the [Jade documentation](http://jade-lang.com) to see how to use Jade.
+Note that these aren't markdown files and the syntax and whitespace you use does matter quite a bit. See the [Pug documentation](http://pugjs.com) to see how to use Pug.
 
 ## Editing CSS
 
@@ -84,13 +84,13 @@ Stylus files are located in `/assets`.
 
 Please use the following loose declaration order:
 
-* Box-model properties
-* Display and Positioning
-* Backgrounds
-* Borders
-* Box Shadows
-* Fonts and Colors
-* Other
+- Box-model properties
+- Display and Positioning
+- Backgrounds
+- Borders
+- Box Shadows
+- Fonts and Colors
+- Other
 
 ## License
 
