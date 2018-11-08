@@ -33,7 +33,17 @@ const formats = {
 };
 
 const sourceDir = path.join(__dirname, "assets", "images", "large");
-const sourceFiles = fs.readdirSync(sourceDir);
+const sourceFiles = fs
+  .readdirSync(sourceDir)
+  .filter(
+    filename =>
+      filename.endsWith(".gif") ||
+      filename.endsWith(".jpg") ||
+      filename.endsWith(".jpeg") ||
+      filename.endsWith(".png") ||
+      filename.endsWith(".tiff") ||
+      filename.endsWith(".webp")
+  );
 
 function processImages() {
   let p = Promise.resolve();
