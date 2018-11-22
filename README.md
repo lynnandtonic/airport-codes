@@ -60,9 +60,16 @@ Adding a `json` file to `/data` will automatically render it. You do not need to
 
 - Please use photos from Flickr that are licensed under Creative Commons.
 - If photos are not available on Flickr, please use Wikipedia with the same license.
-- Please the image as a JPG with the filename `assets/images/large/code-photographer.jpg`
-- **Please optimize images** ([tinyjpg.com](https://tinyjpg.com/) is a good tool to do that)
-- If you add a new image, you can generate the other sizes by running the script `./sharp.js`
+- Please save the image as a JPG with the filename `assets/images/large/code-photographer.jpg`
+- The site can generate the 4 sizes of the image for you (large, medium, small, and card):
+  - Save out the image as a JPG at large size (1500px wide) with the filename `assets/images/large/code-photographer.jpg`
+  - **Please optimize images** ([tinyjpg.com](https://tinyjpg.com/) is a good tool to do that)
+  - Run `./sharp.js assets/images/large/code-photographer.jpg`
+- If you’d like to save out the image sizes manually, these are the sizes needed:
+  - card - 220px *height*
+  - small - 500px width
+  - medium - 900px width
+  - large - 1500px width
 
 - Add variable and photographer name to `/assets/globals/image-names.styl`. The photographer name must match how it is spelled in the image file name. So if an image is named `abq-david-basanta.jpg` you would add `'abq': 'david-basanta'` to the `image-names.styl`.
 
