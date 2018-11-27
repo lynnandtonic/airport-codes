@@ -1,0 +1,11 @@
+{
+    "id": "yam",
+    "name": "Sault Ste. Marie Airport",
+    "city": "Sault Ste. Marie",
+    "state": "Ontario",
+    "stateShort": "ON",
+    "country": "Canada",
+    "description": "With a few exceptions, codes starting with ‘*Y*’ designate Canadian airports. It‘s not confirmed, but some claim the ‘AM’ stands for *A*irport *M*arie.",
+    "imageCredit": "P199",
+    "imageCreditLink": "https://en.wikipedia.org/wiki/Sault_Ste._Marie_Airport#/media/File:YAM_Sault_Airport.jpg"
+}
