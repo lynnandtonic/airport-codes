@@ -8,7 +8,7 @@ If you'd like to add an airport or fix an error, please:
 
 - [Submit an issue](https://github.com/lynnandtonic/airport-codes/issues) or
 - Submit a pull request or
-- Contact us on Twitter: [@lynnandtonic](https://twitter.com/lynnandtonic) or [@nickcrohn](https://twitter.com/nickcrohn)
+- Contact us on Twitter: [@lynnandtonic](https://twitter.com/lynnandtonic)
 
 ## Working Locally
 
