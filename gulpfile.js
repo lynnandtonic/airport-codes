@@ -52,7 +52,10 @@ function buildJson() {
 }
 
 function buildStatic() {
-  return gulp.src('./assets/**/*')
+  return gulp.src([
+      './assets/**/*',
+      '_redirects'
+    ])
     .pipe(gulp.dest('build'));
 }
 
