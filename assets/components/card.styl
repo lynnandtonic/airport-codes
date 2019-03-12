@@ -8,9 +8,11 @@
   &.hidden
     display: none
 
-  .background
+  &:before
+    content: ''
     width: 100%
     height: 100%
+    display: block
     background: no-repeat center center
     background-size: cover
     position: absolute
@@ -19,7 +21,7 @@
     transition(opacity .3s ease-in)
 
   &.loaded
-    .background
+    &:before
       opacity: 1
 
   a
