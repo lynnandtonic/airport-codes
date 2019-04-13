@@ -1,10 +1,8 @@
 {
     "id": "trf",
     "name": "Sandefjord lufthavn, Torp",
-    "nameEnglish": "Sandefjord Airport, Torp",
     "city": "Sandefjord",
-    "city2": "Stokke",
-    "city3": "Torp",
+    "city2": "Torp",
     "country": "Norway",
     "description": "Opened in 1956, Sandefjord Airport is located in Torp and is often called *T*o*r*p *F*lyplass.",
     "imageCredit": "Carlos Bryant",

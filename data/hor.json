@@ -1,10 +1,8 @@
 {
     "id": "hor",
     "name": "Aeroporto Internacional da Horta",
-    "nameEnglish": "Horta International Airport",
     "city": "Horta",
     "city2": "Castelo Branco",
-    "city3": "Faial Island",
     "stateShort": "Azores",
     "country": "Portugal",
     "description": "Inaugurated in 1971 and rennovated in 2001, Horta International is located in Castelo Branco on Faial Island and serves the city of *Hor*ta.",
