@@ -4,7 +4,7 @@ var template = require('./templates/SearchView.jade');
 var _ = require('underscore');
 
 var SEARCH_FIELD = [
-  'id', 'name', 'nameEnglish', 'city', 'city2', 'city3', 'state', 'stateShort', 'country'
+  'id', 'name', 'nameEnglish', 'city', 'city2', 'state', 'stateShort', 'country'
 ];
 
 var SearchView = Backbone.View.extend({
