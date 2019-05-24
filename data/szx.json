@@ -2,8 +2,9 @@
     "id": "szx",
     "name": "Shenzhen Bao'an International Airport",
     "city": "Shenzhen",
+    "state": "Guangdong",
     "country": "China",
-    "description": "Shenzhen Bao'an International Airport (formerly Shenzhen Huangtian Airport) is the airport serving the city of Shenzhen, Guangdong Province, China.",
-    "imageCredit": "準建築人手札網站 Forgemind ArchiMedia",
-    "imageCreditLink": "https://www.flickr.com/photos/eager/11447382093"
+    "description": "Shenzhen Bao'an International (formerly Shenzhen Huangtian Airport) gets its three-letter code from the city it serves, *S*hen*z*hen, and its location in Bao'an District, historically called *X*in'an County.",
+    "imageCredit": "Forgemind ArchiMedia",
+    "imageCreditLink": "https://www.flickr.com/photos/eager/"
 }
