@@ -1,0 +1,11 @@
+{
+    "id": "gst",
+    "name": "Gustavus Airport",
+    "city": "Gustavus",
+    "state": "Alaska",
+    "stateShort": "AK",
+    "country": "USA",
+    "description": "There are no roads to the small city of *G*u*ST*avus, so the only way in is by plane or boat.",
+    "imageCredit": "mike castleman",
+    "imageCreditLink": "https://www.flickr.com/photos/mlcastle/28486646547/"
+}
