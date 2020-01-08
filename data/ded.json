@@ -1,12 +1,11 @@
 {
     "id": "ded",
-    "name":	"JollyGrant International Airport",
+    "name":	"Jolly Grant International Airport",
     "city":	"Dehradun",
-    "city2": "Dehradoon",
     "state": "Uttarakhand",
     "stateShort": "UK",
     "country": "India",
-    "description": "Dehradun International Airport is located 25 km south-east of Dehradun.  Located 21 km (13 mi) from Rishikesh, and 44 km (27 mi) from Haridwar, the airport allows easy access to the region. It is also known as the Air Gateway of Garhwal and plays an important role in the tourism of Uttarakhand.",
+    "description": "Dehradun International is located 25km from *De*hra*d*un. It’s also known as the Air Gateway of Garhwal and is important for tourism in Uttarakhand.",
     "imageCredit": "Paul Hamilton",
     "imageCreditLink": "https://www.flickr.com/photos/paulhami/"
 }
