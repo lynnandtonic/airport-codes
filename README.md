@@ -51,7 +51,7 @@ Content in each `json` file:
 
 You can also optionally add for aid in searching:
 
-- `city2` = another city or county the airport may be known for
+- `city2` = another city or country the airport may be known for
 
 Adding a `json` file to `/data` will automatically render it. You do not need to manually add the path anywhere.
 
