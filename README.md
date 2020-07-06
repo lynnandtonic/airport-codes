@@ -26,12 +26,19 @@ With HTTPS:
 git clone --depth=1 https://github.com/lynnandtonic/airport-codes.git
 ```
 
-To build the site locally:
+To run the site locally:
+
+- you will need node 8
+  - if you use a tool like `nodenv` which respects `.node-version` this will be handled for you
+  - otherwise will need to make sure that your shell is running node 8
+- run the following commands:
 
 ```
-npm install
+npm ci
 npm run dev
 ```
+
+Note: The web server may take 2-3 minutes to start.
 
 ## Adding/Editing Airport Content
 
