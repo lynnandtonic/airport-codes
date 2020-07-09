@@ -46,7 +46,12 @@
 
   p, ul
     margin-bottom: 15px
-    text-align: left
+
+    &:not(.center)
+      text-align: left
+
+    &.footnote
+      font-size: 85%
 
     a
       border-bottom: 1px dotted transparent
