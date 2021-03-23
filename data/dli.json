@@ -1,11 +1,12 @@
 {
     "id": "dli",
     "name": "Lien Khuong Airport",
-    "city": "Duc Trong",
-    "state": "Lâm Đồng",
+    "city": "Dalat",
+    "city2": "Duc Trong",
     "city2": "Đức Trọng",
+    "state": "Lâm Đồng",
     "country": "Vietnam",
-    "description": "Located in [Đức Trọng District](https://en.wikipedia.org/wiki/%C4%90%E1%BB%A9c_Tr%E1%BB%8Dng_District), Lien Khuong Air Port is the largest among 4 airports in the Central Highlands region of Vietnam",
+    "description": "Located in Đức Trọng District, Lien Khuong Airport is the largest of four airports in the Central Highlands region. Its code comes from *D*a*l*at *I*nternational.",
     "imageCredit": "Diane Selwyn",
     "imageCreditLink": "https://commons.wikimedia.org/wiki/File:Lien_Khuong_Airport_01.jpg"
 }
