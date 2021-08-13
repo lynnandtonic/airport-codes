@@ -48,14 +48,12 @@ $media-md-max = 1500px
 
 // Special case for PRN
 .card.prn
-  .background { background-image: url('/images/card/prnx.jpg')}
+  .background
+    background-image: url('/images/card/prnx.jpg')
 @media (max-width: $media-sm-max)
-  .detail.prn
-    .background { background-image: url('/images/small/prnx.jpg')}
+  .detail.prn { background-image: url('/images/small/prnx.jpg') }
 @media (min-width: $media-sm-max + 1px) and (max-width: $media-md-max)
-  .detail.prn
-    .background { background-image: url('/images/medium/prnx.jpg')}
+  .detail.prn { background-image: url('/images/medium/prnx.jpg') }
 @media (min-width: $media-md-max + 1px)
-  .detail.prn
-    .background { background-image: url('/images/large/prnx.jpg')}
-  
+  .detail.prn { background-image: url('/images/large/prnx.jpg') }
+
