@@ -1,0 +1,12 @@
+{
+    "id": "pet",
+    "name": "Aeroporto Internacional João Simões Lopes Neto",
+    "nameEnglish": "João Simões Lopes Neto International Airport",
+    "city": "Pelotas",
+    "state": "Rio Grande do Sul",
+    "stateShort": "RS",
+    "country": "Brazil",
+    "description": "João Simões Lopes Neto International is named after the Brazilian writer. Its three-letter code comes from the city of *Pe*lo*t*as.",
+    "imageCredit": "Scheridon",
+    "imageCreditLink": "https://commons.wikimedia.org/wiki/File:Pelotas-Airport.jpg"
+}
