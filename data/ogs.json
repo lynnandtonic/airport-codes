@@ -1,0 +1,12 @@
+{
+    "id": "ogs",
+    "name": "Ogdensburg International Airport",
+    "city": "Ogdensburg",
+    "city2": "Ottawa",
+    "state": "New York",
+    "stateShort": "NY",
+    "country": "USA",
+    "description": "Ogdensburg International serves Ottawa, Ontario and its namesake city of *Og*den*s*burg.",
+    "imageCredit": "Decaseconds",
+    "imageCreditLink": "https://www.flickr.com/photos/decaseconds/"
+}
