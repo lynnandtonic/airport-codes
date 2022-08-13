@@ -1,0 +1,11 @@
+{
+    "id": "spc",
+    "name": "Aeropuerto de La Palma",
+    "nameEnglish": "La Palma Airport",
+    "city": "La Palma",
+    "state": "Canary Islands",
+    "country": "Spain",
+    "description": "La Palma Airport gets its three-letter code from its island, *S*an Miguel de La *P*alma of the *C*anary Islands.",
+    "imageCredit": "Tony Hisgett",
+    "imageCreditLink": "https://www.flickr.com/photos/hisgett/"
+}
