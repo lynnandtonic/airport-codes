@@ -1,0 +1,12 @@
+{
+    "id": "hba",
+    "name": "Hobart Airport",
+    "city": "Hobart",
+    "city2": "Cambridge",
+    "state": "Tasmania",
+    "stateShort": "TAS",
+    "country": "Australia",
+    "description": "Located in Cambridge, *H*o*ba*rt Airport serves the surrounding areas on the island of Tasmania.",
+    "imageCredit": "DarkLab Media",
+    "imageCreditLink": "https://www.flickr.com/photos/156156674@N03/"
+}
