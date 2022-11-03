@@ -23,7 +23,7 @@
   "devDependencies": {
     "backbone": "1.3.3",
     "browserify": "14.4.0",
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "gulp-clean-css": "3.4.2",
     "gulp-concat-json": "1.0.0",
     "gulp-connect": "5.0.0",
