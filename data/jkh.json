@@ -2,8 +2,9 @@
     "id": "jkh",
     "name": "Chios Island National Airport",
     "city": "Chios",
+    "state": "North Aegean",
     "country": "Greece",
-    "description": "Chios Island National Airport is an airport on the island of Chios in Greece. It is also known as Chios National Airport, ***Omiros*** or Chios Airport located at the region of Kampos, south of the city of Chios.",
+    "description": "Chios Island National Airport gets its first two letters from *Kh*ios, an alternate spelling of Chios, while the ‘*J*’ is likely a filler letter. JKH is one of nine Greek airports whose code begins with J.",
     "imageCredit": "FocalPoint",
     "imageCreditLink": "https://commons.wikimedia.org/wiki/File:Chios_International_Airport_Omiros.jpg"
 }
