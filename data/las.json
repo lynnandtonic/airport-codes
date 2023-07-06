@@ -1,12 +1,12 @@
 {
     "id": "las",
-    "name": "McCarran International Airport",
+    "name": "Harry Reid International Airport",
     "city": "Las Vegas",
     "city2": "Paradise",
     "state": "Nevada",
     "stateShort": "NV",
     "country": "USA",
-    "description": "Formerly called Alamo Field, McCarron Airport was renamed in 1948 after Pat McCarran, a senator and author of the Civil Aeronautics Act. Its airport code honors its home in *Las* Vegas.",
+    "description": "Formerly Alamo Field and McCarron Airport, Harry Reid International was renamed in 2022 after U.S. Senator Harry Reid. Its airport code honors its home in *Las* Vegas.",
     "imageCredit": "Kevin Reese",
     "imageCreditLink": "https://www.flickr.com/photos/kevinreese/"
 }
