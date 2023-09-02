@@ -1,0 +1,11 @@
+{
+    "id": "osh",
+    "name": "Wittman Regional Airport",
+    "city": "Oshkosh",
+    "state": "Wisconsin",
+    "stateShort": "WI",
+    "country": "USA",
+    "description": "Named after pioneer air racer and aircraft designer, Steve Wittman, Wittman Regional gets its airport code from the city of *Osh*kosh.",
+    "imageCredit": "Wittmanairportops",
+    "imageCreditLink": "https://commons.wikimedia.org/wiki/File:Wittman_Airport_Terminal.jpg"
+}
