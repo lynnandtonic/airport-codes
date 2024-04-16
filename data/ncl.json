@@ -1,11 +1,9 @@
 {
     "id": "ncl",
-    "code": "ncl",
     "name": "Newcastle International Airport",
     "city": "Newcastle",
     "city2": "Woolsington",
     "state": "England",
-    "stateShort": "",
     "country": "UK",
     "description": "Opened in 1935, Newcastle International served 4.6 million passengers in 2014 making it one of the busiest in the United Kingdom. Its airport code honors its home in *N*ew*c*ast*l*e.",
     "imageCredit": "Newcastle Airport",

@@ -1,11 +1,9 @@
 {
     "id": "cgh",
-    "code": "cgh",
     "name": "Aeroporto de São Paulo/Congonhas",
     "nameEnglish": "Congonhas Airport",
     "city": "São Paulo",
     "city2": "Sao Paulo",
-    "state": "São Paulo",
     "stateShort": "SP",
     "country": "Brazil",
     "description": "São Paulo/Congonhas Airport opened in 1936 and is named after the neighborhood where it’s located, Vila *C*on*g*on*h*as.",

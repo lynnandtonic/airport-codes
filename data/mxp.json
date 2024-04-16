@@ -1,12 +1,9 @@
 {
     "id": "mxp",
-    "code": "mxp",
     "name": "Aeroporto di Milano-Malpensa",
-    "nameEnglish": "Milan–Malpensa Airport",
+    "nameEnglish": "Malpensa",
     "city": "Milan",
     "city2": "Ferno",
-    "state": "",
-    "stateShort": "",
     "country": "Italy",
     "description": "Many airports use the letter ‘X’ to fill in when the desired letters are already taken. Milan’s airport code comes from Cascina *M*al*p*ensa, where the airport got its start, plus that helpful ‘*X*’.",
     "imageCredit": "Jorge Díaz",

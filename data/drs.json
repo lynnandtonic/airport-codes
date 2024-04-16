@@ -1,0 +1,11 @@
+{
+    "id": "drs",
+    "name": "Flughafen Dresden",
+    "nameEnglish": "Dresden Airport",
+    "city": "Dresden",
+    "state": "Saxony",
+    "country": "Germany",
+    "description": "Dresden Airport serves the city of *Dr*e*s*den, the capital of the German Free State of Saxony.",
+    "imageCredit": "Marcus Pink",
+    "imageCreditLink": "https://www.flickr.com/photos/kompott/"
+}

@@ -1,12 +1,11 @@
 {
     "id": "stl",
-    "code": "stl",
     "name": "Lambert–St. Louis International Airport",
     "city": "St. Louis",
     "state": "Missouri",
     "stateShort": "MO",
     "country": "USA",
-    "description": "Lambert-St. Louis International is named after Albert Bond Lambert, Olympic golfer and the first to receive a pilot's license in the city of *St*. *L*ouis.",
+    "description": "Lambert-St. Louis International is named after Albert Bond Lambert, Olympic golfer and the first to receive a pilot’s license in the city of *St*. *L*ouis.",
     "imageCredit": "Rich",
     "imageCreditLink": "https://www.flickr.com/photos/richmanwisco/"
 }

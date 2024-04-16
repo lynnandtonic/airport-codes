@@ -1,0 +1,11 @@
+{
+    "id": "cos",
+    "name": "Colorado Springs Airport",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "stateShort": "CO",
+    "country": "USA",
+    "description": "In operation since 1927, the *CO*lorado *S*prings Airport is the second busiest airport in Colorado.",
+    "imageCredit": "Gaylon Wampler",
+    "imageCreditLink": "https://commons.wikimedia.org/wiki/File:Colorado_Springs_Airport_Terminal_Building.jpg#metadata"
+}

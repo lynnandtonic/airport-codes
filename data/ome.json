@@ -1,0 +1,11 @@
+{
+    "id": "ome",
+    "name": "Nome Airport",
+    "city": "Nome",
+    "state": "Alaska",
+    "stateShort": "AK",
+    "country": "USA",
+    "description": "When airport codes switched from two letters to three, the U.S. Navy reserved all codes starting with ‘N’. Nome Airport then used the next few letters in its home city of N*ome* to get OME.",
+    "imageCredit": "t-dawg",
+    "imageCreditLink": "https://www.flickr.com/photos/wheatland/"
+}

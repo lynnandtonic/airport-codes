@@ -1,13 +1,10 @@
 {
     "id": "ngo",
-    "code": "ngo",
     "name": "Chūbu Centrair International Airport",
     "city": "Nagoya",
     "city2": "Tokoname City",
-    "state": "",
-    "stateShort": "",
     "country": "Japan",
     "description": "Chūbu Centrair International serves the Chūbu (central) region of Japan. Located in the city of *N*a*go*ya, it replaced Nagoya Airport in 2005 and inherited its airport code too.",
     "imageCredit": "Gryffindor",
-    "imageCreditLink": "http://en.wikipedia.org/wiki/Ch%C5%ABbu_Centrair_International_Airport#/media/File:Chubu_Centrair2.JPG"
+    "imageCreditLink": "http://commons.wikimedia.org/wiki/File:Chubu_Centrair2.JPG"
 }

@@ -1,11 +1,8 @@
 {
     "id": "pvg",
-    "code": "pvg",
     "name": "Shanghai Pudong International Airport",
     "city": "Shanghai",
     "city2": "Pudong",
-    "state": "",
-    "stateShort": "",
     "country": "China",
     "description": "Shanghai Pudong International opened in 1999. Its airport code comes from the Shanghai district of *P*udon*g* with a filler ‘*V*’ replacing the ‘U’ to get PVG.",
     "imageCredit": "GreenArcher04",

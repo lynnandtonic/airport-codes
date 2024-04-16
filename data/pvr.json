@@ -1,0 +1,13 @@
+
+{
+    "id": "pvr",
+    "name": "Aeropuerto Internacional Lic. Gustavo Díaz Ordaz",
+    "nameEnglish": "Lic. Gustavo Díaz Ordaz International Airport",
+    "city": "Puerto Vallarta",
+    "state": "Jalisco",
+    "stateShort": "JA",
+    "country": "Mexico",
+    "description": "PVR is named after Mexican president Gustavo Díaz Ordaz and serves the city of *P*uerto *V*alla*r*ta.",
+    "imageCredit": "appaloosa",
+    "imageCreditLink": "https://www.flickr.com/photos/appaloosa/"
+}

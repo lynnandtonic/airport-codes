@@ -1,0 +1,12 @@
+{
+    "id": "apa",
+    "name": "Centennial Airport",
+    "city": "Denver",
+    "city2": "Aurora",
+    "state": "Colorado",
+    "stateShort": "CO",
+    "country": "USA",
+    "description": "Centennial Airport serves the Denver-Aurora metro area in Colorado. It is located in the town of Dove Valley and was previously known *A*ra*pa*hoe County Airport.",
+    "imageCredit": "Jeffrey Beall",
+    "imageCreditLink": "https://www.flickr.com/photos/denverjeffrey/"
+}

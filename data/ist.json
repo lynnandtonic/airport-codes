@@ -1,14 +1,9 @@
 {
     "id": "ist",
-    "code": "ist",
-    "name": "İstanbul Atatürk Havalimanı",
-    "nameEnglish": "Istanbul Atatürk Airport",
+    "name": "Istanbul Airport",
     "city": "Istanbul",
-    "city2": "Yeşilköy",
-    "state": "",
-    "stateShort": "",
     "country": "Turkey",
-    "description": "Turkey’s busiest airport honors the first president of the Republic of Turkey, Mustafa Kemal Atatürk. Its airport code honors the city of *Ist*anbul.",
-    "imageCredit": "jaime.silva",
-    "imageCreditLink": "https://www.flickr.com/photos/20792787@N00/"
+    "description": "In 2019, all commercial flights were transfered from Istanbul Atatürk Airport to the newly running *Ist*anbul Airport.",
+    "imageCredit": "CeeGee",
+    "imageCreditLink": "https://commons.wikimedia.org/wiki/File:IstanbulAirport_(1).jpg"
 }

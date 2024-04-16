@@ -1,0 +1,11 @@
+{
+    "id": "fmo",
+    "name": "Flughafen Münster/Osnabrück",
+    "city": "Münster",
+    "city2": "Osnabrück",
+    "state": "NRW",
+    "country": "Germany",
+    "description": "Located in the town of Greven, *F*lughafen *M*ünster *O*snabrück is a minor airport that serves the northern part of North Rhine-Westphalia and the surrounding areas since 1974.",
+    "imageCredit": "Rüdiger Wölk",
+    "imageCreditLink": "https://commons.wikimedia.org/wiki/File:Flughafen_M%C3%BCnster_Osnabr%C3%BCck8749.jpg"
+}

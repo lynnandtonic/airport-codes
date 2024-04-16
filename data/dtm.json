@@ -1,11 +1,7 @@
 {
     "id": "dtm",
-    "code": "dtm",
     "name": "Flughafen Dortmund",
-    "nameEnglish": "Dortmund Airport",
     "city": "Dortmund",
-    "state": "",
-    "stateShort": "",
     "country": "Germany",
     "description": "Initially located in the suburb of Brackel, the airport serving the eastern Rhine-Ruhr area was moved to the city of *D*or*tm*und after World War II.",
     "imageCredit": "Andreas",

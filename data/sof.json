@@ -1,12 +1,8 @@
 {
     "id": "sof",
-    "code": "sof",
     "name": "Letishte Sofiya",
-    "nameEnglish": "Sofia Airport",
     "city": "Sofia",
     "city2": "Vrazhdebna",
-    "state": "",
-    "stateShort": "",
     "country": "Bulgaria",
     "description": "Often called Sofia-Vrazhdebna Airport, Bulgaria’s primary airport gets its three-letter code from its home in *Sof*ia.",
     "imageCredit": "emilstefanov",

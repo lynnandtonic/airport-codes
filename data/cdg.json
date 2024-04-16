@@ -1,13 +1,10 @@
 {
     "id": "cdg",
-    "code": "cdg",
     "name": "Aéroport de Paris-Charles-de-Gaulle",
     "nameEnglish": "Charles de Gaulle Airport",
     "city": "Paris",
-    "state": "",
-    "stateShort": "",
     "country": "France",
-    "description": "Renamed and officially opened in 1974, France's largest airport is named after *C*harles *d*e *G*aulle, former President and founder of the French Fifth Republic.",
+    "description": "Renamed and officially opened in 1974, France’s largest airport is named after *C*harles *d*e *G*aulle, former President and founder of the French Fifth Republic.",
     "imageCredit": "Giacomo Carena",
     "imageCreditLink": "https://www.flickr.com/photos/jekkone/"
 }

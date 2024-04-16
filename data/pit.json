@@ -1,10 +1,7 @@
 {
     "id": "pit",
-    "code": "pit",
     "name": "Pittsburgh International Airport",
     "city": "Pittsburgh",
-    "city2": "Findlay",
-    "city3": "Moon",
     "state": "Pennsylvania",
     "stateShort": "PA",
     "country": "USA",

@@ -1,11 +1,8 @@
 {
     "id": "hkg",
-    "code": "hkg",
     "name": "Hong Kong International Airport",
     "city": "Hong Kong",
     "city2": "Chek Lap Kok",
-    "state": "",
-    "stateShort": "",
     "country": "China",
     "description": "Hong Kong International is located on the island of Chek Lap Kok and is often called Chek Lap Kok Airport. Its three-letter airport code stands for *H*ong *K*on*g*.",
     "imageCredit": "Chris",

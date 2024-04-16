@@ -1,12 +1,8 @@
 {
     "id": "vie",
-    "code": "vie",
     "name": "Flughafen Wien-Schwechat",
-    "nameEnglish": "Vienna International Airport",
     "city": "Vienna",
     "city2": "Schwechat",
-    "state": "",
-    "stateShort": "",
     "country": "Austria",
     "description": "Austria’s largest airport is actually located in the town of Schwechat, but gets its airport code from the nearby capital city of *Vie*nna.",
     "imageCredit": "rosmary",

@@ -1,10 +1,8 @@
 {
     "id": "dal",
-    "code": "dal",
     "name": "Dallas Love Field",
     "city": "Dallas",
     "city2": "Fort Worth",
-    "city3": "Arlington",
     "state": "Texas",
     "stateShort": "TX",
     "country": "USA",

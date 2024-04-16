@@ -1,0 +1,12 @@
+{
+    "id": "yoo",
+    "name": "Oshawa Executive Airport",
+    "city": "Oshawa",
+    "city2": "Toronto",
+    "state": "Ontario",
+    "stateShort": "ON",
+    "country": "Canada",
+    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. ‘OO’ comes from this airport’s home in the city of *O*shawa, *O*ntario.",
+    "imageCredit": "Joe",
+    "imageCreditLink": "https://www.flickr.com/photos/9948354@N08/"
+}

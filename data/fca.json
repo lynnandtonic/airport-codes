@@ -1,13 +1,12 @@
 {
     "id": "fca",
-    "code": "fca",
     "name": "Glacier Park International Airport",
     "city": "Kalispell",
     "city2": "Flathead County",
     "state": "Montana",
     "stateShort": "MT",
     "country": "USA",
-    "description": "Before being renamed to honor Montana's natural beauty, Glacier Park International was known as *F*lathead *C*ounty *A*irport.",
+    "description": "Before being renamed to honor Montana’s natural beauty, Glacier Park International was known as *F*lathead *C*ounty *A*irport.",
     "imageCredit": "theilr",
     "imageCreditLink": "https://www.flickr.com/photos/theilr/"
 }

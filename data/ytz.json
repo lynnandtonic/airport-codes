@@ -1,0 +1,12 @@
+{
+    "id": "ytz",
+    "name": "Billy Bishop Toronto City Airport",
+    "city": "Toronto",
+    "city2": "Toronto Division",
+    "state": "Ontario",
+    "stateShort": "ON",
+    "country": "Canada",
+    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. The ‘*TZ*’ isn’t as clear, but it’s been said it represents the radio call of the airport’s weather station.",
+    "imageCredit": "Fanagt",
+    "imageCreditLink": "https://www.flickr.com/photos/fanagt/"
+}

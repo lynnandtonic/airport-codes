@@ -1,0 +1,11 @@
+{
+    "id": "vny",
+    "name": "Van Nuys Airport",
+    "city": "Los Angeles",
+    "state": "California",
+    "stateShort": "CA",
+    "country": "USA",
+    "description": "Van Nuys Airport serves Los Angeles, located in the *V*an *N*u*y*s neighborhood of the San Fernando Valley.",
+    "imageCredit": "Thomas Hawk",
+    "imageCreditLink": "https://www.flickr.com/photos/thomashawk/"
+}

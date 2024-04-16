@@ -1,0 +1,12 @@
+{
+    "id": "xna",
+    "name": "Northwest Arkansas Regional Airport",
+    "city": "Fayetteville",
+    "city2": "Springdale",
+    "state": "Arkansas",
+    "stateShort": "AR",
+    "country": "USA",
+    "description": "The letter ‘*X*’ is often used as a filler letter. When airport codes switched from two letters to three, the U.S. Navy reserved all codes starting with ‘N’. So *N*orthwest *A*rkansas Regional opted to use the ‘X’ as its first letter.",
+    "imageCredit": "James Foreman",
+    "imageCreditLink": "https://www.flickr.com/photos/gimble/"
+}

@@ -1,14 +1,12 @@
 {
     "id": "cvg",
-    "code": "cvg",
     "name": "Cincinnati/Northern Kentucky International Airport",
     "city": "Hebron",
-    "city2": "Cincinnati",
-    "city3": "Ohio",
+    "city2": "Ohio",
     "state": "Kentucky",
     "stateShort": "KY",
     "country": "USA",
-    "description": "Serving the greater Cincinnati metro area, Cincinnati/Northern Kentucky's airport code comes from the nearby city of *C*o*v*in*g*ton.",
+    "description": "Serving the greater Cincinnati metro area, Cincinnati/Northern Kentucky’s airport code comes from the nearby city of *C*o*v*in*g*ton.",
     "imageCredit": "Robert S. Donovan",
     "imageCreditLink": "https://www.flickr.com/photos/booleansplit/"
 }

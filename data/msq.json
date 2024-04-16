@@ -1,11 +1,8 @@
 {
     "id": "msq",
-    "code": "msq",
     "name": "Minsk National Airport",
     "city": "Minsk",
     "city2": "Kastrychnitski",
-    "state": "",
-    "stateShort": "",
     "country": "Belarus",
     "description": "Minsk National, formerly known as Minsk-2 (yes, there is a Minsk-1), is the primary airport in Belarus. Its code comes from the city of *M*in*s*k. The ‘*Q*’ works phonetically, but is used as a filler letter.",
     "imageCredit": "Laurence Vagner",

@@ -1,10 +1,7 @@
 {
     "id": "rak",
-    "code": "rak",
     "name": "Marrakesh Menara Airport",
     "city": "Marrakesh",
-    "state": "",
-    "stateShort": "",
     "country": "Morocco",
     "description": "Marrakesh Menara Airport gets part of its name from the nearby Menara Gardens and the other part from its home in the capital city of Mar*rak*esh.",
     "imageCredit": "Thomas Leuthard",

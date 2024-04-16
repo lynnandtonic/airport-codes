@@ -1,10 +1,8 @@
 {
     "id": "mht",
-    "code": "mht",
     "name": "Manchester–Boston Regional Airport",
     "city": "Manchester",
-    "city2": "Londonberry",
-    "city3": "Boston",
+    "city2": "Boston",
     "state": "New Hampshire",
     "stateShort": "NH",
     "country": "USA",

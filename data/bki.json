@@ -1,11 +1,8 @@
 {
     "id": "bki",
-    "code": "bki",
     "name": "Lapangan Terbang Antarabangsa Kota Kinabalu",
-    "nameEnglish": "Kota Kinabalu International Airport",
     "city": "Kota Kinabalu",
     "state": "Sabah",
-    "stateShort": "",
     "country": "Malaysia",
     "description": "Kota Kinabalu International is Malaysia’s second-busiest airport. Its airport code comes from its location on *B*orneo and in the city of Kota *Ki*nabalu.",
     "imageCredit": "aeab",

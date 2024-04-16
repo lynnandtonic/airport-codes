@@ -1,12 +1,11 @@
 {
     "id": "gmp",
-    "code": "gmp",
     "name": "Gimpo International Airport",
     "city": "Seoul",
     "city2": "Gangseo District",
     "state": "Korea",
     "country": "South Korea",
     "description": "*G*i*mp*o International Airport, located in Gangseo-gu of Seoul, was the main airport for Seoul and South Korea until being replaced by Incheon International Airport in 2011.",
-    "imageCredit": "aceebee",
-    "imageCreditLink": "https://www.flickr.com/photos/aceebee/"
+    "imageCredit": "Seoul Korea",
+    "imageCreditLink": "https://www.flickr.com/photos/seoulkorea/"
 }

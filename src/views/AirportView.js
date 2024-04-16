@@ -8,12 +8,12 @@ var AirportView = Backbone.View.extend({
 
   initialize: function() {
     this.model.on('change:visible', this._setClassName, this);
-    this.imageUrl = this._getImageUrl().replace(/(url|["()])/ig, '');
+    this.imageUrl = 'images/card/' + this.model.id + '.jpg';
   },
 
   viewModel: function() {
     return {
-      code: this.model.get('code'),
+      id: this.model.get('id'),
       name: this.model.get('name'),
       city: this.model.get('city'),
       state: this.model.get('state'),
@@ -24,24 +24,14 @@ var AirportView = Backbone.View.extend({
     };
   },
 
-  _setClassName: function() {
-    this.$el.addClass(this.model.get('code'));
-    this.$el.toggleClass('loaded', this.loaded);
-    this.$el.toggleClass('hidden', !this.model.get('visible'));
+  isVisible: function() {
+    return this.model.get('visible');
   },
 
-  _getImageUrl: function() {
-    for( var j=0;j<document.styleSheets.length;j++ ) {
-      var classes = document.styleSheets[j].rules || document.styleSheets[j].cssRules;
-      for( var i=0;i<classes.length;i++ ) {
-        if (classes[i].selectorText === '.card.'+this.model.get('id')+' .background' ||
-            classes[i].selectorText === '.'+this.model.get('id')+'.card .background') {
-          return classes[i].style.backgroundImage;
-        }
-      }
-    }
-
-    return '';
+  _setClassName: function() {
+    this.$el.addClass(this.model.get('id'));
+    this.$el.toggleClass('loaded', this.loaded);
+    this.$el.toggleClass('hidden', !this.model.get('visible'));
   },
 
   lazyLoad: function() {
@@ -49,15 +39,22 @@ var AirportView = Backbone.View.extend({
     img.src = this.imageUrl;
 
     var self = this;
-    img.onload = function() {
+
+    var handleLoad = function() {
+      clearTimeout(loadTimeout);
+      img.onload = null;
+
       self.loading = false;
       self.loaded = true;
       self._setClassName();
+
+      img = null;
     };
 
-    this.loading = true;
+    img.onload = handleLoad;
+    var loadTimeout = setTimeout(handleLoad, 10000);
 
-    img = null;
+    this.loading = true;
   },
 
   render: function() {

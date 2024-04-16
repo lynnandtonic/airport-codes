@@ -1,0 +1,11 @@
+{
+    "id": "ack",
+    "name": "Nantucket Memorial Airport",
+    "city": "Nantucket",
+    "state": "Massachusetts",
+    "stateShort": "MA",
+    "country": "USA",
+    "description": "When airport codes switched from two letters to three, the U.S. Navy reserved all codes starting with ‘N’. N*a*ntu*ck*et Memorial, then, used other letters in its name to get ACK.",
+    "imageCredit": "thisisbossi",
+    "imageCreditLink": "https://www.flickr.com/photos/thisisbossi/"
+}

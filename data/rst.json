@@ -1,0 +1,11 @@
+{
+    "id": "rst",
+    "name": "Rochester International Airport",
+    "city": "Rochester",
+    "state": "Minnesota",
+    "stateShort": "MN",
+    "country": "USA",
+    "description": "The original Rochester Airport was built in 1928 by the Mayo Foundation. Later renamed to Lobb Field, the airport was closed in 1961 and replaced by the current *R*oche*st*er International.",
+    "imageCredit": "@flyrst",
+    "imageCreditLink": "https://twitter.com/flyrst"
+}

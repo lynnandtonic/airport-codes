@@ -1,14 +1,12 @@
 {
-	"id": "blr",
-	"code": "blr",
-	"name":	"Kempegowda International Airport",
-	"city":	"Bengaluru",
-	"city2": "Bangalore",
-	"city3": "Devanahalli",
-	"state": "Karnataka",
-	"stateShort": "KA",
-	"country": "India",
-	"description": "Kempegowda International was renamed in 2013 to honor the city’s founder, Kempe Gowda I. Its airport code comes from a former spelling of Bengaluru: *B*anga*l*o*r*e.",
-	"imageCredit": "Ramesh NG",
-	"imageCreditLink": "https://www.flickr.com/photos/rameshng/"
+    "id": "blr",
+    "name":	"Kempegowda International Airport",
+    "city":	"Bengaluru",
+    "city2": "Devanahalli",
+    "state": "Karnataka",
+    "stateShort": "KA",
+    "country": "India",
+    "description": "Kempegowda International was renamed in 2013 to honor the city’s founder, Kempe Gowda I. Its airport code comes from a former spelling of Bengaluru: *B*anga*l*o*r*e.",
+    "imageCredit": "Ramesh NG",
+    "imageCreditLink": "https://www.flickr.com/photos/rameshng/"
 }

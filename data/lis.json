@@ -1,14 +1,10 @@
 {
     "id": "lis",
-    "code": "lis",
-    "name": "Aeroporto da Portela",
-    "nameEnglish": "Lisbon Portela Airport",
+    "name": "Aeroporto Humberto Delgado",
     "city": "Lisbon",
     "city2": "Portela",
-    "state": "",
-    "stateShort": "",
     "country": "Portugal",
-    "description": "Portugal’s busiest airport is named for its neighboring parish, Portela, but its airport code comes from the capital city of *Lis*bon.",
+    "description": "Previously named after the parish of Portela, Humberto Delgado Airport honors the late Portuguese air force general and politician. Its airport code comes from the capital city of *Lis*bon.",
     "imageCredit": "hom26",
     "imageCreditLink": "https://www.flickr.com/photos/hom26/"
 }

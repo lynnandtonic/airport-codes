@@ -3,18 +3,16 @@ html
   head
     title Airport Codes
     link(rel='stylesheet', href='/app.css')
-    script(src='//use.typekit.net/sei6hkn.js')
-    script try{Typekit.load();}catch(e){}
+    include ./includes/typekit.html
 
   body
 
     div.detail.lost
       div.overlay
-        div.container
-          div.detail-info
-            h1 OOPS
-            div.description
-              p This is not the airport you’re looking for.
-            a.btn(href="/") Find another airport
-          a.back(href="/") Airport Codes
-    include ./includes/ga.html
+      div.container
+        div.detail-info
+          h1 OOPS
+          div.description
+            p This is not the airport you’re looking for.
+          a.btn(href="/") Find another airport
+        a.back(href="/") Airport Codes

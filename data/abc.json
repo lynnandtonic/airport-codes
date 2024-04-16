@@ -1,0 +1,10 @@
+{
+    "id": "abc",
+    "name": "Aeropuerto de Albacete",
+    "city": "Albacete",
+    "city2": "Castilla-La Mancha",
+    "country": "Spain",
+    "description": "Opened in 1929, Albacete Airport is located on Los Llanos Air Base and serves the city of *A*l*b*a*c*ete.",
+    "imageCredit": "Alejandro Navarro López",
+    "imageCreditLink": "http://commons.wikimedia.org/wiki/File:Aeropuerto_Los_Llanos_exterior.jpg"
+}

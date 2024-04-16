@@ -1,14 +1,12 @@
 {
     "id": "yyz",
-    "code": "yyz",
     "name": "Pearson International Airport",
     "city": "Toronto",
     "city2": "Malton",
-    "city3": "Mississauga",
     "state": "Ontario",
     "stateShort": "ON",
     "country": "Canada",
-    "description": "With a few exceptions, airport codes starting with ‘*Y*’ designate Canadian airports. The ‘*YZ*’ isn't as clear, but is said to be the old railway station code for Malton, an area west of Toronto where the airport is located.",
+    "description": "Most airport codes starting with ‘*Y*’ designate Canadian airports. The ‘*YZ*’ is said to be the old railway station code for Malton, an area west of Toronto where the airport is located. You may know YYZ from the song by Canadian rock band Rush.",
     "imageCredit": "Coralie Mercier",
     "imageCreditLink": "https://www.flickr.com/photos/koalie/"
 }

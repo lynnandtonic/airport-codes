@@ -1,11 +1,8 @@
 {
     "id": "svx",
-    "code": "svx",
     "name": "Koltsovo International Airport",
     "city": "Yekaterinburg",
     "city2": "Sverdlovsk",
-    "state": "",
-    "stateShort": "",
     "country": "Russia",
     "description": "Many airports use the letter ‘X’ to fill in when the desired letters are already taken. Koltsovo International serves Yekaterinburg, industrial and cultural center of the Ural region. It was previously named *Sv*erdlovsk, plus that helpful ‘*X*’.",
     "imageCredit": "Falschivomonetchick",

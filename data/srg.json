@@ -1,12 +1,9 @@
 {
     "id": "srg",
-    "code": "srg",
     "name": "Bandar Udara Internasional Ahmad Yani",
-    "nameEnglish": "Ahmad Yani International Airport",
+    "nameEnglish": "Ahmad Yani",
     "city": "Semarang",
     "city2": "East Java",
-    "state": "",
-    "stateShort": "",
     "country": "Indonesia",
     "description": "Once a military airbase for the Armed Forces of Indonesia, Ahmad Yani International serves *S*ema*r*an*g* and its surrounding areas. It honors General Ahmad Yani, a major figure in the Indonesian National Revolution.",
     "imageCredit": "Curtis Ferrell",

@@ -4,7 +4,7 @@ var markdown = require('markdown').markdown;
 var Airport = Backbone.Model.extend({
 
   defaults: {
-    code: 'aaa',
+    id: 'aaa',
     name: 'Default Airport',
     city: 'City',
     state: 'State',

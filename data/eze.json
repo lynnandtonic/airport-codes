@@ -1,12 +1,9 @@
 {
     "id": "eze",
-    "code": "eze",
     "name": "Aeropuerto Internacional Ministro Pistarini",
-    "nameEnglish": "Ministro Pistarini International Airport",
+    "nameEnglish": "Ministro Pistarini",
     "city": "Buenos Aires",
     "city2": "Ezeiza",
-    "state": "",
-    "stateShort": "",
     "country": "Argentina",
     "description": "Named after former Minister of Public Works, Juan Pistarini, the Buenos Aires airport’s code comes from *Eze*iza Partido where the airport is located. ",
     "imageCredit": "Gilmar Mattos",

@@ -1,18 +1,16 @@
-div.overlay
-  div.container
-    div.detail-info
-      h1= code
-      h2= name
-      h3
-        span.city= city
-        span.state= stateShort
-        span.country= country
-      div.description!= description
-      a.close-detail(href="#")
-    div.photo-credit
-      | photo by 
-      a(href=imageCreditLink)= imageCredit
-    a.back(href="#") Airport Codes
-    //- TODO: styling for this
-    //- div.random
-    //-   a.btn.btn.btn-secondary(href="#") Gimme another
+a.overlay(href="#")
+div.container
+  div.detail-info
+    h1= id
+    h2= name
+    h3
+      span.city= city
+      span.state= stateShort
+      span.country= country
+    div.description!= description
+    a.close-detail(href="#") Close
+    a.random(href="#") Random Airport
+  div.photo-credit
+    | photo by 
+    a(href=imageCreditLink)= imageCredit
+  a.back(href="#") Airport Codes

@@ -9,11 +9,12 @@
   z-index: 10
   visbility: visible
   opacity: 1
-  background: $grey-drk no-repeat 50% 50%
+  background: black no-repeat 50% 50%
   background-size: cover
   text-align: center
   {fadeIn}
   transition(opacity .2s ease-out, visibility .2s ease-out)
+  
 
   &.hidden
     visibility: hidden
@@ -26,15 +27,36 @@
 
   .detail-info
     border: 1px solid white
+    z-index: 2
 
     a.close-detail
-      width: 20px
+      width: 40px
       height: @width
       position: absolute
-      right: 10px
-      top: 10px
-      background: url(images/icon-close-white.svg) no-repeat 0 0
-      background-size: @width @width
+      right: 0
+      top: 0
+      background: url(images/icon-close-white.svg) no-repeat center center
+      background-size: 18px 18px
+      text-indent: -9999em
+
+      &:focus
+        outline: none
+        background-color: black(.9)
+
+    a.random
+      width: 40px
+      height: @width
+      position: absolute
+      top: 0
+      left: 0
+      z-index: 10
+      background: url(images/icon-shuffle.svg) no-repeat center center
+      background-size: 20px 20px
+      text-indent: -9999em
+
+      &:focus
+        outline: none
+        background-color: black(.9)
 
   h1
     margin-bottom: 20px
@@ -88,13 +110,18 @@
       &.facebook
         background-image: url(images/logo-facebook.svg)
 
-      &:hover
+      &:hover,
+      &:focus
         opacity: .6
+
+      &:focus
+        outline: none
 
 
   // Photographer credit and link
   .photo-credit
     padding: 7px
+    z-index: 2
     background: black(.3)
     border-radius: 3px
 
@@ -104,6 +131,10 @@
 
       &:hover
         opacity: .5
+
+      &:focus
+        color: $blue
+        outline: none
 
 // Narrow screens
 @media (max-width: 650px)
@@ -122,12 +153,14 @@
     .detail-info
       min-height: 320px
       padding: 25px
+      padding-top: 40px
       position: relative
       top: 0
       left: 0
 
     .photo-credit
       margin: 20px 0
+      position: relative
       display: inline-block
 
     .back

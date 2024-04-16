@@ -6,17 +6,19 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1')
 
     title Airport Codes
-    meta(name='description', content='Making sense of those three-letter airport codes.')
-    script(src='app.js')
+    meta(name='description', content='Ever wonder why the airport in New Orleans is MSY? Airport Codes tries to make sense of those unique three-letter codes.')
+    script(src='/app.js')
     link(rel='stylesheet', href='/app.css')
-    script(src='//use.typekit.net/sei6hkn.js')
-    script try{Typekit.load();}catch(e){}
+    include ./includes/typekit.html
 
     meta(property='og:site_name', content='Airport Codes')
-    meta(property='og:url', content='http://airportcod.es')
+    meta(property='og:url', content='https://airportcod.es')
     meta(property='og:description', content='Making sense of those three-letter airport codes.')
-    meta(property='og:image', content='http://airportcod.es/images/facebook-airport-codes.png')
+    meta(property='og:image', content='https://airportcod.es/images/facebook-airport-codes.png')
     meta(property='og:type', content='website')
+    meta(property='og:image:width', content='1200')
+    meta(property='og:image:height', content='630')
 
   body
-    include ./includes/ga.html
+    script(data-goatcounter='https://airportcodes.goatcounter.com/count'
+        async src='//gc.zgo.at/count.js')

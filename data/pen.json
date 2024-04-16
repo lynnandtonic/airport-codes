@@ -1,12 +1,10 @@
 {
     "id": "pen",
-    "code": "pen",
     "name": "Lapangan Terbang Antarabangsa Pulau Pinang",
     "nameEnglish": "Penang International Airport",
     "city": "Pulau Pinang",
     "city2": "Bayan Lepas",
     "state": "Pulau Pinang",
-    "stateShort": "",
     "country": "Malaysia",
     "description": "Formerly named Bayan Lepas International, Penang International is located in the Bayan Lepas district in *Pen*ang, Malaysia.",
     "imageCredit": "John Ong",

@@ -1,10 +1,8 @@
 {
     "id": "bwi",
-    "code": "bwi",
     "name": "Baltimore/Washington International Thurgood Marshall Airport",
     "city": "Baltimore",
-    "city2": "Glen Burnie",
-    "city3": "Washington D.C.",
+    "city2": "Washington D.C.",
     "state": "Maryland",
     "stateShort": "MD",
     "country": "USA",

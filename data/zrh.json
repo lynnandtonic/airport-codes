@@ -1,12 +1,8 @@
 {
     "id": "zrh",
-    "code": "zrh",
     "name": "Flughafen Zürich",
-    "nameEnglish": "Zürich Airport",
     "city": "Zürich",
     "city2": "Zurich",
-    "state": "",
-    "stateShort": "",
     "country": "Switzerland",
     "description": "Not surprisingly, Switzerland’s busiest airport is located in its largest city of *Z*ü*r*ic*h*.",
     "imageCredit": "Reto Fetz",
