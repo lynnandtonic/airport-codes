@@ -26,7 +26,7 @@
     "gulp": "3.9.1",
     "gulp-clean-css": "3.4.2",
     "gulp-concat-json": "1.0.0",
-    "gulp-connect": "5.0.0",
+    "gulp-connect": "5.7.0",
     "gulp-data": "1.2.1",
     "gulp-gh-pages": "0.5.4",
     "gulp-pug": "3.3.0",
