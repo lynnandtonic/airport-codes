@@ -1,5 +1,4 @@
 var Backbone = require('backbone');
-var SocialView = require('./SocialView');
 
 var template = require('./templates/AirportDetailView.jade');
 
@@ -60,35 +59,10 @@ var AirportDetailView = Backbone.View.extend({
     this._setClassName();
     this.$el.html(template(this.viewModel()));
 
-    this._renderSocialViews();
-
     Backbone.$('body').append(this.$el);
     this.$('.close-detail').focus();
     return this;
   },
-
-  _renderSocialViews: function() {
-    if (!this._twitter) {
-      this._twitter = new SocialView({
-        url: 'https://twitter.com/intent/tweet?url=$SHARE_URL&text=$TEXT',
-        type: 'twitter',
-        text: 'Making sense of those three-letter airport codes. ' + this.model.get('id').toUpperCase() + ':',
-        share_url: 'http://airportcod.es/%23airport/' + this.model.get('id')
-      });
-      this._twitter.render();
-    }
-
-    if (!this._facebook) {
-      this._facebook = new SocialView({
-        url: 'https://www.facebook.com/sharer/sharer.php?u=$SHARE_URL',
-        type: 'facebook',
-        share_url: 'http://airportcod.es/#airport/' + this.model.get('id')
-      });
-      this._facebook.render();
-    }
-
-    this.$('.detail-info').append([this._twitter.el, this._facebook.el]);
-  }
 
 });
 
