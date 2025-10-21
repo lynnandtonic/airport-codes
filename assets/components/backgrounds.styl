@@ -23,28 +23,21 @@ $media-md-max = 1500px
 
   for $code in $images
     &.{$code}
-      .background {  background-image: url($card/$code.$image-ext) }
+      .background { background-image: url($card/$code.$image-ext) }
 
-// Detail Small
-@media (max-width: $media-sm-max)
+// Detail Card
+@media (max-width: 900px)
   .detail
 
     for $code in $images
-      &.{$code} { background-image: url($small/$code.$image-ext) }
+      &.{$code} .detail-bg { background-image: url($card/$code.$image-ext) }
 
 // Detail Medium
-@media (min-width: $media-sm-max + 1px) and (max-width: $media-md-max)
+@media (min-width: 901px)
   .detail
 
     for $code in $images
-      &.{$code} { background-image: url($medium/$code.$image-ext) }
-
-// Detail Large
-@media (min-width: $media-md-max + 1px)
-  .detail
-
-    for $code in $images
-      &.{$code} { background-image: url($large/$code.$image-ext) }
+      &.{$code} .detail-bg { background-image: url($medium/$code.$image-ext) }
 
 // Special case for PRN
 .card.prn
