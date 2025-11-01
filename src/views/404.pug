@@ -1,0 +1,28 @@
+doctype
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="google", content="notranslate")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        meta(description="Ever wonder why the airport in New Orleans is MSY? Airport Codes tries to make sense of those unique three-letter codes.")
+        meta(property="og:site_name", content="Airport Codes")
+        meta(property="og:url", content="https://airportcod.es/airport/" + data.id)
+        meta(property="og:description", content="Making sense of those three-letter airport codes.")
+        meta(property="og:image", content="https://airportcod.es/images/facebook-airport-codes.png")
+        meta(property="og:type", content="website")
+        meta(property="og:image:width", content="1200")
+        meta(property="og:image:height", content="630")
+        link(rel="preload", href="https://use.typekit.net/sei6hkn.css", as="style", onload="this.onload=null;this.rel='stylesheet';")
+        link(rel="stylesheet", href="/about.css")
+        script(data-goatcounter='https://airportcodes.goatcounter.com/count' async src='https://gc.zgo.at/count.js')
+        title Airport Codes
+    body 
+        div.detail.lost
+            div.overlay
+            div.container
+                div.detail-info
+                    h1 OOPS
+                    div.description
+                        p This is not the airport you're looking for.
+                    a.btn(href="/") Find another airport
+                a.back(href="/") Airport Codes

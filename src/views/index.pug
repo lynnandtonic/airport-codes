@@ -1,0 +1,35 @@
+doctype
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        meta(name="description", content="Ever wonder why the airport in New Orleans is MSY? Airport Codes tries to make sense of those unique three-letter codes.")
+        meta(property="og:site_name", content="Airport Codes")
+        meta(property="og:url", content="https://airportcod.es")
+        meta(property="og:description", content="Making sense of those three-letter airport codes.")
+        meta(property="og:image", content="https://airportcod.es/images/facebook-airport-codes.png")
+        meta(property="og:type", content="website")
+        meta(property="og:image:width", content="1200")
+        meta(property="og:image:height", content="630")
+        link(rel="preload", href="https://use.typekit.net/sei6hkn.css", as="style", onload="this.onload=null;this.rel='stylesheet';")
+        style!= data.inlineCss
+        script(src="/js/search.js", defer)
+        script(data-goatcounter='https://airportcodes.goatcounter.com/count' async src='https://gc.zgo.at/count.js')
+        title Airport Codes
+    body
+        header
+            nav.cf
+                h1
+                    a(href="/") Airport Codes
+                    a.nav-about(href="/about/") About
+                input(type="text", name="search", id="search", autocomplete="off", autocorrect="off", placeholder="Find your airport")
+                button.clear(type="reset")
+        ul.cf.airport-list
+            each airport, code in data.airportData
+                li(class="card", id=code)
+                    img(loading=(code !== "aal" ? "lazy": false), fetchpriority=(code === "aal" ? "high" : false), src="/images/card/" + code + ".avif", alt="")
+                    a(href="/airport/" + code + "/")= code
+            li.card.card-contribute
+                a(href="/contribute/")
+                    span.placeholder New
+                    span.card-contribute-content Contribute an airport
