@@ -14,37 +14,3 @@
     background-image: url(images/conair-small.jpg)
   @media (min-width: 701px)
     background-image: url(images/conair.jpg)
-
-$media-sm-max = 700px
-$media-md-max = 1500px
-
-// Cards
-.card
-
-  for $code in $images
-    &.{$code}
-      .background { background-image: url($card/$code.$image-ext) }
-
-// Detail Card
-@media (max-width: 900px)
-  .detail
-
-    for $code in $images
-      &.{$code} .detail-bg { background-image: url($card/$code.$image-ext) }
-
-// Detail Medium
-@media (min-width: 901px)
-  .detail
-
-    for $code in $images
-      &.{$code} .detail-bg { background-image: url($medium/$code.$image-ext) }
-
-// Special case for PRN
-.card.prn
-  .background
-    background-image: url('/images/card/prnx.jpg')
-@media (max-width: 900px)
-  .detail.prn .detail-bg { background-image: url('/images/card/prnx.jpg') }
-@media (min-width: 90px)
-  .detail.prn .detail-bg { background-image: url('/images/medium/prnx.jpg') }
-

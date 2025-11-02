@@ -25,43 +25,30 @@ $blue = #40bae2
 // Transforms & transitions
 
 transition(args)
-  -webkit-transition: args
-  -moz-transition: args
   transition: args
 
 transform(args)
-  -webkit-transform: args
-  -moz-transform: args
   transform: args
 
 centerContent =
   position: absolute
   top: 50%
   left: 50%
-  -webkit-transform: translate(-50%,-50%)
-  -moz-transform: translate(-50%,-50%)
   transform: translate(-50%,-50%)
 
 centerHoriz =
   position: absolute
   left: 50%
-  -webkit-transform: translateX(-50%)
-  -moz-transform: translateX(-50%)
   transform: translateX(-50%)
 
 centerVert =
   position: absolute
   top: 50%
-  -webkit-transform: translateY(-50%)
-  -moz-transform: translateY(-50%)
   transform: translateY(-50%)
 
 // Animations
 
 fadeIn =
-  -webkit-animation: fadein .4s
-  -moz-animation: fadein .4s
-  -o-animation: fadein .4s
   animation: fadein .4s
 
 fadeInKeyframes =

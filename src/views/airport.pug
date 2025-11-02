@@ -1,0 +1,51 @@
+doctype
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="google", content="notranslate")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        meta(description="Ever wonder why the airport in New Orleans is MSY? Airport Codes tries to make sense of those unique three-letter codes.")
+        meta(property="og:site_name", content="Airport Codes")
+        meta(property="og:url", content="https://airportcod.es/airport/" + data.id)
+        meta(property="og:description", content="Making sense of those three-letter airport codes.")
+        meta(property="og:image", content="https://airportcod.es/images/facebook-airport-codes.png")
+        meta(property="og:type", content="website")
+        meta(property="og:image:width", content="1200")
+        meta(property="og:image:height", content="630")
+        link(rel="preload", href="https://use.typekit.net/sei6hkn.css", as="style", onload="this.onload=null;this.rel='stylesheet';")
+        link(rel="stylesheet", href="/airport.css")
+        script(data-goatcounter='https://airportcodes.goatcounter.com/count' async src='https://gc.zgo.at/count.js')
+        title Airport Codes
+        script.
+            const airportCodes = !{JSON.stringify(data.allAirportCodes)};
+            document.addEventListener(
+                'DOMContentLoaded',
+                function onReady() {
+                    document.querySelector('.random').addEventListener('click', function onClick(event) {
+                        event.preventDefault();
+                        const airport = airportCodes[Math.floor(Math.random() * airportCodes.length)];
+                        window.location.href = `/airport/${airport}/`;
+                    });
+                }
+            );
+    body 
+        .detail
+            img.detail-bg(src="/images/medium/" + data.id + ".jpg")
+            a.overlay(href="/#" + data.id)
+            .container 
+                .detail-info
+                    h1=data.id
+                    h2=data.name
+                    h3
+                        span.city=data.city
+                        span.state=data.state
+                        span.country=data.country
+                    .description!=data.description
+                    a.close-detail(href="/#" + data.id) Close
+                    a.random(href="#") Random Airport
+                .photo-credit
+                    | photo by
+                    | 
+                    a(href=data.imageCreditLink)=data.imageCredit
+                a.back(href="/") Airport Codes
+

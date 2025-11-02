@@ -6,9 +6,6 @@
   background: black no-repeat center center
   background-size: cover
 
-  &.hidden
-    display: none
-
   .background
     width: 100%
     height: 100%
@@ -19,9 +16,11 @@
     opacity: 0
     transition(opacity .3s ease-in)
 
-  &.loaded
-    .background
-      opacity: 1
+  img
+    object-fit: cover
+    position: absolute
+    height: 100%
+    width: 100%
 
   a
     padding: 80px 20px
