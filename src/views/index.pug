@@ -27,7 +27,7 @@ html(lang="en")
         ul.cf.airport-list
             each airport, code in data.airportData
                 li(class="card", id=code)
-                    img(loading=(code !== "aal" ? "lazy": false), fetchpriority=(code === "aal" ? "high" : false), src="/images/card/" + code + ".avif", alt="")
+                    img(loading=(code !== "aal" ? "lazy": false), fetchpriority=(code === "aal" ? "high" : false), src="/images/card/" + code + ".avif", alt="", height="220", width="auto")
                     a(href="/airport/" + code + "/")= code
             li.card.card-contribute
                 a(href="/contribute/")
