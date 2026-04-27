@@ -1,5 +1,6 @@
 doctype
 html(lang="en")
+    - const firstAirport = Object.keys(data.airportData)[0]
     head
         meta(charset="utf-8")
         meta(name="viewport", content="width=device-width, initial-scale=1")
@@ -11,9 +12,12 @@ html(lang="en")
         meta(property="og:type", content="website")
         meta(property="og:image:width", content="1200")
         meta(property="og:image:height", content="630")
+        link(rel="preconnect", href="https://use.typekit.net", crossorigin)
+        link(rel="preconnect", href="https://p.typekit.net", crossorigin)
+        link(rel="preload", as="image", href="/images/card/" + firstAirport + ".avif", type="image/avif", fetchpriority="high")
         link(rel="preload", href="https://use.typekit.net/sei6hkn.css", as="style", onload="this.onload=null;this.rel='stylesheet';")
         style!= data.inlineCss
-        script(src="/js/search.js", defer)
+        script(type="module")!= data.inlineJs
         script(data-goatcounter='https://airportcodes.goatcounter.com/count' async src='https://gc.zgo.at/count.js')
         title Airport Codes
     body
@@ -27,7 +31,7 @@ html(lang="en")
         ul.cf.airport-list
             each airport, code in data.airportData
                 li(class="card", id=code)
-                    img(loading=(code !== "aal" ? "lazy": false), fetchpriority=(code === "aal" ? "high" : false), src="/images/card/" + code + ".avif", alt="")
+                    img(loading=(code !== firstAirport ? "lazy": false), fetchpriority=(code === firstAirport ? "high" : false), src="/images/card/" + code + ".avif", alt="")
                     a(href="/airport/" + code + "/")= code
             li.card.card-contribute
                 a(href="/contribute/")

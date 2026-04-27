@@ -1,0 +1,14 @@
+/airport-codes.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/search-data.txt
+  Cache-Control: public, max-age=31536000, immutable
+
+/airport.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/about.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/medium/*
+  Cache-Control: public, max-age=31536000, immutable

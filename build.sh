@@ -27,3 +27,4 @@ cp assets/images/*.{gif,svg,jpg,png} build/images
 cp assets/CNAME build
 cp assets/favicon.ico build
 cp _redirects build
+cp _headers build
