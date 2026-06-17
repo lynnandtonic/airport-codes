@@ -4,6 +4,8 @@ import path from "node:path";
 import zlib from "node:zlib";
 import readAllDataJson from "./build/read_all_data.js";
 import {
+  getAirportCodesJs,
+  getSearchData,
   render404Page,
   renderAboutPage,
   renderAirportPage,
@@ -92,8 +94,8 @@ function renderImage(filename, res) {
 const server = http.createServer((req, res) => {
   airportData = readAllDataJson();
 
-  // Parse the URL
-  const url = req.url;
+  // Parse the URL (drop query string for route matching)
+  const url = req.url.split("?")[0];
 
   const airportMatch = url.match(/^\/airport\/([^\/]+)\/$/);
   const cssMatch = url.match(/([^\/]+)\.css$/);
@@ -118,6 +120,10 @@ const server = http.createServer((req, res) => {
   } else if (jsMatch) {
     const filename = jsMatch[1];
     renderText(renderJsFile(filename + ".js"), res, "application/javascript");
+  } else if (url === "/search-data.txt") {
+    renderText(getSearchData().join("\n"), res, "text/plain");
+  } else if (url === "/airport-codes.js") {
+    renderText(getAirportCodesJs(), res, "application/javascript");
   } else if (imageMatch) {
     const imageFilename = imageMatch[1];
     renderImage(imageFilename, res);

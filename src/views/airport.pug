@@ -12,25 +12,17 @@ html(lang="en")
         meta(property="og:type", content="website")
         meta(property="og:image:width", content="1200")
         meta(property="og:image:height", content="630")
+        link(rel="preconnect", href="https://use.typekit.net", crossorigin)
+        link(rel="preconnect", href="https://p.typekit.net", crossorigin)
+        link(rel="preload", as="image", href="/images/medium/" + data.id + ".jpg?v=" + data.mediumImageHash, fetchpriority="high")
         link(rel="preload", href="https://use.typekit.net/sei6hkn.css", as="style", onload="this.onload=null;this.rel='stylesheet';")
-        link(rel="stylesheet", href="/airport.css")
+        link(rel="stylesheet", href="/airport.css?v=" + data.airportCssHash)
         script(data-goatcounter='https://airportcodes.goatcounter.com/count' async src='https://gc.zgo.at/count.js')
+        script(src="/airport-codes.js?v=" + data.codesHash, defer)
         title Airport Codes
-        script.
-            const airportCodes = !{JSON.stringify(data.allAirportCodes)};
-            document.addEventListener(
-                'DOMContentLoaded',
-                function onReady() {
-                    document.querySelector('.random').addEventListener('click', function onClick(event) {
-                        event.preventDefault();
-                        const airport = airportCodes[Math.floor(Math.random() * airportCodes.length)];
-                        window.location.href = `/airport/${airport}/`;
-                    });
-                }
-            );
     body 
         .detail
-            img.detail-bg(src="/images/medium/" + data.id + ".jpg")
+            img.detail-bg(src="/images/medium/" + data.id + ".jpg?v=" + data.mediumImageHash)
             a.overlay(href="/#" + data.id)
             .container 
                 .detail-info
